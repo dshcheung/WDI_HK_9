@@ -31,17 +31,17 @@ Another goal of this unit is also to get students feeling the need for HTML temp
 
 Day 1                                   | Day 2                                  | Day 3                                     | Day 4                                     | Day 5
 --------------------------------------- | -------------------------------------- | ------------------------------------      | ---------------------------------------   | -----------------------------------
-[+Your learning experience][1-1A]       | [Chrome dev tools][1-2A]               | [Box model and positioning][1-3A]         | [Functions and scope][1-4A]               | [Mastering control flow][1-5A]
+[Install-fest][1-1A]                    | [Chrome dev tools][1-2A]               | [Box model and positioning][1-3A]         | [Functions and scope][1-4A]               | [Mastering control flow][1-5A]
 [How the internet works][1-1B]          | [CSS selector basics ][1-2B]           | [Lab: CSS website replication][1-3B]      | [Lab: JavaScript functions][1-4B]         | [Debugging in JavaScript][1-5B]
 [Navigating the file system][1-1C]      | [Lab: Build a website][1-2C]           | [Data types, variables, and arrays][1-3C] | [*DOM Manipulation and Events][1-4C]      | [Lab: Tic-Tac-Toe][1-5C]
 [Lab: Command line][1-1D]               | [+Web Typography][1-2D]                | [JavaScript objects][1-3D]                | [Lab: DOM Manipulation][1-4D]             | [+Instructor Retro][1-5D]
-[+HW: HTML Reading and Challenge][1-1E] | [+HW: CSS and design challenge][1-2E]  | [+HW: JavaScript challenges][1-3E]        | [+HW: Add interactivity to a blog][1-4E]  |
+[+HW: Reading][1-1E]                    | [+HW: CSS and design challenge][1-2E]  | [+HW: JavaScript challenges][1-3E]        | [+HW: Add interactivity to a blog][1-4E]  |
 
-[1-1A]: # " "
+[1-1A]: 00-programming/install-fest/README.md                     "Install-Fest!"
 [1-1B]: 00-programming/internet-fundamentals-lesson               "Internet fundamentals"
 [1-1C]: 01-workflow/terminal-navigating-the-file-system-lesson    "Navigating the file system"
 [1-1D]: 01-workflow/command-line-lab                              "Command line lab"
-[1-1E]: # " "
+[1-1E]: #w1d1                                                     "Homework"
 
 [1-2A]: 01-workflow/chrome-dev-tools-lesson                       "Chrome Dev Tools"
 [1-2B]: 02-front-end-intro/css-selector-basics                    "CSS Selector Basics"
@@ -68,7 +68,7 @@ Day 1                                   | Day 2                                 
 [1-5E]: # " "
 
 #### Week 1 | Day 1
-
+<a name="w1d1"></a>
 - Homework
   - Read [What is Code? (by Bloomberg Business)](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
   - Read [20 things I've learned about browsers and the web](http://www.20thingsilearned.com/en-US/home)

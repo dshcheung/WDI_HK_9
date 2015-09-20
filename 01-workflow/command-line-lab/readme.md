@@ -1,3 +1,4 @@
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 # Command line lab
 
 ## Introduction
@@ -102,5 +103,5 @@ Be sure you open up your "my-favorite-things" directory in Sublie/Atom, so you c
 
 ## Additional Resources
 
-- A list of [CLI Shortcuts](https://gist.github.com/alexpchin/01caa027b825d5f98871)
+- A list of [CLI Shortcuts](/01-workflow/terminal-navigating-the-file-system-lesson/cli-shortcuts.md)
 - An awesome Unix command [cheatsheet](https://github.com/veltman/clmystery/blob/master/cheatsheet.md)

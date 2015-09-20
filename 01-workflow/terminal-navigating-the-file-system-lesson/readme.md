@@ -1,3 +1,4 @@
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 # Terminal Basics + Navigating the Filesystem
 
 ### Objectives
@@ -14,7 +15,7 @@
 - Open the terminal
 - Issue one or more commands on the command line
 - Be comfortable navigating between folders on the command line
-- Take a look at some simple keyboard shortcuts to practice: [CLI Shortcuts](https://gist.github.com/alexpchin/01caa027b825d5f98871)
+- Take a look at some simple keyboard shortcuts to practice: [CLI Shortcuts](cli-shortcuts.md)
 
 > Note: Much of this content will be review from the prework students completed before the course began. We'll be practicing and reviewing some of the things they've learned, and diving into some additional ways to customize their command line.
 
@@ -62,7 +63,7 @@ Notice that you can actually hit enter as soon as the field autocompletes. Get u
 
 ---
 
-## Paths - Codealong (20 mins)
+## Paths - Codealong
 
 Every file or folder in a file system can be read, written, and deleted by referencing its position inside the filesystem. When we talk about the position of a file or a folder in a file system, we refer to its "path". There are a couple of different kinds of paths we can use to refer to a file – **absolute paths** and **relative paths**.
 
@@ -92,7 +93,6 @@ Some examples of absolute path:
 /usr/local/bin/git
 /etc/example.ext
 /var/data/database.db
-
 ```
 
 Notice, all these paths started from `/` directory which is a root directory for every Linux/Unix machines.
@@ -149,10 +149,9 @@ If you don't press enter, just press delete to remove characters.
 
 Pressing **UP** will also get the last command written.
 
-
 What if you're wondering what's in a directory? Typing `ls` and hitting enter is like asking the computer the question "what stuff is in this directory?"  Try it in your current directory and share what you see!
 
-## Look around your OS - Independent Practice (5 mins)
+## Look around your OS - Independent Practice
 
 Practice the unix commands we just learned with the bullets below:
 
@@ -163,7 +162,7 @@ Practice the unix commands we just learned with the bullets below:
 - Use the ls command to see what files and directories exist there.
 - Use the cd command to go to your home folder.
 
-## Creating, copying, and removing files and folders - Codealong (20 mins)
+## Creating, copying, and removing files and folders - Codealong
 
 What if we want to create files and folders?  The command `mkdir directory-name` creates a new directory with the name “directory-name”.
 
@@ -256,7 +255,7 @@ A few other helpful commands you can try on your own:
 | `df -h`   | displays free disk space                                              |
 
 
-## UNIX permissions and Chmod - Intro (15 mins)
+## UNIX permissions and Chmod - Intro
 
 > Note: Update the narrative to reflect your own OS.
 
@@ -305,27 +304,35 @@ If you change the present working directory to the root (`cd /`) and then show t
  8 lrwxr-xr-x@  1 root  wheel    11 Jan 18  2015 var -> private/var
 
 ```
+For information about the columns, you can always refer to the [ls man-page](https://developer.apple.com/library/prerelease/mac/documentation/Darwin/Reference/ManPages/man1/ls.1.html)
 
-The second column corresponds to the permissions details for each file/folder. For the first line:
+### File mode
+
+| Letter | Meaning                 |
+|--------|-------------------------|
+| b      | Block special file.     |
+| c      | Character special file. |
+| d      | Directory.              |
+| l      | Symbolic link.          |
+| s      | Socket link.            |
+| p      | FIFO.                   |
+| -      | Regular file.           |
+
+### Permissions
+
+The second column refers to the permissions of the directory or file, and it's important for you to know because often enough, you will have to make sure that you have permissions to access a file before you can perform any operation with it. Also, as you may have guesses it allows us to have a more strict control for security purposes.
 
 ```
-drwxrwxr-x+
-```
-We're not going to talk about the `d` letter at the start or the `+` at the end of each line for the moment. Just pay attention to the nine letters between.
-
-The important part in this set of characters is:
-
-```
-rwxrwxr-x
+drwxr-xr-x+
 ```
 
-This can be read:
-```
-rwx rwx r-x
-```
+| File Mode | Owner | Group | Others  |
+|-----------|-------|-------|---------|
+| d         | rwx   | r-x   | r-x     |
+
 This breaks down like this:
 
-- first group of three letters corresponds to the owner permission,
+- first group of three letters corresponds to the `owner permission`,
 - the second group of three letters corresponds to the owner group permission,
 - the last group of three letters corresponds to others permission,
 
@@ -333,9 +340,9 @@ This breaks down like this:
 
 To modify a file's permissions you need to use the `chmod` command.
 
-Only the owner of a file may use chmod to alter a file's permissions.
+Only the owner of a file or the super-user may use chmod to alter a file's permissions.
 
-chmod has the following syntax:
+`chmod` has the following syntax:
 
 ```
 chmod [options] mode file(s)
@@ -359,7 +366,6 @@ You might have encountered things like `chmod 755 a_file.txt`.
 
 You can change the entire permission pattern of a file in one go using one number like the one in this example. Every mode has a corresponding code number, and as we shall see, there is a very simple way to figure out what number corresponds to any mode.
 
-
 Every single digit in the triplet corresponds to the level of authorization for a group (user, group and others). Every digit is the addition of the rights for this group, and every level of permission corresponds to a number:
 
 * 4 for r.
@@ -376,24 +382,23 @@ Which makes : 755
 So, 755 in UNIX permissions means 'I don't mind if other people read or run this file, but only I should be able to modify it' while 777 means 'everyone has full access to this file'
 
 
-## Customize The terminal - Demo (15 mins)
+## Customize The terminal - Demo
 
-#### When using bashrc
+#### When using zshrc
 
-When a terminal session starts, there are some configurations read at the start of the session. The configuration is written in a file that has a specific name. As we run `bash`, the file name for this type of shell is called `.bashrc` and is located in the user folder, so every user for the same machine can have different configurations. `rc` stands for "Run Control" and is an old Unix convention.
+When a terminal session starts, there are some configurations read at the start of the session. The configuration is written in a file that has a specific name. As we run `zsh`, the file name for this type of shell is called `.zshrc` and is located in the user folder, so every user for the same machine can have different configurations. `rc` stands for "Run Control" and is an old Unix convention.
 
-If you open the file `.bashrc` using the command `subl ~/.bashrc`, you'll see your own config file for bash.
+If you open the file `.zshrc` using the command `subl ~/.zshrc`, you'll see your own config file for bash.
 
 You can add code to this file and it will be parsed and/or executed every time you open a new window/tab.  You can add custom commands, aliases, redefine your path etc.
 
 One of the most important params in this file is the `$PATH` definition, let's see what this is about in the next section.
 
-
 #### $PATH
 
 You’ll hear about _shell path_ (or $PATH) when working with the command line. The _shell path_ in OS X (or Linux) refers to a list of folders in the file system that contains files or executables that will be used by certain applications and programs.
 
-The $PATH is useful in a way that you will not need to type to absolute path  of a command if the folder where this command is contained is already in the path.
+The `$PATH` is useful in a way that you will not need to type to absolute path  of a command if the folder where this command is contained is already in the path.
 
 When a command is typed in the terminal, as search will be performed by the OS to see if the command exists in the folders referenced by the path.
 
@@ -412,7 +417,6 @@ $ /usr/local/bin/git
 The $PATH contains several absolute paths, and they are all separated by colons **:**
 
 The _path_ is a bunch of absolute paths of the file system separated by colons **:**
-
 
 You can show your $PATH by typing
 
@@ -465,11 +469,9 @@ export PATH="/a/b/c:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin:$PATH"
 
 Now every new terminal session will include the commands (executable files) in the folder `/a/b/c`
 
-
 The orders of the folders in the path matters. For example, in the path above, if there is one executable file called `wdi` in the folder `/a/b/c` and another one with the same name in the folder `/usr/local/bin`, then the one executed when the command `wdi` is invoked and will be the command in the folder `/a/b/c` because of the precedence in the path.
 
-## Get comfortable with your `subl ~/.bashrc`
-
+## Get comfortable with your `subl ~/.zshrc`
 
 
 ## Conclusion (5 mins)

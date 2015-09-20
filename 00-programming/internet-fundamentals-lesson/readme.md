@@ -1,3 +1,4 @@
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 # How the Internet works
 
 ### Objectives
@@ -15,7 +16,7 @@
 
 - Use a web browser
 
-## Intro - Server, Client, Request, HTTP (25 mins)
+## Intro - Server, Client, Request, HTTP
 
 The internet as you know comes down to requests and responses - you send information out to the web, and based on the info you send, you get information back.
 
@@ -36,7 +37,7 @@ Let's define the following vocabulary:
 - **Client** - the requesting program in the client/host relationship; the client initiates an HTTP request message, which is serviced through a HTTP response message in return
   - Ex: browsers, terminals, SQL clients
 
-![](https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png)
+![](request-response.png)
 
 To sum it up, communication between a host and a client occurs via a request/response pair. The client initiates an HTTP request message, which is serviced through a HTTP response message in return. We will look at this fundamental message-pair in the next section.
 
@@ -85,10 +86,9 @@ A server may receive requests from many different clients in a very short period
 *When a bank customer accesses online banking services with a web browser (the client), the client initiates a request to the bank's web server. The customer's login credentials may be stored in a database, and the web server accesses the database server as a client. An application server interprets the returned data by applying the bank's business logic, and provides the output to the web server. Finally, the web server returns the result to the client web browser for display.
 In each step of this sequence of client–server message exchanges, a computer processes a request and returns data. This is the request-response messaging pattern. When all the requests are met, the sequence is complete and the web browser presents the data to the customer.*
 
-
 *Taken from [Wikipedia](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)*
 
-## What Is the Difference Between the Internet and the Web? Discussion (20 mins)
+## What Is the Difference Between the Internet and the Web? Discussion
 
 > Note: Ask students to talk with a partner about any preconceived ideas they have about the comparison.  Be sure to frame this as a discussion and probe students with questions about their understanding of the topics coming into the course.
 
@@ -110,8 +110,6 @@ The World Wide Web, or "Web" for short, is a massive collection of digital pages
 URL stands for Uniform Resource Locator, and it's just a string of text characters used by Web browsers, email clients and other software to format the contents of an internet request message.
 
 Let's breakdown the contents of a URL:
-
-
 
 ```
     http://www.example.org/hello/world/foo.html?foo=bar&baz=bat#footer
@@ -150,7 +148,7 @@ In the response, the HTTP version is provided, which in this case is 1.1.
 
 The rest of the lines are HTTP headers, which do things like: tell the webserver what website to retrieve, based on the domain (Host:); report the user-agent and acceptable encoding and language; and other browser-specific options.
 
-## Responding to a request - Intro (15 mins)
+## Responding to a request - Intro
 
 
 Once this request reaches the server, then this server will return a response to the request emitter.
@@ -164,7 +162,6 @@ They come as three digit numbers and dictate whether a specific HTTP requests ha
 - 3xx Redirection
 - 4xx Client Error
 - 5xx Server Error
-
 
 After the status code, some server headers are sent, including information about the type of server and software it’s running. Next, the body of the response contains the data we requested, which is generally HTML, CSS, Javascript, or binary data like an image or PDF.
 
@@ -181,7 +178,7 @@ Once the request <--> response cycle has been executed, the web browser is in ch
 
 > Note: Explain the difference between server and client-side languages.
 
-![](http://image.slidesharecdn.com/html-css-presentation-131023112801-phpapp02/95/html-csspresentation-7-638.jpg?cb=1383133015)
+![](request-response2.jpg)
 
 The server contains code - Ruby, C, Java, even JavaScript - that processes your request.  Depending on the contents of your request, the server will execute different files, containing code, and return a particular set of information and data.
 
@@ -189,11 +186,9 @@ The information and data received received is usually packaged in an HTML docume
 
 The way the browser interprets and displays HTML files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium) organization, which is the standards organization for the web.
 
-
 _Taken from  [HTML5Rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)_
 
-
-## Review of Internet Fundamentals - Independent Practice (10 mins)
+## Review of Internet Fundamentals - Independent Practice
 
 Answer and discuss the following questions with a partner:
 
@@ -211,3 +206,7 @@ Answer and discuss the following questions with a partner:
 > Note: Review the answers to the previous activity.
 
 The foundational concepts taught in this lesson will be important for the duration of the course because we will use the internet everyday, and if you are struggling with how the data is received on the server, please come back to this lesson and ask questions to your instructional team.
+
+## Additional Info
+- [HTTP Status Cats API](https://http.cat/)
+- [DNS Explained](https://www.youtube.com/watch?v=72snZctFFtA)
