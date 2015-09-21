@@ -162,3 +162,4 @@ Authentication successful.
 ## Instructors
 - [CheatSheet](http://www.macupdate.com/app/mac/43222/cheatsheet) - Show shortcut keys for most applications by holding the `Command` key
 - [KeyCastr](https://github.com/keycastr/keycastr) - Display a little window that shows what keys you are typing
+- [Spectacle](https://www.spectacleapp.com) - Allows your to manage windows like a boss
