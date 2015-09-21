@@ -158,7 +158,7 @@ Practice the unix commands we just learned with the bullets below:
 - Use the cd command to go to your home folder.
 - Use the ls command see what is in your home directory.
 - Use the cd [directory] command to go into any folder that you spot.
-- In the above command, replace [directory] with the directory name you intend to move to.
+  - In the above command, replace [directory] with the directory name you intend to move to.
 - Use the ls command to see what files and directories exist there.
 - Use the cd command to go to your home folder.
 
