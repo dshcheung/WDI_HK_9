@@ -73,17 +73,16 @@ $ brew install <package-name>
 $ brew install git
 ```
 - You know it worked if…the output of `git —version` is greater than or equal to `2.5.3`
-- If you see an
 
 ##### Configure Git
 ```
-$ git config —global user.name  “YOUR NAME”
-$ git config —global user.email “YOUR@EMAIL.COM”
+$ git config -—global user.name  “YOUR NAME”
+$ git config —-global user.email “YOUR@EMAIL.COM”
 ```
 
 ##### Tell git what editor to use for commits
 - For Sublime
-`$ git config —global core.editor "subl —wait —new-window"`
+`$ git config —-global core.editor "subl —wait —new-window"`
 
 #### RBENV (Ruby Version Manager)
 - Install RBENV
