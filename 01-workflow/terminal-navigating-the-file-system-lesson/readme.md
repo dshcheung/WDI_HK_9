@@ -42,7 +42,7 @@ A shell is simply a type of command line program, which contains a very simple, 
 First, we need to launch the command prompt. We do this by using spotlight:
 
 - ⌘ (Command) + Space
-- "*Te*rminal"
+- "iTerm"
 - Enter
 
 Notice that you can actually hit enter as soon as the field autocompletes. Get used to taking shortcuts – don't type the whole word out if you don't have to and avoid using your mouse if you can open or use an app with just keyboard shortcuts. It may seem harder now, but when you get used to it, it will save you literally hours of cumulative time.
