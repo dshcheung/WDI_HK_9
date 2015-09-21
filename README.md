@@ -73,4 +73,5 @@ Day 1                                   | Day 2                                 
   - Read [What is Code? (by Bloomberg Business)](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
   - Read [20 things I've learned about browsers and the web](http://www.20thingsilearned.com/en-US/home)
   - Try the typing exercises on [typing.io](https://www.typing.io/) and see how fast you type code
+  - Watch [DNS Explained](https://www.youtube.com/watch?v=72snZctFFtA)to how DNS works
   - (Optional) Watch [Computer Programming](https://www.youtube.com/watch?v=OWsyrnOBsJs)
