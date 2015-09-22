@@ -1,22 +1,15 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
-# General Assembly | Web Development Immersive
-
-## Table of Contents
+# GA | Web Development Immersive
 
 | Unit       | Topic                              | Topic                              | Project
 |------------|------------------------------------|------------------------------------|--------------------------------------
-| **UNIT 1** | [1. Front-end Intro](#week1)       | [2. Dynamic Frontend](#week2)      | [3. Project 1: Build a game](#week3)
+| **[UNIT 1](#unit1)** | [1. Front-end Intro](#week1)       | [2. Dynamic Frontend](#week2)      | [3. Project 1: Build a game](#week3)
 | **UNIT 2** | [4. Ruby, OOP, Sinatra](#week4)    | [5. Ruby on Rails](#week5)         | [6. Project 2: Rails App](#week6)
 | **UNIT 3** | [7. Rails APIs, Express](#week7)   | [8. User & Authe in APIs](#week8)  | [9. Project 3: Rails/MEAN App](#week9)
 | **UNIT 4** | [10. MV* with Angular](#week10)    | [11. Advanced topics](#week11)     | [12. Final Project](#week12)
 
+<a name="unit1"></a>
 ## Unit 1
-
-Unit 1 is all about showing the humble beginnings of the web and introducing students to foundational programming concepts that we'll use for the entire rest of the course.
-
-Since our prework a large portion of our curriculum practices programming concepts in JavaScript, in this unit, we review data types, functions, and other foundational concepts in JavaScript.
-
-Another goal of this unit is also to get students feeling the need for HTML templates and saving data, so that they appreciate the necessity of the topics in the units to follow.
 
 <a name="week1"></a>
 ### Week 1 | Front-end Fundamentals
