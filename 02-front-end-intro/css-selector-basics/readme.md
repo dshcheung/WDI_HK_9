@@ -1,12 +1,3 @@
----
-title: CSS Selectors Basics
-type: lesson
-duration: "1:25"
-creator:
-    name: Gerry Mathe, Alex Chin
-    city: LDN
-competencies: HTML and CSS
----
 # CSS Selectors Basics
 
 ### Objectives
@@ -80,12 +71,11 @@ Let's take a look at each one.
 
 #### Inline CSS
 
-If you're looking to add a unique style for a single HTML element, you can use an inline style.  It can also be used to test different styles, initially, or for quick fixes, as it's much easier to change a single element on the page than to find and change the source CSS file.  
+If you're looking to add a unique style for a single HTML element, you can use an inline style.  It can also be used to test different styles, initially, or for quick fixes, as it's much easier to change a single element on the page than to find and change the source CSS file.
 
 To use inline styles, add the style attribute to the relevant tag. The style attribute can contain any CSS property. The example shows us changing the HTML body's background to red:
 
 ```html
-
  <!DOCTYPE>
  <html>
    <head>
@@ -95,7 +85,6 @@ To use inline styles, add the style attribute to the relevant tag. The style att
    </body>
  </html>
 ```
-
 
 Open this HTML file in browser and let's see what we have - a red page!
 
@@ -110,7 +99,6 @@ selector {
   property_1: value_1;
   property_2: value_2;
 }
-
 ```
 
 Do not forget the curly brackets or the semi-colon after the value!
@@ -150,8 +138,7 @@ With just one file - your external style sheet - you can modify the styles of yo
 To link the stylesheet to the HTML file, inside the `<head>` tags, we need to add a self-closing `<link>` tag, indicating the type of relations (`rel="stylesheet"`) and the file path.  But first, let's create a css file within our css directory.
 
 ```bash
-
-mkdir css
+$ mkdir css
 touch css/style.css
 
 ```
@@ -216,11 +203,9 @@ p {
 }
 
 div {
-
     border-width: 1px;
     border-style: solid;
     border-color: black;
-
 }
 
 ```
@@ -230,11 +215,12 @@ Our body rule is still applied, and these new rules will change the color of all
 Luckily for us, CSS gives us some nice shortcuts that we'll go over throughout this lesson, and we can combine the `div` border styles into this:
 
 ```css
-
+div {
   border: 1px solid black;
   /*border-width: 1px;
   border-style: solid;
   border-color: black;*/
+}
 ```
 
 Notice, we can comment out CSS with ``/* your css */`.
@@ -391,18 +377,18 @@ Sweet!
 
 Using what we've done in class, open the [starter code](starter-code) provided and see how far you can get through these exercises in 10 minutes:
 
-- make an unordered HTML list of the following animals:  
+- make an unordered HTML list of the following animals:
 
-	- mouse  
-	- canary  
-	- penguin  
-	- salmon  
-	- cat  
-	- goldfish  
-	- dog  
-	- sheep  
-	- parakeet  
-	- tuna  
+	- mouse
+	- canary
+	- penguin
+	- salmon
+	- cat
+	- goldfish
+	- dog
+	- sheep
+	- parakeet
+	- tuna
 
 - make all the mammals red, all the birds blue, and all the fish orange using CSS classes
 - apply the following colors to the list using IDs:
@@ -410,12 +396,12 @@ Using what we've done in class, open the [starter code](starter-code) provided a
     - mouse - <span style = "color: gray">gray</span>
     - canary - <span style = "color: orangeRed">orangeRed</span>
     - penguin - <span style = "color: black">black</span>
-    - salmon - <span style = "color: salmon">salmon</span>  
+    - salmon - <span style = "color: salmon">salmon</span>
     - cat - <span style = "color: sienna">sienna</span>
-    - goldfish - <span style = "color: gold">gold</span>  
-    - dog - <span style = "color: tan">tan</span>  
+    - goldfish - <span style = "color: gold">gold</span>
+    - dog - <span style = "color: tan">tan</span>
     - sheep - <span style = "color: steelBlue">steelBlue</span>
-    - parakeet - <span style = "color: lime">lime</span>  
+    - parakeet - <span style = "color: lime">lime</span>
     - tuna - <span style = "color: purple">purple</span>
 
 - add the following background colors to your existing classes:
@@ -608,14 +594,13 @@ Every selector has its place in the specificity hierarchy, and if two selectors 
 
 <img src="https://css-tricks.com/wp-content/csstricks-uploads/specificity-calculationbase.png" />
 
-###Calculating specificity
+### Calculating specificity
 
 <img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-1.png' />
 
 *This is calculated as 113*
 
 <img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-2.png' />
-
 
 *This is calculated as 23*
 

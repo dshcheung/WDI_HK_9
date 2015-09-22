@@ -78,7 +78,7 @@ No starter code needed for this lab!
 
 #### Deliverable
 
-Be sure you open up your "my-favorite-things" directory in Sublie/Atom, so you can track your progress. Here's a look at what your files/folders should look like after each big step in the exercise:
+Be sure you open up your "my-favorite-things" directory in Sublime/Atom, so you can track your progress. Here's a look at what your files/folders should look like after each big step in the exercise:
 
 - After "Organize your favorite books":
 

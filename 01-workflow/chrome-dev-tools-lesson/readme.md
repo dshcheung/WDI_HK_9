@@ -1,13 +1,3 @@
----
-title: Chrome Dev Tools
-type: lesson
-duration: "1:15"
-creator:
-    name: Gerry Mathe, Alex Chin
-    city: London
-competencies: Dev Tools and Workflow
----
-
 # Chrome Dev Tools
 
 ### Objectives
@@ -211,8 +201,8 @@ Using the Chrome dev tools, try to recreate this screenshot from [Google.com](ht
 
 This is meant to be exploratory!  So you'll have to dig through some HTML elements and their CSS to make this work.  For example, you'll have to modify the `float` property of the image in the search bar - something we haven't touched on yet.
 
-The general assembly large logo can be sourced from the [General assembly homepage](https://generalassemb.ly/) and the smaller logo, in the search bar, will have to be found through Google.  
-Remember, don't refresh the page, otherwise you'll lose all your work modifying the DOM.  
+The general assembly large logo can be sourced from the [General assembly homepage](https://generalassemb.ly/) and the smaller logo, in the search bar, will have to be found through Google.
+Remember, don't refresh the page, otherwise you'll lose all your work modifying the DOM.
 
 ## Conclusion (5 mins)
 
