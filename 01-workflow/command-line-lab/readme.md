@@ -16,7 +16,7 @@ Be sure to use the cheatsheets in the "Additional Resources" section in case you
 #### Requirements
 
 - From your `~/code` create a folder call `labs`
-- Now go to [wdi-hk-9](https://github.com/wdi-hk-9) and create a new repo name `my-favorite-things-yourName`
+- Now go to [wdi-hk-9/my-favourite-things](https://github.com/wdi-hk-9/my-favourite-things) and create a create a new `fork`
 - After creating a repo, copy the git link into your clipboard
 - in iterm under the directory `~/code/labs` enter `git clone the-link-in-clipboard my-favorite-things`
 - Then `cd my-favorite-things`
