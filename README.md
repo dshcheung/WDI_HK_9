@@ -3,20 +3,12 @@
 
 ## Table of Contents
 
-| Week               | Content
-|--------------------|--------------------------------
-| [Week 1](#week1)   | Front-end Fundamentals
-| [Week 2](#week2)   | Intermediate Front-end
-| [Week 3](#week3)   | Project 1: Build a game
-| [Week 4](#week4)   | Ruby, OOP, Sinatra
-| [Week 5](#week5)   | Ruby on Rails
-| [Week 6](#week6)   | Project 2: Rails APP
-| [Week 7](#week7)   | APIs with Rails and Express
-| [Week 8](#week8)   | User & Authentication in APIs
-| [Week 9](#week9)   | Project 3
-| [Week 10](#week10) | MV* with Angular
-| [Week 11](#week11) | Review & Advanced topics
-| [Week 12](#week12) | Project 4
+| Unit       | Topic                              | Topic                              | Project
+|------------|------------------------------------|------------------------------------|--------------------------------------
+| **UNIT 1** | [1. Front-end Intro](#week1)       | [2. Dynamic Frontend](#week2)      | [3. Project 1: Build a game](#week3)
+| **UNIT 2** | [4. Ruby, OOP, Sinatra](#week4)    | [5. Ruby on Rails](#week5)         | [6. Project 2: Rails App](#week6)
+| **UNIT 3** | [7. Rails APIs, Express](#week7)   | [8. User & Authe in APIs](#week8)  | [9. Project 3: Rails/MEAN App](#week9)
+| **UNIT 4** | [10. MV* with Angular](#week10)    | [11. Advanced topics](#week11)     | [12. Final Project](#week12)
 
 ## Unit 1
 
