@@ -15,7 +15,11 @@ Be sure to use the cheatsheets in the "Additional Resources" section in case you
 
 #### Requirements
 
-- From your root directory, create a folder called "my-favorite-things"; you'll use that folder to do the exercises below
+- From your `~/code` create a folder call `labs`
+- Now go to [wdi-hk-9](https://github.com/wdi-hk-9) and create a new repo name `my-favorite-things-yourName`
+- After creating a repo, copy the git link into your clipboard
+- in iterm under the directory `~/code/labs` enter `git clone the-link-in-clipboard my-favorite-things`
+- Then `cd my-favorite-things`
 
 - Organize your favorite books
   - in the "my-favorite-things" folder, create a folder called "books"
@@ -72,6 +76,14 @@ Be sure to use the cheatsheets in the "Additional Resources" section in case you
   - look at the top/bottom 10 lines of each file
   - figure out how search through a file from the command line - without opening the file - for a string of text
 
+#### How to Submit
+In iTerm under `~/code/labs/my-favorite-things` enter the following commands
+```
+git add .
+git commit -m "done"
+git push origin master
+```
+
 #### Starter code
 
 No starter code needed for this lab!
@@ -99,7 +111,6 @@ Be sure you open up your "my-favorite-things" directory in Sublime/Atom, so you 
 - After "Organize the top music, movies, and books of 2015"
 
 ![](https://i.imgur.com/EM2m8mL.png)
-
 
 ## Additional Resources
 
