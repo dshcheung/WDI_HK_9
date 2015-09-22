@@ -49,4 +49,5 @@
 <a name="w1d2"></a>
 
 - Homework
+  - Play the game [CSS Selector Game][1-2E] 
   - Go to [Lab: Build a website][1-2F] and follow the instructions to complete the lab
