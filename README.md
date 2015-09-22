@@ -14,26 +14,35 @@
 <a name="week1"></a>
 ### Week 1 | Front-end Fundamentals
 
-[Day 1](#w1d1)                          | [Day 2](#w1d2)
---------------------------------------- | --------------------------------------
- -                                      | [Assessment][1-2A]
-[Install-fest][1-1A]                    | [Lab: Command line][1-2B]
-[How the internet works][1-1B]          | [Chrome dev tools][1-2C]
-[Navigating the file system][1-1C]      | [CSS selector basics ][1-2D]
--                                       | [CSS Selector Game][1-2E]
-[HW: Reading][1-1E]                     | [Lab: Build a website][1-2F]
+[Day 1](#w1d1)                           | [Day 2](#w1d2)                          | [Day 3](#w1d3)                          |
+---------------------------------------- | --------------------------------------- | --------------------------------------- | 
+[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A]                      |
+[How the internet works][1-1B]           | [Review-Lab: Command line][1-1E]        | [Review Lab: Build a Website][1-2E]     |
+[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Data Types, Variables, Arrays][1-3B]   |
+[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Mastering The Flow][1-3C]              |
+[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [JS Objects][1-3D]                      |
+-                                        | [HW-Lab: Build a website][1-2E]         | [Box Model And Positioning][1-3E]       |
+-                                        | -                                       | [HW-Lab: CSS Website Replication][1-3F] |
+ 
 
 [1-1A]: 00-programming/install-fest/README.md                     "Install-Fest!"
 [1-1B]: 00-programming/internet-fundamentals-lesson               "Internet fundamentals"
 [1-1C]: 01-workflow/terminal-navigating-the-file-system-lesson    "Navigating the file system"
-[1-1E]: #w1d1                                                     "Homework"
+[1-1D]: #w1d1                                                     "Homework"
+[1-1E]: https://github.com/wdi-hk-9/my-favourite-things           "Command line lab"
 
 [1-2A]: 14-assessments/w01d2.md                                   "Assessment"
-[1-2B]: https://github.com/wdi-hk-9/my-favourite-things           "Command line lab"
-[1-2C]: 01-workflow/chrome-dev-tools-lesson                       "Chrome Dev Tools"
-[1-2D]: 02-front-end-intro/css-selector-basics                    "CSS Selector Basics"
-[1-2E]: http://flukeout.github.io                                 "CSS Selector Game"
-[1-2F]: https://github.com/wdi-hk-9/lab-html-css-website          "Build a website"
+[1-2B]: 01-workflow/chrome-dev-tools-lesson                       "Chrome Dev Tools"
+[1-2C]: 02-front-end-intro/css-selector-basics                    "CSS Selector Basics"
+[1-2D]: http://flukeout.github.io                                 "CSS Selector Game"
+[1-2E]: https://github.com/wdi-hk-9/lab-html-css-website          "HW-Build a website"
+
+[1-3A]: 14-assessments/w01d3.md                                   "Assessment"
+[1-3B]: 00-programming/js-data-types-variables-and-arrays         "Data Types, Variables, Arrays"
+[1-3C]: 00-programming/js-control-flow-lesson                     "Mastering The Flow"
+[1-3D]: 00-programming/js-objects-lesson                          "JS Objects"
+[1-3E]: 02-front-end-intro/css-box-model-and-positioning          "Box Model And Positioning"
+[1-3F]: https://github.com/wdi-hk-9/lab-css-site-replication      "CSS Web Replication"
 
 #### Week 1 | Day 1
 <a name="w1d1"></a>
@@ -49,5 +58,11 @@
 <a name="w1d2"></a>
 
 - Homework
-  - Play the game [CSS Selector Game][1-2E] 
-  - Go to [Lab: Build a website][1-2F] and follow the instructions to complete the lab
+  - Play the game [CSS Selector Game][1-2D] 
+  - Go to [Lab: Build a website][1-2E] and follow the instructions to complete the lab
+
+#### Week 1 | Day 3
+<a name="w1d3"></a>
+
+- Homework
+  - Go to [Lab: CSS Website Replication][1-3F] and follow the instructions to complete the lab
