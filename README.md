@@ -14,35 +14,46 @@
 <a name="week1"></a>
 ### Week 1 | Front-end Fundamentals
 
-[Day 1](#w1d1)                           | [Day 2](#w1d2)                          | [Day 3](#w1d3)                          |
----------------------------------------- | --------------------------------------- | --------------------------------------- | 
-[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A] & [Solution][1-3B]   |
-[How the internet works][1-1B]           | [Review-Lab: Command line][1-1E]        | [Review Lab: Build a Website][1-2E]     |
-[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Box Model And Positioning][1-3C]       |
-[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Data Types, Variables, Arrays][1-3D]   |
-[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [Mastering The Flow][1-3E]              |
--                                        | [HW-Lab: Build a website][1-2E]         | [JS Objects][1-3F]                      |
--                                        | -                                       | [HW-Lab: CSS Website Replication][1-3G] |
+[Day 1](#w1d1)                           | [Day 2](#w1d2)                          | [Day 3](#w1d3)                          | [Day 4](#w1d4)                          | [Day 5](#w1d5)                          |
+---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
+[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A] & [Solution][1-3B]   | [Assessment][1-4A]                      | [Assessment][1-5A] & [Solution][1-5B]   |
+[How the internet works][1-1B]           | [Review-Lab: Command line][1-1E]        | [R-Lab: Build a Website][1-2E]          | [R-Lab: CSS Website Replication][1-3E]  | [R-Lab: Functions][1-4E]                |
+[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Box Model And Positioning][1-3C]       | [R-CSS Selector Game][1-2D]             | [JS Debugging][1-5C]                    |
+[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Data Types, Variables, Arrays][1-3D]   | [Mastering The Flow][1-4B]              | [Dom Manipulation][1-5D]                |
+[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [HW-Lab: CSS Website Replication][1-3E] | [JS Objects][1-4C]                      | [Lab: Dom Manipulation][1-5E]           |
+-                                        | [HW-Lab: Build a website][1-2E]         | -                                       | [Functions And Scope][1-4D]             | [R-Lab: Dom Manipulation][1-5E]         |
+-                                        | -                                       | -                                       | [HW-Lab: Functions][1-4E]               | [HW-Lab: Tic-Tac-Toe][1-5F]             |
 
 [1-1A]: 00-programming/install-fest/README.md                     "Install-Fest!"
 [1-1B]: 00-programming/internet-fundamentals-lesson               "Internet fundamentals"
 [1-1C]: 01-workflow/terminal-navigating-the-file-system-lesson    "Navigating the file system"
 [1-1D]: #w1d1                                                     "Homework"
-[1-1E]: https://github.com/wdi-hk-9/my-favourite-things           "Command line lab"
+[1-1E]: https://github.com/wdi-hk-9/my-favourite-things           "Command line lab Lab"
 
 [1-2A]: 14-assessments/w01d2.md                                   "Assessment"
 [1-2B]: 01-workflow/chrome-dev-tools-lesson                       "Chrome Dev Tools"
 [1-2C]: 02-front-end-intro/css-selector-basics                    "CSS Selector Basics"
 [1-2D]: http://flukeout.github.io                                 "CSS Selector Game"
-[1-2E]: https://github.com/wdi-hk-9/lab-html-css-website          "HW-Build a website"
+[1-2E]: https://github.com/wdi-hk-9/lab-html-css-website          "HW-Build a website Lab"
 
 [1-3A]: 14-assessments/w01d3.md                                   "Assessment"
 [1-3B]: 14-assessments/w01d3-solution.html                        "Assessment-Solution"
 [1-3C]: 02-front-end-intro/css-box-model-and-positioning          "Box Model And Positioning"
 [1-3D]: 00-programming/js-data-types-variables-and-arrays         "Data Types, Variables, Arrays"
-[1-3E]: 00-programming/js-control-flow-lesson                     "Mastering The Flow"
-[1-3F]: 00-programming/js-objects-lesson                          "JS Objects"
-[1-3G]: https://github.com/wdi-hk-9/lab-css-site-replication      "CSS Web Replication"
+[1-3E]: https://github.com/wdi-hk-9/lab-css-site-replication      "CSS Web Replication Lab"
+
+[1-4A]: 14-assessments/w01d4.md                                   "Assessment"
+[1-4B]: 00-programming/js-control-flow-lesson                     "Mastering The Flow"
+[1-4C]: 00-programming/js-objects-lesson                          "JS Objects"
+[1-4D]: 00-programming/js-functions-and-scope                     "Function and Scope"
+[1-4E]: https://github.com/wdi-hk-9/lab-js-functions              "Javascript Lab"
+
+[1-5A]: 14-assessments/w01d5.md                                   "Assessment"
+[1-5B]: 14-assessments/w01d5-solution.md                          "Assessment-Solution"
+[1-5C]: 00-programming/js-debugging-lesson                        "JS Debugging"
+[1-5D]: 02-front-end-intro/js-dom-manipulation-lesson             "Dom Manipulation"
+[1-5E]: https://github.com/wdi-hk-9/lab-js-dom-manipulation       "Dom Manipulation Lab"
+[1-5F]: https://github.com/wdi-hk-9/lab-js-tic-tac-toe            "Tic-Tac-Toe Lab"
 
 #### Week 1 | Day 1
 <a name="w1d1"></a>
@@ -65,4 +76,16 @@
 <a name="w1d3"></a>
 
 - Homework
-  - Go to [Lab: CSS Website Replication][1-3F] and follow the instructions to complete the lab
+  - Go to [Lab: CSS Website Replication][1-3E] and follow the instructions to complete the lab
+
+#### Week 1 | Day 4
+<a name="w1d4"></a>
+
+- Homework
+  - Go to [Lab: Functions][1-4E] and follow the instructions to complete the lab
+
+#### Week 1 | Day 5
+<a name="w1d5"></a>
+
+- Homework
+  - Go to [Lab: Tic-Tac-Toe][1-5F] and follow the instructions to complete the lab

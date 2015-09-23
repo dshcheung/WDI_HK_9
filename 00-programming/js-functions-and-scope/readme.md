@@ -1,12 +1,4 @@
----
-title: Functions and Scope
-type: lesson
-duration: "1:25"
-creator:
-  name: Gerry Mathe, Jesse Shawl
-  city: London, Washington DC
-competencies: Programming
----
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # Functions and Scope
 
