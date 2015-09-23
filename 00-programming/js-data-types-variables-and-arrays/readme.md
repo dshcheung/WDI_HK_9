@@ -1,14 +1,3 @@
----
-title: Data Types, Variables, and Arrays
-type: lesson
-duration: "1:25"
-creator:
-    name: Alex Chin, Gerry Mathe
-    city: London
-competencies: Programming
----
-
-
 # Data Types, Variables, and Arrays
 
 ### Objectives
@@ -28,13 +17,12 @@ competencies: Programming
 - Be comfortable with a text editor
 
 
-
 ## What is a data type? Intro (5 mins)
 
 From the [Wikipedia](https://en.wikipedia.org/wiki/Data_type):
 
 
-_In computer science and computer programming, a data type or simply type is a classification identifying one of various types of data that determines: the possible values for that type; the operations that can be done on values of that type; the meaning of the data; and the way values of that type can be stored._  
+_In computer science and computer programming, a data type or simply type is a classification identifying one of various types of data that determines: the possible values for that type; the operations that can be done on values of that type; the meaning of the data; and the way values of that type can be stored._
 
 Data types are really similar across different languages:
 
@@ -71,7 +59,7 @@ typeof('hi there') === 'string';
 
 ```
 
-`typeof()` returns a string with the type of the operand, or expression of the object you're looking at.  
+`typeof()` returns a string with the type of the operand, or expression of the object you're looking at.
 
 
 #### Numbers
@@ -217,7 +205,7 @@ You can also create expressions with strings using addition:
 This is called **String Concatentation.**
 
 
-#### Converting Strings to Integers with parseInt() and pasreFloat()
+#### Converting Strings to Integers with parseInt() and parseFloat()
 
 You can convert a string to an integer using the built-in [`parseInt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) function. This takes the base for the conversion as an optional second argument, which you should always provide:
 
@@ -523,7 +511,7 @@ Here are some other iterator methods for you to research and practice with:
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-Take a look at the [starter-code](starter-code) and work through each exercise using the comments provided to console log the correct information.  
+Take a look at the [starter-code](starter-code) and work through each exercise using the comments provided to console log the correct information.
 
 
 ## Conclusion (5 mins)

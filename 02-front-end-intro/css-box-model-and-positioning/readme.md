@@ -1,13 +1,3 @@
----
-title: CSS Box Model and Positioning
-type: lesson
-duration: "1:25"
-creator:
-    name: Alex Chin
-    city: London
-competencies: HTML and CSS
----
-
 # CSS Box Model and Positioning
 
 ### Objectives
@@ -184,7 +174,7 @@ The padding is the spacing between the content and the border. We can adjust thi
 
 Padding can be set in two ways, just like your margins.
 
-Lets add some padding to our `<div>`'s from our dev tools.  Notice, the space inside the "boxes" gets larger.  
+Lets add some padding to our `<div>`'s from our dev tools.  Notice, the space inside the "boxes" gets larger.
 
 ```css
 div {
@@ -410,7 +400,7 @@ All elements will float next to floated items until they are specifically cleare
 
 ## Using position, floats, and clears to create columns - Code along (20 mins)
 
-Now that we have the basics of relative and absolute positioning, lets create a two column layout by changing the heights; then, we'll investigate how to do this with floats and clears for a more effective approach.  
+Now that we have the basics of relative and absolute positioning, lets create a two column layout by changing the heights; then, we'll investigate how to do this with floats and clears for a more effective approach.
 
 So, without clears, change the heights of square1 and square2 to 200px and absolutely position the two squares like so:
 

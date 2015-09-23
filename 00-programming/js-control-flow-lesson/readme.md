@@ -1,14 +1,3 @@
----
-title: Mastering Control Flow
-type: lesson
-duration: 1.25
-creator:
-    name: Gerry MATHE
-    city: London
-competencies: Programming, Server Applications
-
----
-
 # Mastering Control Flow
 
 ### Objectives
@@ -37,25 +26,25 @@ JavaScript supports a compact set of statements, specifically control flow state
 Statements meant to be executed after a control flow operation will be grouped into what is called a **block statement**. These statements are wrapped into a pair of curly braces:
 
 ```
-{ 
-  console.log("hello"); 
-  console.log("roar"); 
+{
+  console.log("hello");
+  console.log("roar");
 }
 ```
 
 #### Block scope
 
-We've seen that the scope in JavaScript changes often. In the case of **block statements**, there is no scope created. 
+We've seen that the scope in JavaScript changes often. In the case of **block statements**, there is no scope created.
 
 ```
 var name = "gerry";
 {
   var name = "jay";
 }
-console.log(x); // outputs gerry
+console.log(name); // outputs "jay"
 ```
 
-Only functions introduce scope in Javascript. 
+Only functions introduce scope in Javascript.
 
 ## Conditional statements (10 mins)
 
@@ -94,7 +83,7 @@ student = "Jamie";
 => "Jamie"
 ```
 
-The expression above will return the value (as shown on the second line), so if you assign a truthy value inside a conditional statement, then this condition will always be true, or if you assign something undefined, it will make the conditional statement false (because undefined is falsy). Another potential issue with this is that it can be confused with equality(`==`). The example below is the illustration of WHAT NOT TO DO, in general: 
+The expression above will return the value (as shown on the second line), so if you assign a truthy value inside a conditional statement, then this condition will always be true, or if you assign something undefined, it will make the conditional statement false (because undefined is falsy). Another potential issue with this is that it can be confused with equality(`==`). The example below is the illustration of WHAT NOT TO DO, in general:
 
 ```javascript
 if (x = 3) {
@@ -143,35 +132,35 @@ There is a simple way of verifying the thruthyness or falsiness of a value. When
 ```
 !!1
 => true
-	
+
 !!0
 => false
-	
+
 !!-1
 => true
-	
+
 !![]
 => true
-	
+
 !!{}
 => true
-	
+
 !!null
 => false
-	
+
 !!""
 => false
 ```
 
 ## Boolean/Logical Operators (5 mins)
 
-[Logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators) 
+[Logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 
 Logical operators will always return a boolean value `true` or `false`.
 
 There are two "binary" operators that require two values:
 
-- **AND**, denoted `&&` 
+- **AND**, denoted `&&`
 - **OR**, denoted `||`
 
 A third "unary" operatory requires only one value:
@@ -181,7 +170,7 @@ A third "unary" operatory requires only one value:
 #### && (AND)
 
 The `&&` operator requires both left and right values to be `true` in order to return `true`:
-	
+
 ```javascript
 true && true
 => true
@@ -214,7 +203,7 @@ false || false
 
 Only `false || false` will return `false`
 
-The `!` takes a value and returns the opposite boolean value, i.e. 
+The `!` takes a value and returns the opposite boolean value, i.e.
 
 ```javascript
 !(true)
@@ -227,7 +216,7 @@ The `&&` and `||` operators use short-circuit logic, which means whether they wi
 var name = o && o.getName();
 ```
 
-In this case, if the first operand `o` is false, then the second operand `o.getName()` will not be evaluated. The expression is basically saying "we already know the whole `&&` expression is false, because `o` is falsey. Why bother dealing with the second operand?" 
+In this case, if the first operand `o` is false, then the second operand `o.getName()` will not be evaluated. The expression is basically saying "we already know the whole `&&` expression is false, because `o` is falsey. Why bother dealing with the second operand?"
 
 Or for setting default values:
 
@@ -235,14 +224,14 @@ Or for setting default values:
 var name = otherName || o.getName();
 ```
 
-In this case, if the first operand `otherName` is false, then we'll see that `"my name"` will be returned. If othername is truthy (e.g. it contains a value), it will get returned, and the second expression won't even be evaluated. The expression is basically saying "we already know the whole `||` expression is true, because `o` is truthy. Why bother dealing with the second operand?" 
+In this case, if the first operand `otherName` is false, then we'll see that `"my name"` will be returned. If othername is truthy (e.g. it contains a value), it will get returned, and the second expression won't even be evaluated. The expression is basically saying "we already know the whole `||` expression is true, because `o` is truthy. Why bother dealing with the second operand?"
 
 ## Comparison Operators (10 mins)
 
 [Comparisons](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators) in JavaScript can be made using `<`, `>`, `<=` and `>=`. These work for both strings and numbers. This is both useful, and can be the source of frustration for some developers, since most languages do not implicitly convert strings to numbers the way that JavaScript does.
 
 ```javascript
-"A" > "a" 
+"A" > "a"
 => false
 
 "b" > "a"
@@ -257,7 +246,7 @@ true
 
 #### Equality Operator `==`
 
-Equality is a bit more complex. There are 2 ways in JavaScript to verify equality. 
+Equality is a bit more complex. There are 2 ways in JavaScript to verify equality.
 
 When verifying equality using double equal `==`, JavaScript does a lot of the "type coercion" in the background. Like we mentioned above, if the operands have a different type (ie: the number `1` and the string `"1"`), JavaScript will try to change the type of both operands to check whether they are equal. This means that a lot of times, expressions will return equal more easily than if we were stricter about what things were equivalent. Some examples:
 
@@ -265,15 +254,15 @@ When verifying equality using double equal `==`, JavaScript does a lot of the "t
 "dog" == "dog";
 => true
 
-1 == true; 
+1 == true;
 => true
 ```
 
 #### Equality Operator `===`
 
-To avoid type coercion and measure equality more strictly, **use the triple-equals operator**. Because `===` more truly measures actual equality, we'll use this far more often when checking whether too things are, in fact, the same thing. 
+To avoid type coercion and measure equality more strictly, **use the triple-equals operator**. Because `===` more truly measures actual equality, we'll use this far more often when checking whether too things are, in fact, the same thing.
 
-> **Note:** "Sameness" and "equality" have various definitions and can be somewhat "fuzzy". They can also differ by programming language. Because you'll often be measuring whether two things are equal, you should investigate the way this works carefully. 
+> **Note:** "Sameness" and "equality" have various definitions and can be somewhat "fuzzy". They can also differ by programming language. Because you'll often be measuring whether two things are equal, you should investigate the way this works carefully.
 
 Some examples:
 
@@ -281,7 +270,7 @@ Some examples:
 1 === true;
 => false
 
-true === true; 
+true === true;
 => true
 
 "hello" === "hello"
@@ -358,7 +347,7 @@ do {
 
 ## Iteration (10 mins)
 
-Iterating is a way of incrementally repeating a task. 
+Iterating is a way of incrementally repeating a task.
 
 #### for
 
@@ -425,7 +414,7 @@ for (i = 1; i < 101; i++) {
   else {
     console.log(i);
   }
-  
+
 }
 ```
 

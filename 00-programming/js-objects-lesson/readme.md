@@ -1,13 +1,3 @@
----
-title: Javascripts Objects
-type: lesson
-duration: "1:25"
-creator:
-  name: Alex Chin, Gerry Mathe, Sean Shannon
-  city: London, DC
-competencies: Programming
----
-
 # JavaScript Objects
 
 ### Objectives
@@ -36,11 +26,11 @@ Objects in JavaScript
 * Objects are a type of data structure that is nearly universal across programming languages, although they may have different names in different languages
 * Like arrays, objects can hold multiple pieces of data of varying types; but unlike arrays, objects use named keys rather than indices to order and access those pieces of data
 * Objects in general are made up of two things – properties and methods. Properties are data attached to an object that describe it or are related to it in some way. Methods are just functions, but because they're attached to an object, you can think of them as actions that the object can invoke on itself
-* In JavaScript, an object is a type of key-value store, or a way to group many pairs of keys and values together, so sometimes it's used like a hash (in Ruby) or a dictionary (in other languages) 
+* In JavaScript, an object is a type of key-value store, or a way to group many pairs of keys and values together, so sometimes it's used like a hash (in Ruby) or a dictionary (in other languages)
 
-Example: A car has properties, a type of engine, a color, a certain number of seats etc. Following the same logic, a JavaScript object may have **properties** and **values** for these properties. 
+Example: A car has properties, a type of engine, a color, a certain number of seats etc. Following the same logic, a JavaScript object may have **properties** and **values** for these properties.
 
-Aside from the values `null` and `undefined`, **everything in Javascript is an object**. 
+Aside from the values `null` and `undefined`, **everything in Javascript is an object**.
 
 ### Collections of name-value pairs
 
@@ -52,7 +42,7 @@ A key can be either a name, a number or a string, the corresponding value to a k
 
 ## Creating Objects
 
-There are 4 different ways to create an object. 
+There are 4 different ways to create an object.
 
 #### Object constructor
 
@@ -156,7 +146,7 @@ classroom.name = "WDI 2";
 classroom.campus = "London";
 => "London"
 
-classroom 
+classroom
 => Object {name: "WDI 2", campus: "London"}
 ```
 
@@ -203,11 +193,11 @@ As we've said before, the value of a property can be anything in JavaScript, mea
 
 ```javascript
 var classroom = {
-  name: "WDI 2", 
-  campus: "London", 
+  name: "WDI 2",
+  campus: "London",
   start: "1/1/2000",
-  sayHello: function() { 
-    console.log("Hello"); 
+  sayHello: function() {
+    console.log("Hello");
   }
 };
 ```
@@ -226,7 +216,7 @@ We can attach regular functions to objects as methods, even after they are creat
 ```
 var sayHello = function() { console.log("Hello"); }
 
-classroom.sayHello = sayHello;  
+classroom.sayHello = sayHello;
 
 classroom.sayHello()
 => Hello
@@ -239,8 +229,8 @@ In JavaScript, `this` is a keyword that refers to the current object. When used 
 
 ```
 var classroom = {
-  name: "WDI 2", 
-  campus: "London", 
+  name: "WDI 2",
+  campus: "London",
   start: "1/1/2000",
   classInfo: function(){
     console.log("This is " + this.name + " and the class starts on " + this.start);
@@ -258,7 +248,7 @@ classroom.classInfo()
 ```
 var o = {
 a: 7,
-get b() { 
+get b() {
 return this.a + 1;
 },
 set c(x) {
@@ -355,7 +345,7 @@ If you're confused by the difference between `==` and `===` review MDN's notes o
 
 ## Conclusion (5 mins)
 
-We will use objects in JavaScript every day, and you will have plenty of time to practice creating and using objects in Javascript. There are a lot of resources available on the web for you to dive deeper, but the most detailed and understandable one is probably MDN. 
+We will use objects in JavaScript every day, and you will have plenty of time to practice creating and using objects in Javascript. There are a lot of resources available on the web for you to dive deeper, but the most detailed and understandable one is probably MDN.
 
 - [Javascript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 - [Intro to Object Orientate Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
