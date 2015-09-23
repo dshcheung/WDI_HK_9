@@ -16,14 +16,13 @@
 
 [Day 1](#w1d1)                           | [Day 2](#w1d2)                          | [Day 3](#w1d3)                          |
 ---------------------------------------- | --------------------------------------- | --------------------------------------- | 
-[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A]                      |
+[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A] & [Solution][1-3B]   |
 [How the internet works][1-1B]           | [Review-Lab: Command line][1-1E]        | [Review Lab: Build a Website][1-2E]     |
-[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Data Types, Variables, Arrays][1-3B]   |
-[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Mastering The Flow][1-3C]              |
-[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [JS Objects][1-3D]                      |
--                                        | [HW-Lab: Build a website][1-2E]         | [Box Model And Positioning][1-3E]       |
--                                        | -                                       | [HW-Lab: CSS Website Replication][1-3F] |
- 
+[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Box Model And Positioning][1-3C]       |
+[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Data Types, Variables, Arrays][1-3D]   |
+[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [Mastering The Flow][1-3E]              |
+-                                        | [HW-Lab: Build a website][1-2E]         | [JS Objects][1-3F]                      |
+-                                        | -                                       | [HW-Lab: CSS Website Replication][1-3G] |
 
 [1-1A]: 00-programming/install-fest/README.md                     "Install-Fest!"
 [1-1B]: 00-programming/internet-fundamentals-lesson               "Internet fundamentals"
@@ -38,11 +37,12 @@
 [1-2E]: https://github.com/wdi-hk-9/lab-html-css-website          "HW-Build a website"
 
 [1-3A]: 14-assessments/w01d3.md                                   "Assessment"
-[1-3B]: 00-programming/js-data-types-variables-and-arrays         "Data Types, Variables, Arrays"
-[1-3C]: 00-programming/js-control-flow-lesson                     "Mastering The Flow"
-[1-3D]: 00-programming/js-objects-lesson                          "JS Objects"
-[1-3E]: 02-front-end-intro/css-box-model-and-positioning          "Box Model And Positioning"
-[1-3F]: https://github.com/wdi-hk-9/lab-css-site-replication      "CSS Web Replication"
+[1-3B]: 14-assessments/w01d3-solution.md                          "Assessment-Solution"
+[1-3C]: 02-front-end-intro/css-box-model-and-positioning          "Box Model And Positioning"
+[1-3D]: 00-programming/js-data-types-variables-and-arrays         "Data Types, Variables, Arrays"
+[1-3E]: 00-programming/js-control-flow-lesson                     "Mastering The Flow"
+[1-3F]: 00-programming/js-objects-lesson                          "JS Objects"
+[1-3G]: https://github.com/wdi-hk-9/lab-css-site-replication      "CSS Web Replication"
 
 #### Week 1 | Day 1
 <a name="w1d1"></a>
