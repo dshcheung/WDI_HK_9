@@ -348,7 +348,7 @@ wdi.whatsTheName();
 
 ## Independent Practice - Write some functions (15 mins)
 
-Work through as many as these exercises as you can within the next 15 mins - use the [stater-code](stater-code) provided!
+Work through as many as these exercises as you can within the next 15 mins - use the [stater-code](starter-code/independent-practice.js) provided!
 
 1. Write a function `lengths` that accepts a single parameter as an argument, namely
 an array of strings. The function should return an array of numbers where each
