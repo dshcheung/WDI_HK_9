@@ -398,27 +398,6 @@ A typical output in the chrome dev tools would look like this:
 
 <img src="https://i.imgur.com/avioQC8.png" width="400px">
 
-#### Solution
-
-```javascript
-for (i = 1; i < 101; i++) {
-
-  if((i % 3 === 0) && (i % 5 === 0)) {
-    console.log("fizzbuzz");
-  }
-  else if(i % 3 === 0) {
-    console.log("fizz");
-  }
-  else if(i % 5 === 0) {
-    console.log("buzz");
-  }
-  else {
-    console.log(i);
-  }
-
-}
-```
-
 ## Conclusion (5 mins)
 These are some of the foundational tools you'll use in many of your applications. You'll probably need to refresh yourself on the exact syntax a few times before you memorize it, but it's important to be able to remember, these core "control flow" concepts, in general, because they'll come up in pretty much every progamming language you'll ever encounter.
 
