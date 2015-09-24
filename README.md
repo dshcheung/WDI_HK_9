@@ -82,6 +82,7 @@
 <a name="w1d4"></a>
 
 - Homework
+  - Complete [Function and Scope][1-4D]'s independence practice if you havn't completed
   - Go to [Lab: Functions][1-4E] and follow the instructions to complete the lab
 
 #### Week 1 | Day 5
