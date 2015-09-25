@@ -54,6 +54,7 @@
 [1-5D]: 02-front-end-intro/js-dom-manipulation-lesson             "Dom Manipulation"
 [1-5E]: https://github.com/wdi-hk-9/lab-js-dom-manipulation       "Dom Manipulation Lab"
 [1-5F]: https://github.com/wdi-hk-9/lab-js-tic-tac-toe            "Tic-Tac-Toe Lab"
+[1-5G]: http://www.w3resource.com/javascript-exercises/           "Javascript Exercises"
 
 #### Week 1 | Day 1
 <a name="w1d1"></a>
@@ -90,3 +91,4 @@
 
 - Homework
   - Go to [Lab: Tic-Tac-Toe][1-5F] and follow the instructions to complete the lab
+  - Go to [Javascript Exercises][1-5G] and complete exercises you feel you are week in. Such as array and objects.
