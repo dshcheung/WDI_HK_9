@@ -1,13 +1,4 @@
----
-title: JS Debugging
-type: lesson
-duration: 1
-creator:
-    name: Gerry Mathe
-    city: London
-competencies: Programming
----
-
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 # JS Debugging
 
 ### Objectives
