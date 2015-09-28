@@ -65,3 +65,122 @@ someNodeElement.innerHTML
 someNodeElement.style
 someNodeElement.className
 ```
+
+## Useful Methods
+
+### document.getElementById("your-id")
+
+getElementById will get you the node by passing in an `id` as a string
+
+``` html
+<h1 id="hello">hello world</h1>
+```
+
+``` javascript
+var node = document.getElementById("hello"); // This will give you the node with ID "hello"
+```
+
+### document.getElementByClassName("your-class")
+
+getElementByClassName will get you an array of nodes by passing in a `class` as a string
+
+``` html
+<h1 class="title">title 1</h1>
+<h1 class="title">title 2</h1>
+<h1 class="title">title 3</h1>
+```
+
+``` javascript
+var nodes = document.getElementById("title"); // This will give you an array of node with class "title"
+```
+
+### document.getElementByTagName("your-tag")
+
+getElementByTagName will get you an array of nodes by passing in a `tag` as string
+
+``` html
+<h1 class="title">title 1</h1>
+<h1 class="title">title 2</h1>
+<h1 class="title">title 3</h1>
+```
+
+``` javascript
+var nodes = document.getElementByTagName("h1"); // This will give you an array of node with tag "h1"
+```
+
+### node.innerHTML
+`node.innerHTML` get/set the inner html of a node
+
+``` html
+<h1 id="hello">hello world</h1>
+```
+
+``` javascript
+var node = document.getElementById("hello");
+
+// get
+var myInnerHTML = node.innerHTML; // This will give you a string "hello world"
+
+// set
+node.innerHTML = "destroy the world"; // This will set the innerHTML by passing in a string
+```
+
+### node.value
+`node.value` get/set the value of an input tag
+
+``` html
+<input type="number" id="my-input">
+```
+
+``` javascript
+var node = document.getElementById("my-input");
+
+// get
+var myInput = node.value; // This will give you a string regardless of input type
+
+// set
+node.value = 200; // This will set the value by passing in a string/number 
+```
+
+### node.setAttribute("the-attribute", "your-value")
+`node.setAttribute` sets the value of a node
+
+``` html
+<div class="hide" id="unhide-me">
+  <h1>"hello world"</h1>
+</div>
+```
+
+``` javascript
+var node = getElementById("unhide-me");
+
+// remove hide from class
+node.setAttribute("class", "");
+
+// add hide to class
+node.setAttribute("class", "hide");
+```
+
+### node.addEventListener("your-event", your-function)
+`node.addEventListener` will now `listen` for specific event. When the event is triggered, it will run the function you specified
+
+``` html
+<button id="alert-button">alert!</button>
+```
+
+``` javascript
+var node = getElementById("alert-button");
+
+// add a listener to the node
+node.addEventListener("click", function () {
+  alert("ALERT!!!!!!");
+})
+
+// another way
+var myFunction = function () {
+  alert("ALERT!!!!!!");
+}
+
+node.addEventListener("click", myFunction);
+```
+
