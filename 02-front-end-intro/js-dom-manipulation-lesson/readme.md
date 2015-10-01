@@ -184,3 +184,39 @@ var myFunction = function () {
 node.addEventListener("click", myFunction);
 ```
 
+### Event In Function As Parameter
+the `node.addEventListener("your-event", your-function)` will automatically pass in a parameter `event` into your function. This `event` is an object that contains the properties of the `node` that was binded to the `event listener`. This means that you will now gain the ability to know which element you clicked onto!!!!!!
+
+Following is an example code to `target` the node inside your function
+
+``` html
+<button id="alert-button">alert!</button>
+```
+
+``` css
+.black-background {
+  background-color: black;
+}
+```
+
+``` javascript
+var node = getElementById("alert-button");
+
+// add a listener to the node
+// also passes in 'event' as parameter to the function
+node.addEventListener("click", function (event) {
+
+  // you can try console.log(event) to see what it contains
+  // it should contain the x&y position of the node, it's attributes...etc.
+  console.log(event)
+  
+  // you can also target the node that your event listener was binded to
+  // this means that event.target is equal to node
+  // event.target == node // true
+  // You can now know which element you clicked on!!!!
+  // So now do whatever you want to "the specific" node you clicked onto!!!!
+  event.target.setAttribute("class", "black-background")
+
+  alert("ALERT!!!!!!");
+})
+```
