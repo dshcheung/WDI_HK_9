@@ -268,17 +268,17 @@ In the jQuery code example above, we first select the DIV with `id="container"``
 Another way is to first convert a string to a `jquery object` then we use a method to append it to a target.
 
 ```js
-// won’t work
-var course = ‘WDI is great’;
-var course = (‘<p>WDI is great</p>’;
+// won't work
+var course = 'WDI is great';
+var course = ('<p>WDI is great</p>';
 
 // will work
-var course = $(‘<p>WDI is great</p>’);
+var course = $('<p>WDI is great</p>');
 ```
 
 ```
 // four options to append an item to certain location in the web  page
-apple = $(‘<p>Apple</p>’);
+apple = $('<p>Apple</p>');
 
 .append(string)
 .prepend(string)
@@ -310,7 +310,7 @@ You can [see this in action on JSBin](http://jsbin.com/rocabu/1/edit?)
 
 #### Removing From DOM
 ```js
-$(‘#food’).remove();
+$('#food').remove();
 ```
 
 #### Modifying Styles (CSS) Using jQuery
@@ -378,11 +378,11 @@ We can add interaction using `.on(<event>, <event handler>)`.
 .on(<event>, <event handler>)
 
 $(document).ready(function(){
-    $(‘food button’).on(‘click’, function(){
+    $('food button').on('click', function(){
         // what happens when any button is clicked
-        var apple = $(‘<p>Apple</p>’);
-        $(‘.food’).append(apple);
-        $(‘button’).remove();
+        var apple = $('<p>Apple</p>');
+        $('.food').append(apple);
+        $('button').remove();
     });
 });
 ```
@@ -391,14 +391,14 @@ $(document).ready(function(){
 Instead of doing `$('food button')` you can `delegate`
 
 ```js
-$(‘.food button’).on(‘click’, function(){});
-$(‘.food’).on(‘click’, ‘button’, function(){});
+$('.food button').on('click', function(){});
+$('.food').on('click', 'button', function(){});
 ```
 
 #### Filter
 ```js
 // filtering with class
-$(".food").filter(‘.edible’);
+$(".food").filter('.edible');
 
 // adding removing class
 .addClass();
