@@ -130,7 +130,7 @@ var jqObject = $('p'); // This is functionally identical to the version above th
 
 #### Selecting More Specific CSS
 ```html
-<ul class=“courses”>
+<ul id=“courses”>
     <li></li>
     <li></li>
     <li></li>
