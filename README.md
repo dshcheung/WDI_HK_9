@@ -127,7 +127,7 @@
   - Go to [HW-Lab: Shopping Cart][2-1D] and complete the shopping cart
     - Click [here](http://shoppingcart.bitballoon.com/) to see the final product
 
-### Week 2 | Day 1
+### Week 2 | Day 2
 <a name="w2d2"></a>
 
 - Homework
