@@ -101,13 +101,22 @@
 [Assessment][2-1A]                       | -                                       | -                                       | -                                       | -                                       |
 [R-Lab: Dom Manipulation][1-5E]          | -                                       | -                                       | -                                       | -                                       |
 [R-Lab: Tic-Tac-Toe][1-5F]               | -                                       | -                                       | -                                       | -                                       |
--                                        | -                                       | -                                       | -                                       | -                                       |
--                                        | -                                       | -                                       | -                                       | -                                       |
--                                        | -                                       | -                                       | -                                       | -                                       |
+[jQuery Lesson][2-1B]                    | -                                       | -                                       | -                                       | -                                       |
+[jQuery Game][2-1C]|                     | -                                       | -                                       | -                                       | -                                       |
+[HW-Lab: Shopping Cart][2-1D]            | -                                       | -                                       | -                                       | -                                       |
 -                                        | -                                       | -                                       | -                                       | -                                       |
 
 [2-1A]: 14-assessments/w02d1.md                                 "Assessment"
+[2-1B]: 02-front-end-intro/js-jquery-lesson                     "jQuery Lesson"
+[2-1C]: http://jqexercise.droppages.com/                        "jQuery Game"
+[2-1D]: https://github.com/wdi-hk-9/shoppingCart                "Lab: Shopping Cart"
 
+#### Week 2 | Day 1
+<a name="w2d1"></a>
+
+- Homework
+  - Go to [HW-Lab: Shopping Cart][2-1D] and complete the shopping cart
+    - Click [here](http://shoppingcart.bitballoon.com/) to see the final product
 
 
 
