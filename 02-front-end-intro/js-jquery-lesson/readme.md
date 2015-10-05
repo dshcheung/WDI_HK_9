@@ -135,7 +135,7 @@ var jqObject = $('p'); // This is functionally identical to the version above th
 
 #### Selecting More Specific CSS
 ```html
-<ul id=“courses”>
+<ul id="courses">
     <li></li>
     <li></li>
     <li></li>
@@ -146,42 +146,42 @@ var jqObject = $('p'); // This is functionally identical to the version above th
 
 ```js
 // all descendents
-$(“#courses li”);
+$("#courses li");
 
 // direct descendents
-$(“#courses > li”);
+$("#courses > li");
 
 // pseudo selector. select first item in the list
-$(“#courses li:first”);
-$(“#courses li:last”);
-$(“#courses li:odd”);
-$(“#courses li:even”);
+$("#courses li:first");
+$("#courses li:last");
+$("#courses li:odd");
+$("#courses li:even");
 ```
 
 #### Traversing
 ```js
-$(“courses”).find(“li”);
+$("courses").find("li");
 
-$(“courses”) = selector
+$("courses") = selector
 .find() = traversal
 
-old: $(“li:last”);
-new: $(“li”).last();
+old: $("li:last");
+new: $("li").last();
 
 // Walking the DOM
-$(“li”).first();
-$(“li”).first().next();
+$("li").first();
+$("li").first().next();
 // Method chaining
-$(“li”).first().next().prev();
+$("li").first().next().prev();
 
 // traverse back up to parent
-$(“li”).first().parent();
+$("li").first().parent();
 
 // traverse down to children; .children() gets the direct children. .find() gets all the children
-$(“#courses”).children(“li”);
+$("#courses").children("li");
 
 // html tags and classes
-$(“h2.hello”)
+$("h2.hello")
 ```
 
 #### Selecting a DOM element and changing it's content
@@ -398,7 +398,7 @@ $(‘.food’).on(‘click’, ‘button’, function(){});
 #### Filter
 ```js
 // filtering with class
-$(“.food”).filter(‘.edible’);
+$(".food").filter(‘.edible’);
 
 // adding removing class
 .addClass();
@@ -407,7 +407,7 @@ $(“.food”).filter(‘.edible’);
 
 #### Stop Event Propagation
 ```html
-<a href=“#”></a>
+<a href="#"></a>
 ```
 
 ```js
