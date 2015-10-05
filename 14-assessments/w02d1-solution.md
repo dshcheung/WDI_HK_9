@@ -115,4 +115,18 @@ var grades = [
   {'Bryan Fong' : 7},
   {'Ian Kwok' : 7},
 ];
+
+// Third option, array where students are keys
+var grades = {
+   'Ada Au' : 7,
+   'Ian Choo' : 7,
+   'Andrew Alekseev' : 7,
+   'Charlotte Kwan' : 7,
+   'Jacky Lee' : 7,
+   'Toni Anne Romero' : 7,
+   'Frances Ng' : 7,
+   'Pip Johnstone' : 7,
+   'Bryan Fong' : 7,
+   'Ian Kwok' : 7,
+};
 ```
