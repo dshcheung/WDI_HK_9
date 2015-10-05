@@ -92,3 +92,31 @@
 - Homework
   - Go to [Lab: Tic-Tac-Toe][1-5F] and follow the instructions to complete the lab
   - Go to [Javascript Exercises][1-5G] and complete exercises you feel you are week in. Such as array and objects.
+
+<a name="week2"></a>
+### Week 2 | Front-end Fundamentals
+
+[Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
+---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
+[Assessment]                             | -                                       | -                                       | -                                       | -                                       |
+-                                        | -                                       | -                                       | -                                       | -                                       |
+-                                        | -                                       | -                                       | -                                       | -                                       |
+-                                        | -                                       | -                                       | -                                       | -                                       |
+-                                        | -                                       | -                                       | -                                       | -                                       |
+-                                        | -                                       | -                                       | -                                       | -                                       |
+-                                        | -                                       | -                                       | -                                       | -                                       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
