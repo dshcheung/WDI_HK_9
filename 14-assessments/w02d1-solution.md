@@ -42,10 +42,10 @@ var even_elements = $('li:even')
 
 // alternatively, we can always get all the elements and loop
 var elements = document.getElementsByTagName('li');
-var even = []
+var even = [];
 
-for (var i = 1; i < arr.length; i = i+2) {
-  even.push(arr[i])
+for (var i = 1; i < elements.length; i = i+2) {
+  even.push(elements[i])
 }
 ```
 
