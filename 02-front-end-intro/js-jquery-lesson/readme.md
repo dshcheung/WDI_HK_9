@@ -9,7 +9,6 @@
 - Include jQuery in your projects
 - Practice using jQuery selectors
 
-
 ### Preparation
 *Before this lesson, students should already be able to:*
 
@@ -25,7 +24,7 @@ jQuery is a 3rd-party library that is intended to make front-end development tas
 ##### But wait, what do we mean by 'library'?
 We've already seen that we can make our jobs easier and faster by using Node modules (AKA libraries) in our apps.
 
-**A `library`** is just a collection of reusable methods that serve a particular purpose.
+A `library` is just a collection of reusable methods that serve a particular purpose.
 
 
 #### So, as a library, what does jQuery offer us?
@@ -39,12 +38,15 @@ jQuery is a client side library, which means we need to include it in our HTML. 
 
 1. Reference jQuery from a server on the internet:
 
-- Directly from jQuery's website (http://code.jquery.com/)
-`<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>`
-From a CDN (content delivery network) like [CDNJS](https://cdnjs.com/) or [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
+- Directly from [jQuery's website](http://code.jquery.com/)
+```html
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+````
+- From a CDN (content delivery network) like [CDNJS](https://cdnjs.com/) or [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
 
-
-`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>`
+```html
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+```
 
 2. Download a copy of jQuery to host on your own server:
 
@@ -55,14 +57,17 @@ From a CDN (content delivery network) like [CDNJS](https://cdnjs.com/) or [Googl
 If you look carefully at the filenames of the jQuery versions you download, or just look at the URL in the "src" attribute for each script tag above, you'll notice something at the end of each file name — namely, that they end in 'min.js'. This means the JavaScript code has been minified.
 
 #### Where Exactly To Put Javascript Links
+
 ``` html
 <!DOCTYPE html>
 <html>
   <head>
   </head>
   <body>
+    -- your html here --
+    
     <script src="jquery.min.js"></script>
-        <script src="application.js"></script>
+    <script src="application.js"></script>
   </body>
 </html>
 ```
