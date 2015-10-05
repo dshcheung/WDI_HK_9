@@ -80,13 +80,8 @@ for (var i=0; i < elements.length; i++) {
 1. How do we change google's "I'm Feeling Lucky" to "I am Feeling Awesome" with javascript? (test it in the chrome developers tool console!)
 
 ```js
-var inputs = document.getElementsByTagName('input');
-
-for(var i=0; i < inputs.length; i++) {
-  if (inputs[i].getAttribute('name') === 'btnI') {
-     inputs[i].setAttribute('value', 'I\'m Feeling Awesome');
-  }
-}
+var elem = document.getElementsByName('btnI');
+elem[0].setAttribute('value', 'I\'m Feeling Awesome');
 ```
 
 1. What's the difference between `==` and `===` in javascript? Please provide an example in which they return different values?
