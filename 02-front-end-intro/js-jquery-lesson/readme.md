@@ -421,7 +421,7 @@ function(event){
 #### Dynamically Binding Events
 `Dynamically Generated Content` means adding new element to the DOM **after** the the document is first loaded. Therefore sometimes when we **bind** and event to the **new element** then depending on which jquery method you use, it will work/not work.
 
-The following code will not work because its **Depreciated**
+The following code will not work because its **Deprecated**
 
 ```js
 $('#foo').click(function(){
