@@ -21,8 +21,8 @@
 [Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Box Model And Positioning][1-3C]       | [R-CSS Selector Game][1-2D]             | [JS Debugging][1-5C]                    |
 [HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Data Types, Variables, Arrays][1-3D]   | [Mastering The Flow][1-4B]              | [Dom Manipulation][1-5D]                |
 [HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [HW-Lab: CSS Website Replication][1-3E] | [JS Objects][1-4C]                      | [Lab: Dom Manipulation][1-5E]           |
--                                        | [HW-Lab: Build a website][1-2E]         | -                                       | [Functions And Scope][1-4D]             | [R-Lab: Dom Manipulation][1-5E]         |
--                                        | -                                       | -                                       | [HW-Lab: Functions][1-4E]               | [HW-Lab: Tic-Tac-Toe][1-5F]             |
+-                                        | [HW-Lab: Build a website][1-2E]         | -                                       | [Functions And Scope][1-4D]             | [HW-Lab: Tic-Tac-Toe][1-5F]             |
+-                                        | -                                       | -                                       | [HW-Lab: Functions][1-4E]               | -                                       |
 
 [1-1A]: 00-programming/install-fest/README.md                     "Install-Fest!"
 [1-1B]: 00-programming/internet-fundamentals-lesson               "Internet fundamentals"
@@ -99,8 +99,8 @@
 [Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
 ---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 [Assessment][2-1A]                       | -                                       | -                                       | -                                       | -                                       |
--                                        | -                                       | -                                       | -                                       | -                                       |
--                                        | -                                       | -                                       | -                                       | -                                       |
+[R-Lab: Dom Manipulation][1-5E]          | -                                       | -                                       | -                                       | -                                       |
+[R-Lab: Tic-Tac-Toe][1-5F]               | -                                       | -                                       | -                                       | -                                       |
 -                                        | -                                       | -                                       | -                                       | -                                       |
 -                                        | -                                       | -                                       | -                                       | -                                       |
 -                                        | -                                       | -                                       | -                                       | -                                       |
