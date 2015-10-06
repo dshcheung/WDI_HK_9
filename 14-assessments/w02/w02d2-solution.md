@@ -69,7 +69,6 @@
 
     ```js
     $('#name-form').on("submit", function (e) {
-      console.log("abc");
       e.preventDefault()
       var firstName = $('#first-name').val();
       var lastName = $('#last-name').val();
