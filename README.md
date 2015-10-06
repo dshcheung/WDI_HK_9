@@ -117,7 +117,7 @@
 [2-2B]: 14-assessments/w02/w02d2-solution.md                            "Assessment - Solution"
 [2-2C]: 00-programming/js-arrays-advanced/readme.md                     "JS Arrays Lesson"
 [2-2D]: 00-programming/js-problems-arrays-objects/readme.md             "JS Arrays Problems"
-[2-2E]: 00-programming/js-problems-arrays-objects/readme-solution.md    "JS Arrays Problems - Solution"
+[]: 00-programming/js-problems-arrays-objects/readme-solution.md    "JS Arrays Problems - Solution"
 
 [2-3A]: 14-assessments/w02/w02d3.md                                     "Assessment"
 [2-3B]: 14-assessments/w02/w02d3-solution.md                            "Assessment - Solution"
