@@ -99,7 +99,7 @@
 [Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
 ---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 [Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | -                                       | -                                       | -                                       |
-[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart][2-1E]            | -                                       | -                                       | -                                       |
+[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart Solution][2-1F]   | -                                       | -                                       | -                                       |
 [R-Lab: Tic-Tac-Toe][1-5F]               | -                                       | -                                       | -                                       | -                                       |
 [jQuery Lesson][2-1C]                    | -                                       | -                                       | -                                       | -                                       |
 [jQuery Game][2-1D]|                     | -                                       | -                                       | -                                       | -                                       |
@@ -111,6 +111,7 @@
 [2-1C]: 02-front-end-intro/js-jquery-lesson                             "jQuery Lesson"
 [2-1D]: http://jqexercise.droppages.com/                                "jQuery Game"
 [2-1E]: https://github.com/wdi-hk-9/shoppingCart                        "Lab: Shopping Cart"
+[2-1F]: https://github.com/wdi-hk-9/shoppingCart-solution               "Lab: Shopping Cart - Solution"
 
 [2-2A]: 14-assessments/w02/w02d2.md                                     "Assessment"
 [2-2B]: 14-assessments/w02/w02d2-solution.md                            "Assessment - Solution"
