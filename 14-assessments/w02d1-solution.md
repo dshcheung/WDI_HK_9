@@ -77,6 +77,8 @@ for (var i=0; i < elements.length; i++) {
 }
 ```
 
+> Note: Refer solution to [w02d1-solution.html](/14-assessments/w02d1-solution.html)
+
 1. How do we change google's "I'm Feeling Lucky" to "I am Feeling Awesome" with javascript? (test it in the chrome developers tool console!)
 
 ```js

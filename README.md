@@ -70,7 +70,7 @@
 <a name="w1d2"></a>
 
 - Homework
-  - Play the game [CSS Selector Game][1-2D] 
+  - Play the game [CSS Selector Game][1-2D]
   - Go to [Lab: Build a website][1-2E] and follow the instructions to complete the lab
 
 #### Week 1 | Day 3
@@ -98,19 +98,27 @@
 
 [Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
 ---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-[Assessment][2-1A] & [Solution][2-1B]                       | -                                       | -                                       | -                                       | -                                       |
-[R-Lab: Dom Manipulation][1-5E]          | -                                       | -                                       | -                                       | -                                       |
+[Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | -                                       | -                                       | -                                       |
+[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart][2-1E]            | -                                       | -                                       | -                                       |
 [R-Lab: Tic-Tac-Toe][1-5F]               | -                                       | -                                       | -                                       | -                                       |
 [jQuery Lesson][2-1C]                    | -                                       | -                                       | -                                       | -                                       |
 [jQuery Game][2-1D]|                     | -                                       | -                                       | -                                       | -                                       |
 [HW-Lab: Shopping Cart][2-1E]            | -                                       | -                                       | -                                       | -                                       |
 -                                        | -                                       | -                                       | -                                       | -                                       |
 
-[2-1A]: 14-assessments/w02d1.md                                 "Assessment"
-[2-1A]: 14-assessments/w02d1-solution.md                        "Assessment - Solution"
-[2-1C]: 02-front-end-intro/js-jquery-lesson                     "jQuery Lesson"
-[2-1D]: http://jqexercise.droppages.com/                        "jQuery Game"
-[2-1E]: https://github.com/wdi-hk-9/shoppingCart                "Lab: Shopping Cart"
+[2-1A]: 14-assessments/w02d1.md                                         "Assessment"
+[2-1B]: 14-assessments/w02d1-solution.md                                "Assessment - Solution"
+[2-1C]: 02-front-end-intro/js-jquery-lesson                             "jQuery Lesson"
+[2-1D]: http://jqexercise.droppages.com/                                "jQuery Game"
+[2-1E]: https://github.com/wdi-hk-9/shoppingCart                        "Lab: Shopping Cart"
+
+[2-2A]: 14-assessments/w02/w02d2.md                                     "Assessment"
+[2-2B]: 14-assessments/w02/w02d2-solution.md                            "Assessment - Solution"
+[2-2C]: 00-programming/js-arrays-advanced/readme.md                     "JS Arrays"
+[2-2]:  00-programming/js-problems-arrays-objects/readme.md             "JS Arrays Problems"
+[2-2]:  00-programming/js-problems-arrays-objects/readme-solution.md    "JS Arrays Problems - Solution"
+[2-2D]: 00-programming/js-closures-scope-context/readme.md              "JS Closures, Scope, Context"
+[2-2F]: https://github.com/wdi-hk-9/JavaScript-Koans                    "JS Koans"
 
 #### Week 2 | Day 1
 <a name="w2d1"></a>
@@ -119,15 +127,8 @@
   - Go to [HW-Lab: Shopping Cart][2-1D] and complete the shopping cart
     - Click [here](http://shoppingcart.bitballoon.com/) to see the final product
 
+### Week 2 | Day 2
+<a name="w2d2"></a>
 
-
-
-
-
-
-
-
-
-
-
-
+- Homework
+  - Go to [Lab: Javascript Koans][2-2F] and follow the instructions to complete the lab
