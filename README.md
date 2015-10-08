@@ -99,12 +99,11 @@
 [Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
 ---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 [Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | [Assessment][2-3A] & [Solution][2-3B]   | [Assessment][2-4A] & [Solution][2-4B]   | -                                       |
-[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart Solution][2-1F]   | [R-JS Arrays Problems Solution][2-2F]   | -                                       | -                                       |
-[R-Lab: Tic-Tac-Toe][1-5F]               | [JS Arrays Lesson][2-2C]                | [JS Closures, Scope, Context][2-3C]     | -                                       | -                                       |
-[jQuery Lesson][2-1C]                    | -                                       | [JS Koans][2-3D]                        | -                                       | -                                       |
-[jQuery Game][2-1D]|                     | -                                       | -                                       | -                                       | -                                       |
-[HW-Lab: Shopping Cart][2-1E]            | -                                       | -                                       | -                                       | -                                       |
--                                        | [HW-JS Arrays Problems][2-2D]           | -                                       | -                                       | -                                       |
+[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart Solution][2-1F]   | [R-JS Arrays Problems Solution][2-2F]   | [Bootstrap CSS Lesson][2-4C]            | -                                       |
+[R-Lab: Tic-Tac-Toe][1-5F]               | [JS Arrays Lesson][2-2C]                | [JS Closures, Scope, Context][2-3C]     | [Bootstrap CSS Slides][2-4D]            | -                                       |
+[jQuery Lesson][2-1C]                    | -                                       | -                                       | -                                       | -                                       |
+[jQuery Game][2-1D]                      | -                                       | -                                       | [Project Spec][2-4E]                    | -                                       |
+[HW-Lab: Shopping Cart][2-1E]            | [HW-JS Arrays Problems][2-2D]           | [HW-JS Koans][2-3D]                     | [HW-Lab: 10 Seconds Math][2-4F]         | -                                       |
 
 [2-1A]: 14-assessments/w02d1.md                                         "Assessment"
 [2-1B]: 14-assessments/w02d1-solution.md                                "Assessment - Solution"
@@ -125,7 +124,11 @@
 [2-3D]: https://github.com/wdi-hk-9/JavaScript-Koans                    "JS Koans"
 
 [2-4A]: 14-assessments/w02d4.md                                         "Assessment"
-[2-4B]: 14-assessments/w02d4.js                                         "Assessment - Solution"
+[2-4B]: 14-assessments/w02d4-solution.js                                "Assessment - Solution"
+[2-4C]: 02-front-end-intro/css-bootstrap-lesson                         "Bootstrap CSS Lesson"
+[2-4D]: https://presentations.generalassemb.ly/649ce6766e83f246e122     "Bootstrap CSS Slides"
+[2-4E]: projects/project-01.md                                          "Project Spec"
+[2-4F]: https://github.com/wdi-hk-9/ten-seconds-math                    "10 Seconds Math"
 
 #### Week 2 | Day 1
 <a name="w2d1"></a>
@@ -140,7 +143,17 @@
 - Homework
   - Go to [HW-JS Arrays Problems][2-2D] and follow the instructions to complete the lab
 
-#### Week 2 | Day 4
+#### Week 2 | Day 3
 <a name="w2d3"></a>
 
-- [Project Spec](projects/project-01.md)
+- Homework
+  - Go to [JS Koans][2-3D] and go through all the tests
+
+#### Week 2 | Day 4
+<a name="w2d4"></a>
+
+- Project Resources
+  - [Project Spec][2-4E]
+
+- Homework
+  - Go to [HW-Lab: 10 Seconds Math][2-4F] and follow the instructures to complete the lab
