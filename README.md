@@ -139,3 +139,8 @@
 
 - Homework
   - Go to [HW-JS Arrays Problems][2-2D] and follow the instructions to complete the lab
+
+#### Week 2 | Day 4
+<a name="w2d3"></a>
+
+- [Project Spec](projects/project-01.md)
