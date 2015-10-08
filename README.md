@@ -120,7 +120,7 @@
 [2-2F]: 00-programming/js-problems-arrays-objects/readme-solution.md    "JS Arrays Problems - Solution"
 
 [2-3A]: 14-assessments/w02d3.md                                         "Assessment"
-[2-3B]: 14-assessments/w02d3-solution.md                                "Assessment - Solution"
+[2-3B]: 14-assessments/w02d3-solution.js                                "Assessment - Solution"
 [2-3C]: 00-programming/js-closures-scope-context/readme.md              "JS Closures, Scope, Context"
 [2-3D]: https://github.com/wdi-hk-9/JavaScript-Koans                    "JS Koans"
 
