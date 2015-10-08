@@ -125,7 +125,7 @@
 [2-3D]: https://github.com/wdi-hk-9/JavaScript-Koans                    "JS Koans"
 
 [2-4A]: 14-assessments/w02d4.md                                         "Assessment"
-[2-4B]: 14-assessments/w02d4-solution.md                                "Assessment - Solution"
+[2-4B]: 14-assessments/w02d4.js                                         "Assessment - Solution"
 
 #### Week 2 | Day 1
 <a name="w2d1"></a>
