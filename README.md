@@ -98,7 +98,7 @@
 
 [Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
 ---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-[Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | [Assessment][2-3A] & [Solution][2-3B]   | Assessment][2-4A] & [Solution][2-4B]    | -                                       |
+[Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | [Assessment][2-3A] & [Solution][2-3B]   | [Assessment][2-4A] & [Solution][2-4B]   | -                                       |
 [R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart Solution][2-1F]   | [R-JS Arrays Problems Solution][2-2F]   | -                                       | -                                       |
 [R-Lab: Tic-Tac-Toe][1-5F]               | [JS Arrays Lesson][2-2C]                | [JS Closures, Scope, Context][2-3C]     | -                                       | -                                       |
 [jQuery Lesson][2-1C]                    | -                                       | [JS Koans][2-3D]                        | -                                       | -                                       |
