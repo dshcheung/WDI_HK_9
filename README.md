@@ -174,13 +174,13 @@ By default, this unit starts with Sinatra and later, focuses on Rails. By starti
 
 #### Week 4
 
-Day 1                            | Day 2                                          | Day 3                                       | Day 4                                           | Day 5
--------------------------------- | ------------------------------------           | ------------------------------------        | ---------------------------------------         | -----------------------------------
-[Intro to Ruby data types][4-1A] | [Classes, objects, methods][4-2A]              | [Intro to relational data modeling][4-3A]  | [Building models with ActiveRecord][4-4A]        | [Building and submitting forms][4-5A]
-[Control flow in Ruby ][4-1B]    | [Lab: Classes, objects, methods][4-2B]         | [Lab: Practice database design][4-3B]       | [Lab: Models and migrations][4-4B]              | [+Review session][4-5B]
-[Arrays, hashes, and blocks][4-1C]| [Sinatra setup / layouts and templating][4-2C] | [SQL - Setup, insert, update, delete][4-3C] |  [ActiveRecord methods and finders][4-4C]       | [#Outcomes: 1:1 Career coaching sessions][4-5C]
-[Lab: Arrays and hashes][4-1D]   | [Sinatra controllers & RESTful routing][4-2D]   | [Lab: SQL select][4-3D]                    | [Lab: ActiveRecord finders and methods][4-4D]   | [Lab: Weekend Sinatra app][4-5D]
-[+HW: Ruby-Koans][4-1E]  | [+HW: Your own Sinatra app][4-2E]                  | [HW: Database design challenges][4-3E]      | [+HW: Advanced ActiveRecord concepts][4-4E]  |
+Day 1                             | Day 2                                          | Day 3                                       | Day 4                                         | Day 5
+--------------------------------  | ------------------------------------           | ------------------------------------------- | --------------------------------------------- | -----------------------------------
+[Intro to Ruby data types][4-1A]  | [Classes, objects, methods][4-2A]              | [Intro to relational data modeling][4-3A]   | [Building models with ActiveRecord][4-4A]     | [Building and submitting forms][4-5A]
+[Control flow in Ruby ][4-1B]     | [Lab: Classes, objects, methods][4-2B]         | [Lab: Practice database design][4-3B]       | [Lab: Models and migrations][4-4B]            | [+Review session][4-5B]
+[Arrays, hashes, and blocks][4-1C]| [Sinatra setup / layouts and templating][4-2C] | [SQL - Setup, insert, update, delete][4-3C] | [ActiveRecord methods and finders][4-4C]      | [#Outcomes: 1:1 Career coaching sessions][4-5C]
+[Lab: Arrays and hashes][4-1D]    | [Sinatra controllers & RESTful routing][4-2D]  | [Lab: SQL select][4-3D]                     | [Lab: ActiveRecord finders and methods][4-4D] | [Lab: Weekend Sinatra app][4-5D]
+[HW: Ruby-Koans][4-1E]            | [HW: Rails Objects][4-2E]              | [HW: Database design challenges][4-3E]      | [+HW: Advanced ActiveRecord concepts][4-4E]   |
 
 [4-1A]: 00-programming/ruby-data-types-variables-lesson                    "Intro to Ruby - Data Types & Variables"
 [4-1B]: 00-programming/ruby-control-flow-lesson                            "Control flow in Ruby"
@@ -192,7 +192,7 @@ Day 1                            | Day 2                                        
 [4-2B]: 00-programming/ruby-classes-objects-and-methods-lab                "Classes, Objects, & Methods Lab"
 [4-2C]: 04-server-applications/sinatra-intro-lesson                        "Sinatra Setup + Layouts & Templating"
 [4-2D]: 04-server-applications/sinatra-controllers-routing-lesson          "Controllers & RESTful Routing"
-[4-2E]: # " "
+[4-2E]: https://github.com/wdi-hk-9/ruby_assessment_objects                "Rails Objects"
 
 [4-3A]: 05-databases/data-modeling-intro-lesson                             "Intro to Relational Data Modeling"
 [4-3B]: 05-databases/data-modeling-erd-design-lab                           "Practice Database Design"
