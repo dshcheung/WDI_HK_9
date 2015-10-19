@@ -185,7 +185,7 @@ Day 1                             | Day 2                                       
 [4-1A]: 00-programming/ruby-data-types-variables-lesson                    "Intro to Ruby - Data Types & Variables"
 [4-1B]: 00-programming/ruby-control-flow-lesson                            "Control flow in Ruby"
 [4-1C]: 00-programming/ruby-arrays-hashes-and-blocks-lesson                "Arrays, Hashes, & Blocks"
-[4-1D]: 00-programming/ruby-arrays-and-hashes-lab                          "Arrays & Hashes Lab"
+[4-1D]: https://github.com/wdi-hk-9/lab-ruby-arrays-and-hashes             "Arrays & Hashes Lab"
 [4-1E]: https://github.com/wdi-hk-9/ruby_koans                             "Ruby-Koans"
 
 [4-2A]: 00-programming/ruby-classes-objects-and-methods-lesson             "Objects & Methods in Ruby"
