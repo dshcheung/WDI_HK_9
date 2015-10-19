@@ -180,13 +180,13 @@ Day 1                            | Day 2                                        
 [Control flow in Ruby ][4-1B]    | [Lab: Classes, objects, methods][4-2B]         | [Lab: Practice database design][4-3B]       | [Lab: Models and migrations][4-4B]              | [+Review session][4-5B]
 [Arrays, hashes, and blocks][4-1C]| [Sinatra setup / layouts and templating][4-2C] | [SQL - Setup, insert, update, delete][4-3C] |  [ActiveRecord methods and finders][4-4C]       | [#Outcomes: 1:1 Career coaching sessions][4-5C]
 [Lab: Arrays and hashes][4-1D]   | [Sinatra controllers & RESTful routing][4-2D]   | [Lab: SQL select][4-3D]                    | [Lab: ActiveRecord finders and methods][4-4D]   | [Lab: Weekend Sinatra app][4-5D]
-[+HW: Ruby data types][4-1E]  | [+HW: Your own Sinatra app][4-2E]                  | [HW: Database design challenges][4-3E]      | [+HW: Advanced ActiveRecord concepts][4-4E]  |
+[+HW: Ruby-Koans][4-1E]  | [+HW: Your own Sinatra app][4-2E]                  | [HW: Database design challenges][4-3E]      | [+HW: Advanced ActiveRecord concepts][4-4E]  |
 
 [4-1A]: 00-programming/ruby-data-types-variables-lesson                    "Intro to Ruby - Data Types & Variables"
 [4-1B]: 00-programming/ruby-control-flow-lesson                            "Control flow in Ruby"
 [4-1C]: 00-programming/ruby-arrays-hashes-and-blocks-lesson                "Arrays, Hashes, & Blocks"
 [4-1D]: 00-programming/ruby-arrays-and-hashes-lab                          "Arrays & Hashes Lab"
-[4-1E]: # " "
+[4-1E]: https://github.com/wdi-hk-9/ruby_koans                             "Ruby-Koans"
 
 [4-2A]: 00-programming/ruby-classes-objects-and-methods-lesson             "Objects & Methods in Ruby"
 [4-2B]: 00-programming/ruby-classes-objects-and-methods-lab                "Classes, Objects, & Methods Lab"
