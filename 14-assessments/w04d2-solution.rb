@@ -3,17 +3,9 @@
 # Question 1
 def fizz_buzz_russ (num)
   num.times do |i|
-    string = ""
-    if i % 3 == 0
-      string += "fizz"
-    end
-    if i % 5 == 0
-      string += "buzz"
-    end
-    if i % 7 == 0
-      string += "russ"
-    end
-    puts "#{i} is #{string}"
+    puts "fizz" if i % 3 == 0
+    puts "buzz" if i % 5 == 0
+    puts "russ" if i % 7 == 0
   end
 end
 
