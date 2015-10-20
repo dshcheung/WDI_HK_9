@@ -190,7 +190,7 @@ Day 1                             | Day 2                                       
 [4-1E]: https://github.com/wdi-hk-9/ruby_koans                             "Ruby-Koans"
 
 [4-2A]: 00-programming/ruby-oop-classes/readme.md                          "Objects & Methods in Ruby"
-[4-2B]: 00-programming/ruby-oop-lab-apartments/readme.md                   "Lab: Classes, objects, methods"
+[4-2B]: https://github.com/wdi-hk-9/lab-ruby-oop-apartments                "Lab: Classes, objects, methods"
 [4-2C]: 04-server-applications/sinatra-intro-lesson                        "Sinatra Setup + Layouts & Templating"
 [4-2D]: 04-server-applications/sinatra-controllers-routing-lesson          "Controllers & RESTful Routing"
 [4-2E]: https://github.com/wdi-hk-9/ruby_assessment_objects                "Rails Objects"
