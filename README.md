@@ -176,7 +176,7 @@ By default, this unit starts with Sinatra and later, focuses on Rails. By starti
 
 Day 1                             | Day 2                                          | Day 3                                       | Day 4                                         | Day 5
 --------------------------------  | ------------------------------------           | ------------------------------------------- | --------------------------------------------- | -----------------------------------
---------------------------------  | Assessments[4-2F] & Solution[4-2G]             | ------------------------------------------- | --------------------------------------------- | -----------------------------------
+--------------------------------  | [Assessments][4-2F] & [Solution][4-2G]         | ------------------------------------------- | --------------------------------------------- | -----------------------------------
 [Intro to Ruby data types][4-1A]  | [Classes, objects, methods][4-2A]              | [Intro to relational data modeling][4-3A]   | [Building models with ActiveRecord][4-4A]     | [Building and submitting forms][4-5A]
 [Control flow in Ruby ][4-1B]     | [Lab: Classes, objects, methods][4-2B]         | [Lab: Practice database design][4-3B]       | [Lab: Models and migrations][4-4B]            | [+Review session][4-5B]
 [Arrays, hashes, and blocks][4-1C]| [Sinatra setup / layouts and templating][4-2C] | [SQL - Setup, insert, update, delete][4-3C] | [ActiveRecord methods and finders][4-4C]      | [#Outcomes: 1:1 Career coaching sessions][4-5C]
