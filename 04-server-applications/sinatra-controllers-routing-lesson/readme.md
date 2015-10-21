@@ -1,13 +1,3 @@
----
-title: Controllers & RESTful Routing
-type: lesson
-duration: "1:25"
-creator:
-    name: Micah Rich
-    city: LA
-competencies: Server Applications
----
-
 # Controllers & RESTful Routing
 
 ### Objectives
@@ -46,7 +36,7 @@ Verbs describe what you can do with HTTP. It's the act of you, on the client/bro
 
 #### Resources
 
-Resources refer to the objects we're working with. When we're making an app about cars, we probably have a car resource. When we're making an app about dinosaurs, we'll probably have a dinosaur resource. We represent those resources in the URL structure – just by looking at a URL we should know what kind of object we're interacting with.  
+Resources refer to the objects we're working with. When we're making an app about cars, we probably have a car resource. When we're making an app about dinosaurs, we'll probably have a dinosaur resource. We represent those resources in the URL structure – just by looking at a URL we should know what kind of object we're interacting with.
 
 What makes up a URL? Which is the "resource" part?
 
