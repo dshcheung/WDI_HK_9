@@ -176,7 +176,7 @@ By default, this unit starts with Sinatra and later, focuses on Rails. By starti
 
 Day 1                             | Day 2                                          | Day 3                                       | Day 4                                         | Day 5
 --------------------------------  | ------------------------------------           | ------------------------------------------- | --------------------------------------------- | -----------------------------------
---------------------------------  | [Assessments][4-2F] & [Solution][4-2G]         | ------------------------------------------- | --------------------------------------------- | -----------------------------------
+--------------------------------  | [Assessments][4-2F] & [Solution][4-2G]         | [Assessments][4-3F] & [Solution][4-3G]      | --------------------------------------------- | -----------------------------------
 [Intro to Ruby data types][4-1A]  | [Classes, objects, methods][4-2A]              | [Intro to relational data modeling][4-3A]   | [Building models with ActiveRecord][4-4A]     | [Building and submitting forms][4-5A]
 [Control flow in Ruby ][4-1B]     | [Lab: Classes, objects, methods][4-2B]         | [Lab: Practice database design][4-3B]       | [Lab: Models and migrations][4-4B]            | [+Review session][4-5B]
 [Arrays, hashes, and blocks][4-1C]| [Sinatra setup / layouts and templating][4-2C] | [SQL - Setup, insert, update, delete][4-3C] | [ActiveRecord methods and finders][4-4C]      | [#Outcomes: 1:1 Career coaching sessions][4-5C]
@@ -197,12 +197,13 @@ Day 1                             | Day 2                                       
 [4-2F]: 14-assessments/w04d2.md                                            "Assessment"
 [4-2G]: 14-assessments/w04d2-solution.rb                                   "Assessment - Solution"
 
-
 [4-3A]: 05-databases/data-modeling-intro-lesson                             "Intro to Relational Data Modeling"
 [4-3B]: 05-databases/data-modeling-erd-design-lab                           "Practice Database Design"
 [4-3C]: 05-databases/sql-setup-insert-update-delete-lesson                  "SQL - Setup, Insert, Update, Delete"
 [4-3D]: 05-databases/sql-select-lab                                         "SQL Select"
-[4-3E]: 05-databases/data-modeling-database-design-challenge-homework         "Data Modeling Homework"
+[4-3E]: 05-databases/data-modeling-database-design-challenge-homework       "Data Modeling Homework"
+[4-3F]: 14-assessments/w04d3.md                                             "Assessment"
+[4-3G]: 14-assessments/w04d3-solution.rb                                    "Assessment - Solution"
 
 [4-4A]: 04-server-applications/sinatra-activerecord-models-migrations-lesson         "Building Models with ActiveRecord and Migrations"
 [4-4B]: 04-server-applications/sinatra-activerecord-models-migrations-lab             "Models and Migrations Lab"
