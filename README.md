@@ -206,7 +206,7 @@ Day 1                             | Day 2                                       
 [4-3E]: 05-databases/data-modeling-intro-lesson                            "Intro to Relational Data Modeling"
 [4-3F]: 05-databases/data-modeling-erd-design-lab                          "Practice Database Design"
 [4-3G]: 05-databases/sql-setup-insert-update-delete-lesson                 "SQL - Setup, Insert, Update, Delete"
-[4-3H]: 05-databases/sql-select-lab                                        "SQL Select"
+[4-3H]: https://github.com/wdi-hk-9/lab-sql-select                         "SQL Select Lab"
 [4-3I]: 05-databases/data-modeling-database-design-challenge-homework      "Data Modeling Homework"
 
 [4-4A]: 14-assessments/w04d4.md                                                      "Assessment"
