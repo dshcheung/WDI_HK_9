@@ -23,7 +23,12 @@ Remember to consider all different angles in each of these examples. What jobs r
 
 #### Deliverable
 
-An ERD diagram, using crows foot notation, of whatever app you choose.  For example:
+An ERD diagram, using crows foot notation, of whatever app you choose.
+
+1. Draw Tables and their relationships with another table with [draw.io](https://www.draw.io/)
+2. For each table, describe the `columns` and their [Data Types](http://www.postgresql.org/docs/9.3/static/datatype.html)
+
+You should have something like the picture below, however instead of `item1`, `item2`, `item3`, you should have columns and data types for that specific table
 
 
 <p align="center">
