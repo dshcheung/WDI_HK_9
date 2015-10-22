@@ -207,9 +207,9 @@ Day 1                             | Day 2                                       
 [4-4A]: 05-databases/sql-setup-insert-update-delete-lesson                           "SQL - Setup, Insert, Update, Delete"
 [4-4B]: https://github.com/wdi-hk-9/lab-sql-select                                   "SQL Select Lab"
 [4-4C]: 04-server-applications/sinatra-activerecord-models-migrations-lesson         "Building Models with ActiveRecord and Migrations"
-[4-4D]: 04-server-applications/sinatra-activerecord-models-migrations-lab            "Models and Migrations Lab"
+[4-4D]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-models-migrations       "Models and Migrations Lab"
 [4-4E]: 04-server-applications/sinatra-activerecord-methods-and-finders-lesson       "ActiveRecord Methods and Finders"
-[4-4F]: 04-server-applications/sinatra-activerecord-finders-lab                      "ActiveRecord Finders lab"
+[4-4F]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-finders                 "ActiveRecord Finders lab"
 [4-4G]: # " "
 
 [4-5A]: 14-assessments/w04d5.md                                                      "Assessment"
