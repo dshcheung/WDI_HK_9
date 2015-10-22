@@ -178,12 +178,11 @@ Day 1                             | Day 2                                       
 --------------------------------  | ------------------------------------           | -------------------------------------------   | --------------------------------------------- | -----------------------------------
 [Intro to Ruby data types][4-1A]  | [Assessments][4-2A] & [Solution][4-2B]         | [Assessments][4-3A] & [Solution][4-3B]        | [SQL - Setup, insert, update, delete][4-4A]   | Assessments & Solution
 [Control flow in Ruby ][4-1B]     | [Classes, objects, methods][4-2C]              | [R-HW: Rails Objects][4-2E]                   | [Lab: SQL select][4-4B]                       | [Building and submitting forms][4-5C]
-[Arrays, hashes, and blocks][4-1C]| [Lab: Classes, objects, methods][4-2D]         | [Sinatra setup / layouts and templating][4-3C]| [Database design challenges][4-4C]            | [+Review session][4-5D]
-[Lab: Arrays and hashes][4-1D]    | [HW: Ruby-Koans][4-1E]                         | [Sinatra controllers & RESTful routing][4-3D] | [Building models with ActiveRecord][4-4D]     | [#Outcomes: 1:1 Career coaching sessions][4-5E]
-[HW: Ruby-Koans][4-1E]            | [HW: Rails Objects][4-2E]                      | [Intro to relational data modeling][4-3E]     | [Lab: Models and migrations][4-4E]            | [Lab: Weekend Sinatra app][4-5F]
-                                  |                                                | [HW-Lab: Practice database design][4-3F]      | [ActiveRecord methods and finders][4-4F]      |
-                                  |                                                |                                               | [Lab: ActiveRecord finders and methods][4-4G] |
-                                  |                                                |                                               | [+HW: Advanced ActiveRecord concepts][4-4H]   |
+[Arrays, hashes, and blocks][4-1C]| [Lab: Classes, objects, methods][4-2D]         | [Sinatra setup / layouts and templating][4-3C]| [Building models with ActiveRecord][4-4C]     | [+Review session][4-5D]
+[Lab: Arrays and hashes][4-1D]    | [HW: Ruby-Koans][4-1E]                         | [Sinatra controllers & RESTful routing][4-3D] | [Lab: Models and migrations][4-4D]            | [#Outcomes: 1:1 Career coaching sessions][4-5E]
+[HW: Ruby-Koans][4-1E]            | [HW: Rails Objects][4-2E]                      | [Intro to relational data modeling][4-3E]     | [ActiveRecord methods and finders][4-4E]      | [Lab: Weekend Sinatra app][4-5F]
+                                  |                                                | [HW-Lab: Practice database design][4-3F]      | [Lab: ActiveRecord finders and methods][4-4F] |
+                                  |                                                |                                               | [+HW: Advanced ActiveRecord concepts][4-4G]   |
 
 
 [4-1A]: 00-programming/ruby-data-types-variables-lesson                              "Intro to Ruby - Data Types & Variables"
@@ -207,12 +206,11 @@ Day 1                             | Day 2                                       
 
 [4-4A]: 05-databases/sql-setup-insert-update-delete-lesson                           "SQL - Setup, Insert, Update, Delete"
 [4-4B]: https://github.com/wdi-hk-9/lab-sql-select                                   "SQL Select Lab"
-[4-4C]: 05-databases/data-modeling-database-design-challenge-homework                "Data Modeling"
-[4-4D]: 04-server-applications/sinatra-activerecord-models-migrations-lesson         "Building Models with ActiveRecord and Migrations"
-[4-4E]: 04-server-applications/sinatra-activerecord-models-migrations-lab            "Models and Migrations Lab"
-[4-4F]: 04-server-applications/sinatra-activerecord-methods-and-finders-lesson       "ActiveRecord Methods and Finders"
-[4-4G]: 04-server-applications/sinatra-activerecord-finders-lab                      "ActiveRecord Finders lab"
-[4-4H]: # " "
+[4-4C]: 04-server-applications/sinatra-activerecord-models-migrations-lesson         "Building Models with ActiveRecord and Migrations"
+[4-4D]: 04-server-applications/sinatra-activerecord-models-migrations-lab            "Models and Migrations Lab"
+[4-4E]: 04-server-applications/sinatra-activerecord-methods-and-finders-lesson       "ActiveRecord Methods and Finders"
+[4-4F]: 04-server-applications/sinatra-activerecord-finders-lab                      "ActiveRecord Finders lab"
+[4-4G]: # " "
 
 [4-5A]: 14-assessments/w04d5.md                                                      "Assessment"
 [4-5B]: 14-assessments/w04d5-solution.rb                                             "Assessment - Solution"
