@@ -177,9 +177,9 @@ By default, this unit starts with Sinatra and later, focuses on Rails. By starti
 Day 1                             | Day 2                                          | Day 3                                         | Day 4                                         | Day 5
 --------------------------------  | ------------------------------------           | -------------------------------------------   | --------------------------------------------- | -----------------------------------
 [Intro to Ruby data types][4-1A]  | [Assessments][4-2A] & [Solution][4-2B]         | [Assessments][4-3A] & [Solution][4-3B]        | [SQL - Setup, insert, update, delete][4-4A]   | [ActiveRecord methods and finders][4-5A]
-[Control flow in Ruby ][4-1B]     | [Classes, objects, methods][4-2C]              | [R-HW: Rails Objects][4-2E]                   | [Building models with ActiveRecord][4-4B]     | [Lab: ActiveRecord finders and methods][4-5B]
-[Arrays, hashes, and blocks][4-1C]| [Lab: Classes, objects, methods][4-2D]         | [Sinatra setup / layouts and templating][4-3C]| [HW-Lab: SQL select][4-4C]                    | [Building and submitting forms][4-5C]
-[Lab: Arrays and hashes][4-1D]    | [HW: Ruby-Koans][4-1E]                         | [Sinatra controllers & RESTful routing][4-3D] | [HW-Lab: Models and migrations][4-4D]         | [Lab: Weekend Sinatra app][4-5D]
+[Control flow in Ruby ][4-1B]     | [Classes, objects, methods][4-2C]              | [R-HW: Rails Objects][4-2E]                   | [Building models with ActiveRecord][4-4B]     | [Building and submitting forms][4-5B]
+[Arrays, hashes, and blocks][4-1C]| [Lab: Classes, objects, methods][4-2D]         | [Sinatra setup / layouts and templating][4-3C]| [HW-Lab: SQL select][4-4C]                    | [HW-Lab: ActiveRecord finders and methods][4-5C]
+[Lab: Arrays and hashes][4-1D]    | [HW: Ruby-Koans][4-1E]                         | [Sinatra controllers & RESTful routing][4-3D] | [HW-Lab: Models and migrations][4-4D]         | [HW-Lab: Weekend Sinatra app][4-5D]
 [HW: Ruby-Koans][4-1E]            | [HW: Rails Objects][4-2E]                      | [Intro to relational data modeling][4-3E]     |                                               |
                                   |                                                | [HW-Lab: Practice database design][4-3F]      |                                               |
 
@@ -209,6 +209,6 @@ Day 1                             | Day 2                                       
 [4-4D]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-models-migrations       "Models and Migrations Lab"
 
 [4-5A]: 04-server-applications/sinatra-activerecord-methods-and-finders-lesson       "ActiveRecord Methods and Finders"
-[4-5B]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-finders                 "ActiveRecord Finders lab"
-[4-5C]: 04-server-applications/sinatra-forms-lesson                                  "Building and Submitting Forms"
-[4-5D]: 04-server-applications/sinatra-app-weekend-lab                               "Weekend Sinatra app"
+[4-5B]: 04-server-applications/sinatra-forms-lesson                                  "Building and Submitting Forms"
+[4-5C]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-finders                 "ActiveRecord Finders lab"
+[4-5D]: https://github.com/wdi-hk-9/lab-sinatra-app-weekend                               "Weekend Sinatra app"
