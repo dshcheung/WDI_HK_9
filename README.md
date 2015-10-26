@@ -4,7 +4,7 @@
 | Unit                 | Topic                              | Topic                              | Project
 |------------          |------------------------------------|------------------------------------|--------------------------------------
 | **[UNIT 1](#unit1)** | [1. Front-end Intro](#week1)       | [2. Dynamic Frontend](#week2)      | [3. Project 1: Build a game](#week3)
-| **UNIT 2**           | [4. Ruby, OOP, Sinatra](#week4)    | [5. Ruby on Rails](#week5)         | [6. Project 2: Rails App](#week6)
+| **[UNIT 2](#unit2(** | [4. Ruby, OOP, Sinatra](#week4)    | [5. Ruby on Rails](#week5)         | [6. Project 2: Rails App](#week6)
 | **UNIT 3**           | [7. Rails APIs, Express](#week7)   | [8. User & Authe in APIs](#week8)  | [9. Project 3: Rails/MEAN App](#week9)
 | **UNIT 4**           | [10. MV* with Angular](#week10)    | [11. Advanced topics](#week11)     | [12. Final Project](#week12)
 
@@ -166,6 +166,9 @@
 <a name="w2d5"></a>
 
 - Project Time!!!!!
+
+<a name="unit2"></a>
+## Unit 2
 
 <a name="week4"></a>
 ### Week 4 | Full-Stack Fundamentals, Ruby
