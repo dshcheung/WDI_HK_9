@@ -218,36 +218,42 @@ Day 1                             | Day 2                                       
 
 Day 1                                               | Day 2                                      | Day 3                                      | Day 4                                   | Day 5
 --------------------------------                    | ------------------------------------       | ------------------------------------       | --------------------------------------- | -----------------------------------
+[Assessment][5-1Z]                                  | [Assessment][5-2Z]                         | [Assessment][5-3Z]                         | [Assessment][5-4Z]                      | [Assessment][5-5Z]
 [Modeling relationships][5-1A]                      | [Controllers and routes in Rails][5-2A]    | [Lab: Rails app with relationships][5-3A]  | [Lab: Hello, Bootstrap][5-4A]           | [+Review session][5-5A]
 [Lab: Modeling relationships][5-1B]                 | [Lab: Building your first Rails app][5-2B] | [User models with passwords][5-3B]         | [Deploying to Heroku][5-4B]             | [Accessing third-party APIs][5-5B]
 [Lab Modeling relationships with controllers][5-1C] | [Layouts, partials, and views][5-2C]       | [Sessions/logging in by hand][5-3C]        | [Lab: Full CRUD app depoyed][5-4C]      | [Lab: API hackathon][5-5C]
 [Intro to Rails][5-1D]                              | [Lab: Layouts, partials, and views][5-2D]  | [Lab: Sessions/logging in by hand][5-3D]   | [Intro to testing][5-4D]                | [+Introduce project 2 + project time][5-5D]
-[+HW: Reading up on Rails][5-1E]                    | [+HW: Build your second Rails app][5-2E]   | [+HW: Full CRUD app with views][5-3E]      | [+HW: Rails and RSpec][5-4E]            |
+[HW: RailsConf 2015][5-1E]                          | [+HW: Build your second Rails app][5-2E]   | [+HW: Full CRUD app with views][5-3E]      | [+HW: Rails and RSpec][5-4E]            |
 
+[5-1Z]: https://github.com/wdi-hk-9/rspec_word_count                                              "Assessment"
 [5-1A]: 04-server-applications/sinatra-activerecord-modeling-relationships-lesson                 "Modeling Relationships"
 [5-1B]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-modeling-relationships               "Relationships with Multiple Models"
 [5-1C]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-relationships-multiple-controllers   "Relationships with Multiple Controllers"
 [5-1D]: 04-server-applications/rails-intro-lesson                                                 "Intro to Rails"
-[5-1E]: # " "
+[5-1E]: https://www.youtube.com/results?search_query=railsconf+2015                               "HW: RailsConf 2015"
 
+[5-2Z]: # " "
 [5-2A]: 04-server-applications/rails-controllers-and-routes-lesson                                "Controllers and Routes in Rails"
 [5-2B]: https://github.com/wdi-hk-9/lab-rails-first-app                                           "Building your First Rails app"
 [5-2C]: 04-server-applications/rails-layouts-views-lesson                                         "Layouts, Views, and Partials"
 [5-2D]: https://github.com/wdi-hk-9/lab-rails-layouts-views                                       "Layouts, Views, and Partials Lab"
 [5-2E]: # " "
 
+[5-3Z]: # " "
 [5-3A]: 04-server-applications/rails-relationships-lab                                            "Building a Rails app with Relationships Lab"
 [5-3B]: 04-server-applications/rails-user-passwords-lesson                                        "User Models with Passwords"
 [5-3C]: 04-server-applications/rails-sessions-custom-auth-lesson                                  "Sessions/Logging in by Hand"
 [5-3D]: 04-server-applications/rails-sessions-login-lab                                           "Sessions/Login Lab"
 [5-3E]: # " "
 
+[5-4Z]: # " "
 [5-4A]: 02-front-end-intro/css-bootstrap-lab                                                      "Hello Bootstrap Lab"
 [5-4B]: 07-deployment/heroku-intro-lesson                                                         "Deploying to Heroku"
 [5-4C]: 04-server-applications/rails-full-crud-app-lab                                            "Full CRUD app with Views Deployed Lab"
 [5-4D]: 06-testing/ruby-testing-intro-lesson
 [5-4E]: # " "
 
+[5-5Z]: # " "
 [5-5A]: # " "
 [5-5B]: 00-programming/ruby-accessing-third-party-apis-lesson                                     "Accessing Third-Party APIs"
 [5-5C]: 06-server-applications/apis/apis-hackathon                                                "API Hackathon"
