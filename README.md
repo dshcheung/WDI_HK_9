@@ -232,7 +232,7 @@ Day 1                                               | Day 2                     
 [5-1D]: 04-server-applications/rails-intro-lesson                                                 "Intro to Rails"
 [5-1E]: https://www.youtube.com/results?search_query=railsconf+2015                               "HW: RailsConf 2015"
 
-[5-2Z]: # " "
+[5-2Z]: 14-assessments/w05d2.md                                                                   "Assessment"
 [5-2A]: 04-server-applications/rails-controllers-and-routes-lesson                                "Controllers and Routes in Rails"
 [5-2B]: https://github.com/wdi-hk-9/lab-rails-first-app                                           "Building your First Rails app"
 [5-2C]: 04-server-applications/rails-layouts-views-lesson                                         "Layouts, Views, and Partials"
