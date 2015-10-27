@@ -221,7 +221,7 @@ Day 1                             | Day 2                                       
 
 Day 1                                               | Day 2                                      | Day 3                                      | Day 4                                   | Day 5
 --------------------------------                    | ------------------------------------       | ------------------------------------       | --------------------------------------- | -----------------------------------
-[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z]                         | [Assessment][5-4Z][]                      | [Assessment][5-5Z]
+[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z]                         | [Assessment][5-4Z]                      | [Assessment][5-5Z]
 [Modeling relationships][5-1A]                      | [Intro to Rails][5-1A]                     | [Lab: Rails app with relationships][5-3A]  | [Lab: Hello, Bootstrap][5-4A]           | [+Review session][5-5A]
 [HW-Lab: Modeling relationships - Models][5-1B]     | [Controllers and routes in Rails][5-2B]    | [User models with passwords][5-3B]         | [Deploying to Heroku][5-4B]             | [Accessing third-party APIs][5-5B]
 [HW-Lab: Modeling relationships - Controllers][5-1C]| [Layouts, partials, and views][5-2C]       | [Sessions/logging in by hand][5-3C]        | [Lab: Full CRUD app depoyed][5-4C]      | [Lab: API hackathon][5-5C]
