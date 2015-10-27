@@ -221,7 +221,7 @@ Day 1                             | Day 2                                       
 
 Day 1                                               | Day 2                                      | Day 3                                      | Day 4                                   | Day 5
 --------------------------------                    | ------------------------------------       | ------------------------------------       | --------------------------------------- | -----------------------------------
-[Assessment][5-1Z]                                  | [Assessment][5-2Z]                         | [Assessment][5-3Z]                         | [Assessment][5-4Z]                      | [Assessment][5-5Z]
+[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z]                         | [Assessment][5-4Z][]                      | [Assessment][5-5Z]
 [Modeling relationships][5-1A]                      | [Controllers and routes in Rails][5-2A]    | [Lab: Rails app with relationships][5-3A]  | [Lab: Hello, Bootstrap][5-4A]           | [+Review session][5-5A]
 [Lab: Modeling relationships][5-1B]                 | [Lab: Building your first Rails app][5-2B] | [User models with passwords][5-3B]         | [Deploying to Heroku][5-4B]             | [Accessing third-party APIs][5-5B]
 [Lab Modeling relationships with controllers][5-1C] | [Layouts, partials, and views][5-2C]       | [Sessions/logging in by hand][5-3C]        | [Lab: Full CRUD app depoyed][5-4C]      | [Lab: API hackathon][5-5C]
@@ -229,13 +229,14 @@ Day 1                                               | Day 2                     
 [HW: RailsConf 2015][5-1E]                          | [+HW: Build your second Rails app][5-2E]   | [+HW: Full CRUD app with views][5-3E]      | [+HW: Rails and RSpec][5-4E]            |
 
 [5-1Z]: https://github.com/wdi-hk-9/rspec_word_count                                              "Assessment"
-[5-1A]: 04-server-applications/sinatra-activerecord-modeling-relationships-lesson                 "Modeling Relationships"
 [5-1B]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-modeling-relationships               "Relationships with Multiple Models"
 [5-1C]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-relationships-multiple-controllers   "Relationships with Multiple Controllers"
+[5-1A]: 14-assessments/w05d2.md                                                                   "Assessment"
 [5-1D]: 04-server-applications/rails-intro-lesson                                                 "Intro to Rails"
 [5-1E]: https://www.youtube.com/results?search_query=railsconf+2015                               "HW: RailsConf 2015"
 
 [5-2Z]: 14-assessments/w05d2.md                                                                   "Assessment"
+[5-2Y]: 14-assessments/roman_arabic_ruby                                                          "Solution"
 [5-2A]: 04-server-applications/rails-controllers-and-routes-lesson                                "Controllers and Routes in Rails"
 [5-2B]: https://github.com/wdi-hk-9/lab-rails-first-app                                           "Building your First Rails app"
 [5-2C]: 04-server-applications/rails-layouts-views-lesson                                         "Layouts, Views, and Partials"
