@@ -18,19 +18,17 @@
 - Explain HTTP request/response
 - Explain how to retrieve a user based on an email/password
 
-##Intro - It's all about sessions (10 mins)
+##Intro - It's all about sessions
 
 During the previous lesson, we've covered how to store critical data like passwords and how to know if a user is providing the right credentials; but this is the logic to authenticate a returning user who's will enter their credentials and create a new record for a new user.  How do we keep track of the state of every user and make sure they don't have to authenticate each time they visit?
 
 The most common way of handling authentication - if all users are logged in or not - is to use cookies.
 
-According to royal.gov.uk:
+> "A **cookie** is a simple text file that is stored on a computer or mobile device by a website’s server and only that server will be able to retrieve or read the contents of that cookie.
+> Each cookie is unique to a web browser, means that if you're logged in on Google with Chrome, you will still have to login to google if you open firefox on the same computer.
+> Cookies will contain some anonymous information such as a user ID and the site name. It basically allows a website to remember things like user preferences or the content of a shopping basket."
 
-> "A cookie is a simple text file that is stored on a computer or mobile device by a website’s server and only that server will be able to retrieve or read the contents of that cookie. Each cookie is unique to a web browser, means that if you're logged in on Google with Chrome, you will still have to login to google if you open firefox on the same computer. Cookies will contain some anonymous information such as a user ID and the site name. It basically allows a website to remember things like user preferences or the content of a shopping basket."
-
-## Demo/Codealong - How to use Cookies (15 mins)
-
-> Note: Point out that students can try to follow along via a code along if they want, but that we'll be moving fast and starter code will be provided for the final activity.  It might be better for students to closely pay attention and ask any concept-related questions.
+## Demo/Codealong - How to use Cookies
 
 To illustrate how cookies are written and read from/by the server, let's create a rails app:
 
@@ -39,7 +37,6 @@ rails new cookies_example
 cd cookies_example
 subl .
 ```
-
 
 Now we are going to create a controller `cookies` with 3 methods:
 
@@ -75,37 +72,39 @@ Launch the server:
 rails s
 ```
 
-...and then, before opening localhost:3000 in the server, open the chrome dev tools and go to the tab "resources".  On the left side of the panel, select cookies and localhost.  Be aware that some cookies from other Rails application will appear, as cookies are shared for each domain.
+...and then, before opening `localhost:3000` in the server, open the chrome dev tools and go to the tab `resources`. On the left side of the panel, select cookies and localhost.  Be aware that some cookies from other Rails application will appear, as cookies are shared for each domain.
 
-If you go to `/cookies/example_1`, you will see that a cookie called "user_name" with a value "david". Because we haven't set any expiration time for this cookie, by default it will last for the current session, until the browser is closed or the machine is turned off.
+If you go to `/cookies/example_1`, you will see that a cookie called `user_name` with a value `david`. Because we haven't set any expiration time for this cookie, by default it will last for the current session, until the browser is closed or the machine is turned off.
 
-
-Now go to `/cookies/example_2`, this action is adding another cookie "reference_to_keep_for_a_while", but check the column "expires" in the chrome dev tools, this one mention a specific time: this is because we said so when we've set it with the key `expires` in the hash:
+Now go to `/cookies/example_2`, this action is adding another cookie `reference_to_keep_for_a_while`, but check the column `expires` in the chrome dev tools, this one mention a specific time: this is because we said so when we've set it with the key `expires` in the hash:
 
 ```ruby
 cookies[:reference_to_keep_for_a_while] = { value: "XJ-122", expires: 1.year.from_now }
 ```
 
+> Do you like using things like `1.year.from_now`? Check out whats possible with the [ActionView::Helpers::DateHelper](http://apidock.com/rails/ActionView/Helpers/DateHelper/) or any of the [helpers provided by Action View](http://guides.rubyonrails.org/action_view_overview.html#overview-of-helpers-provided-by-action-view)
+
 Regardless of the browser being turned off or anything that can happen, this cookie will stay set for this website for a year.
 
 In the third method `/cookies/example_3`, we print the content of the cookies on the server and then we delete a cookie called `:user_name`
 
-
 Cookies can be set on both the client and the server side, and they can be read by both, too.  Remember, they are used to keep the state of a user through many requests.
 
-## Cookies Recap - Discussion (5 mins)
+## Cookies Recap - Discussion
 
 > Note: Since this is a long Demo/Codealong (if you choose to make it a Codealong).  Take five minutes to pause and ask some questions that will check for student understanding and slowly review or re-explain topics that students may have missed.
 
-## Demo/Codeaong - Implement session using cookies (25 mins)
+## Demo/Codeaong - Implement session using cookies
 
-- Give out starter-code
+- Check out the [Starter Code](https://github.com/wdi-hk-9/lesson-rails-sessions-custom-auth)
 
-> Note: Point out that students can try to follow along via a codealong if they want, but that we'll be moving fast and starter code will be provided for the final activity.  It might be better for students to closely pay attention and ask any concept-related questions.
+#### Application Controller
 
-There is a specific cookie called the "session cookie" - this one is set by the server and we can add and remove keys/values to it.  It works in a specific way, as the whole cookie will be encoded for every request so that the data is not directly accessible on the client side.
+There is a specific cookie called the `session cookie` - this one is set by the server and we can add and remove keys/values to it. The whole cookie will be **encoded for every request** so that the data is not directly accessible on the client side.
 
-At the moment, if you sign in with valid credentials, you will see a message saying that you are logged in, but in fact, the website will not remember that you are logged in the next time you reload the page.  To enable this, we need to store a value (a flag) in the session to tell Rails that the user requesting a page is the user X or Y. We will store the user id of the logged in user in the session cookie.
+At the moment, if you sign in with valid credentials, you will see a message saying that you are logged in, but in fact, the website **will not remember** that you are logged in the next time you reload the page.
+
+To enable this, we need to store a value (a flag) in the `session` to tell Rails that the user requesting a page is the user X or Y. We will store the `user_id` of the logged in user in the session cookie.
 
 This will happen when a user successfully logs-in:
 
@@ -140,14 +139,23 @@ end
 
 The first method `current_user` will return a user object if there is a user_id in the session cookie or will return `nil`.
 
-The syntax `||=` means that if the instance variable on the left of the sign is anything different than `nil`, the return value from `User.find(session[:user_id])` will be assigned, otherwise, the original value assigned to the variable will be kept. We call this 'conditional assignment'.  The second method `logged_in?` will always return a boolean - this is  why we use a `?` in the method name - and will just convert the value returned by `current_user` to a boolean.
+
+> **Ruby Conditional assignment**
+>
+> a ||= b
+> The `||=` operator will check if `a` is anything different than `nil`
+> - if it is: return value from `b`
+> - otherwise: keep value of `a`
+
+The second method `logged_in?` will always return a boolean - this is  why we use a `?` in the method name - and will just convert the value returned by `current_user` to a boolean.
 
 Because these methods are in the `ApplicationController` and all the controllers in our app inherit from `ApplicationController`, we will now be able to use them in all controllers.
 
+#### Updating Views
 
-At the top of controller, there is the line `helper_method :current_user`, this means that we can call the method `current_user` in the views. This is really helpful to show information about the user in the views.  For example, if a user is on their profile, you could add a conditional displaying an 'Edit Your Profile' link if the user viewing the page is the current user.
+At the top of controller, there is the line `helper_method :current_user`, this means that we can call the method `current_user` in the views. This is really helpful to show information about the user in the views. For example, if a user is on their profile, you could add a conditional displaying an 'Edit Your Profile' link if the user viewing the page is the current user.
 
-Now we should probably show some information in the layout,  and we'll be able to change this this information depending on if user is logged-in or not. If the user is logged, in we will show a welcome message with the user email and a link to log-out, otherwise we will show two links, one for sign-in and another one for sign-up.
+Now we should probably show some information in the layout, and we'll be able to change this this information depending on if user is logged-in or not. If the user is logged, in we will show a welcome message with the user email and a link to log-out, otherwise we will show two links, one for sign-in and another one for sign-up.
 
 In the layout, before the `<%= yield %>`, add:
 
@@ -180,8 +188,6 @@ And update the view to be:
 ```
 <%= link_to 'Logout', logout_path, method: :delete, data: {confirm: 'Are you sure?'} %>
 ```
-
-- If your browser is still making a GET request, turn of Chrome and then turn back on again.
 
 #### Restrict access to some data
 
@@ -236,13 +242,16 @@ And this is how you can restrict access to some resources!
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-Fork & clone this [repo][https://github.com/wdi-hk-9/lesson-rails-sessions-custom-auth], create a controller `pages` with three different methods "everyone", "logged_in" and "logged_out".
+Fork & clone this [repo][https://github.com/wdi-hk-9/lesson-rails-sessions-custom-auth], create a controller `pages` with three different methods `everyone`, `logged_in` and `user_1`.
 
-The method "everyone" should be accessible for every visitor, the method logged_in should be accessed only by the people that are logged_in, and the method logged_out can only be accessed for users **NOT** logged_in.
+- The method `everyone` should be accessible for every visitor
+- the method `logged_in` should be accessed only by the people that are logged in
+- the method `user_1` can only be accessed for `user_id = 1`
 
 Tip: You can have several before_action per controller.
 
 ## Conclusion (5 mins)
+
 - What are cookies?
 - Explain how to set cookies in a Rails application.
 - Why is authentication important for Web apps?

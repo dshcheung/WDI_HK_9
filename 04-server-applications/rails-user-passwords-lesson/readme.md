@@ -18,12 +18,13 @@
 - Use partials and templates in views
 
 
-## Intro - What is Authentication and Encryption? (15 mins)
-
+## Intro - What is Authentication and Encryption?
 
 #### Authentication
 
-Today, we are going to learn about making our site more secure. Authentication is about making sure you know the identity of the person accessing your site and the data you store.  Essentially, it's about asking for passwords, or other proof of identity.  It doesn't guarantee anything - if your girlfriend knows your email password, they could "pretend" to be you on a website.  Authentication should be used whenever you want to know exactly who is using or viewing your site.  To know which user is currently logged-in, a website needs to store sensitive data - this data will, therefore, be *encrypted*.
+Today, we are going to learn about making our site more secure. Authentication is about making sure you know the identity of the person accessing your site and the data you store.  Essentially, it's about asking for passwords, or other proof of identity.  It doesn't guarantee anything - if your girlfriend knows your email password, they could "pretend" to be you on a website.
+
+Authentication should be used whenever you want to know exactly who is using or viewing your site.  To know which user is currently logged-in, a website needs to store sensitive data - this data will, therefore, be *encrypted*.
 
 #### Encryption
 
@@ -35,11 +36,18 @@ When we talk about passwords, the commonly used word is "encryption", although t
 |     |One-way function	| Reversible Operation |
 |Invertible Operation? |	No, For modern hashing algorithms it is not easy to reverse the hash value to obtain the original input value |	Yes, Symmetric encryption is designed to allow anyone with access to the encryption key to decrypt and obtain the original input value |
 
-Now, we'll see how to implement hashing in a Rails app.
+Now, we'll see how to implement hashing in a Ruby/Rails app.
 
-## Demo: Implement hashing in a Rails app (20 mins)
+## Demo: Implement hashing in Ruby
 
-> Note: The instructor will create an app and then show the encrypted password and how.
+We will be using a gem called [bcrypt](https://github.com/codahale/bcrypt-ruby):
+
+```
+$ gem install bcrypt
+$ ruby -e "require 'bcrypt'; pwd = gets; puts BCrypt::Password.create(pwd.chomp)"
+```
+
+## Demo: Implement hashing in a Rails app
 
 ```bash
 rails new password_example
@@ -47,12 +55,11 @@ cd password_example
 subl .
 ```
 
-To implement hashing in our app, we will use a gem called `bcrypt-ruby` :
+To implement hashing in our app, we will use `bcrypt` as well :
 
 ```bash
 gem 'bcrypt', '~> 3.1.2'
 bundle
-rbenv rehash
 ```
 
 Now we can create a model called `User` :
@@ -62,9 +69,9 @@ rails g model User email password_digest
 rake db:migrate
 ```
 
-The field `password_digest` will be used to store the "hashed password", we will see what it looks like in a few seconds but know that the original password will never be stored.  The logic for hashing a password the right way would be quite long to implement manually, so instead, we will just add a method provided by `bcrypt-ruby` to enable all the hashing/storing the hash logic, and we will add a validation for the email:
+The field `password_digest` will be used to store the "hashed password", so the original password will never be stored. The logic for hashing a password the right way would be quite long to implement manually, so instead, we will just add a method provided by `bcrypt-ruby` to enable all the hashing/storing the hash logic, and we will add a validation for the email:
 
-In app/models/user.rb :
+In `app/models/user.rb` :
 
 ```ruby
 class User < ActiveRecord::Base
@@ -73,17 +80,16 @@ class User < ActiveRecord::Base
 end
 ```
 
-Now that we added this method `has_secure_password` to the user model, we can use two "virtual" attributes on the model, `password` and `password_confirmation`.
-
-"has_secure_password" gives you:
+Now that we added this method `has_secure_password` to the user model, we can use two "virtual" attributes on the model, `password` and `password_confirmation`. `has_secure_password` gives you:
 
 - password hashing and salting
   - by the way, **salting** is when random data is used as additional input to a one-way function that hashes a password or passphrase
 - authenticating against the hashed password
 - password confirmation validation
 
+![](http://3.bp.blogspot.com/-MZXxu6K5kmw/UpYnwO89WEI/AAAAAAAAAAU/gjQza5sXz48/s1600/password_hashing.png)
 
-Now, in a rails console, type:
+Now, in a `rails console`:
 
 ```ruby
 user = User.new
@@ -96,7 +102,7 @@ user.password_digest
 
 The long string of characters returned when we call the method `user.password_digest` is the hashed password!
 
-##  Implement Secure Password Authentication - Codealong (40 mins)
+##  Implement Secure Password Authentication - Codealong
 
 Now that you've seen me do it, let's try it together. First, create a rails app:
 
@@ -106,7 +112,7 @@ cd password_example
 subl .
 ```
 
-We will first need to install the bcrypt encryption gem. In our `Gemfile`, we add the line:
+We will first need to install the `bcrypt` encryption gem. In our `Gemfile`, we add the line:
 
 ```
 gem 'bcrypt', '~> 3.1.2'
@@ -116,17 +122,16 @@ Then in terminal:
 
 ```bash
 bundle
-rbenv rehash
 ```
 
-Now we can generate a User model with an email and pasword_digest.
+Now we can generate a User model with an email and `pasword_digest`.
 
 ```bash
 rails g model User email password_digest
 rake db:migrate
 ```
 
-In "models/user.rb":
+In `models/user.rb`:
 
 ```ruby
 class User < ActiveRecord::Base
@@ -141,7 +146,7 @@ end
 rails g controller users index new create
 ```
 
-In "controllers/users_controller.rb":
+In `controllers/users_controller.rb`:
 
 ```ruby
 class UsersController < ApplicationController
@@ -169,11 +174,11 @@ class UsersController < ApplicationController
 
 end
 ```
-> Note: Might want to touch on strong params here.
+> Note: Please note the use of [Strong Params](http://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters) here
 
 Let’s update our routes to include our users.
 
-In "config/routes.rb":
+In `config/routes.rb`:
 
 ```
 resources :users, only: [:new, :index, :create]
@@ -181,7 +186,7 @@ resources :users, only: [:new, :index, :create]
 
 Then we update our views:
 
-In "views/users/index.html.erb":
+In `views/users/index.html.erb`:
 
 ```erb
 <h1> Users index </h1>
@@ -191,7 +196,7 @@ In "views/users/index.html.erb":
 <% end %>
 ```
 
-In "views/users/new.html.erb":
+In `views/users/new.html.erb`:
 
 ```
 <h1>Sign Up</h1>
@@ -225,7 +230,7 @@ In "views/users/new.html.erb":
 <% end %>
 ```
 
-In "views/application/layout.html.erb", at the top of our body section, add:
+In `views/application/layout.html.erb`, at the top of our body section, add our [flash messages](http://guides.rubyonrails.org/action_controller_overview.html#the-flash):
 
 ```erb
 <% flash.each do |name, message| %>
@@ -235,17 +240,15 @@ In "views/application/layout.html.erb", at the top of our body section, add:
 <% end %>
 ```
 
-> Note: Quickly explain flash messages in context of Rails. [http://guides.rubyonrails.org/action_controller_overview.html#the-flash]()
-
 #### Sessions Controller
 
-Now to allow the user to login and out, we will need to create a sessions controller:
+Now to allow the user to login and out, we will need to create a `sessions_controller`:
 
 ```bash
 rails g controller sessions new create destroy
 ```
 
-Now we can create routes for this controller.  In "routes.rb" you should now have:
+Now we can create routes for this controller.  In `configs/routes.rb` you should now have:
 
 ```ruby
 root "users#index"
@@ -255,21 +258,25 @@ get 'login', to: 'sessions#new'
 resources :sessions, only: [:new, :create, :destroy]
 ```
 
-In "sessions_controller.rb" we'll need to add some logic to handle the user's input for email and password:
+In `sessions_controller.rb` we'll need to add some logic to handle the user's input for email and password:
 
 ```ruby
 class SessionsController < ApplicationController
  def new
  end
 
+ # Authentication logic
  def create
   user = User.find_by_email(params[:email])
+
+  # email_found && params[:password] == hashed_password ?
   if user && user.authenticate(params[:password])
     redirect_to root_path, notice: "logged in!"
   else
    flash.now.alert = "invalid login credentials"
-   render "new"
+   render "new"  # sessions#new
   end
+
  end
 
  def destroy
@@ -279,13 +286,12 @@ class SessionsController < ApplicationController
 end
 ```
 
-Let's go through this line by line: All the authentication logic happens in the create method, but notice, first, we try to find a record in the table users. The line after, if there is a user record and if the password sent through the form corresponds to the hashed password in the database, then it means all the credentials (email + password) are valid, otherwise, the else case will be executed and either the email or the password were invalid - the user would get a message 'invalid login credentials' and be redirected to the ```sessions/new``` endpoint.
-
 **Note: Flash.now vs Flash**
 
 ```
 flash.now[:message] = "Hello current action"
 ```
+
 When you need to pass an object to the next action, you use the standard flash assign ([]=). When you need to pass an object to the current action, you use now, and your object will vanish when the current action is done.
 
 Now we will need to add a login form:
@@ -307,21 +313,20 @@ In "views/sessions/new.html.erb":
 <% end %>
 ```
 
-Now we can delete the extra templates
+Now we can delete the extra templates:
 
 - sessions/create.html.erb
 - sessions/destroy.html.erb
 - users/create.html.erb
 
-After all this, create a user via `localhost:3000/users/new`. Then,  checkout `localhost:3000/users` - you should see the email you've used and the hashed password.
+After all this, create a user via `http://localhost:3000/users/new`. Then,  checkout `http://localhost:3000/users` - you should see the email you've used and the hashed password.
 
-Now, you can try to sign-in by going to `localhost:3000/sessions/new`, and if you enter the credentials that matched your created user, you should see a message on the next page "Logged in!"; otherwise, the `else` statement will have executed, and you'll see "invalid login credentials".
+Now, you can try to sign-in by going to `http://localhost:3000/sessions/new`, and if you enter the credentials that matched your created user, you should see a message on the next page "Logged in!"; otherwise, the `else` statement will have executed, and you'll see "invalid login credentials".
 
 ...and that is how to implement an authentication system in Rails!
 
-> ***Note:*** _This lesson being already quite long and involving a lot of typing from the students, we deliberately omit the students practice._
-
 ## Conclusion (10 mins)
+
 We've covered a lot! You now know what happens when a password is saved in a database and how to authenticate a user. At the moment, our Rails app does not "remember" that a user is authenticated, to implement this, we will need functions, which is the topic of the next lesson.
 
 - Describe the difference between hashing and encrypting.
