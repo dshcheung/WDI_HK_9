@@ -7,7 +7,7 @@
 - Describe how a cookie works with user sessions and which users are "logged in"
 - Create a cookie with a user's ID
 - Create a form that on looks up a user & creates a cookie
-- Write a helper for logged_in? & current_user to find a user by the ID in the cookie
+- Write a helper for `logged_in?` & `current_user` to find a user by the ID in the cookie
 - Log out a user by deleting a cookie
 - Give access to specific routes only to logged users
 
@@ -20,12 +20,16 @@
 
 ##Intro - It's all about sessions
 
-During the previous lesson, we've covered how to store critical data like passwords and how to know if a user is providing the right credentials; but this is the logic to authenticate a returning user who's will enter their credentials and create a new record for a new user.  How do we keep track of the state of every user and make sure they don't have to authenticate each time they visit?
+During the previous lesson, we've covered how to store critical data like passwords and how to know if a user is providing the right credentials; but this is the logic to authenticate a returning user who's will enter their credentials and create a new record for a new user.
+
+How do we keep track of the state of every user and make sure they don't have to authenticate each time they visit?
 
 The most common way of handling authentication - if all users are logged in or not - is to use cookies.
 
 > "A **cookie** is a simple text file that is stored on a computer or mobile device by a website’s server and only that server will be able to retrieve or read the contents of that cookie.
+>
 > Each cookie is unique to a web browser, means that if you're logged in on Google with Chrome, you will still have to login to google if you open firefox on the same computer.
+>
 > Cookies will contain some anonymous information such as a user ID and the site name. It basically allows a website to remember things like user preferences or the content of a shopping basket."
 
 ## Demo/Codealong - How to use Cookies
@@ -46,7 +50,7 @@ rails g controller cookies example_1 example_2 example_3
 
 Open the controller, and in the three methods, add:
 
-```
+```ruby
 class CookiesController < ApplicationController
   def example_1
   	cookies[:user_name] = "david"
@@ -89,10 +93,6 @@ Regardless of the browser being turned off or anything that can happen, this coo
 In the third method `/cookies/example_3`, we print the content of the cookies on the server and then we delete a cookie called `:user_name`
 
 Cookies can be set on both the client and the server side, and they can be read by both, too.  Remember, they are used to keep the state of a user through many requests.
-
-## Cookies Recap - Discussion
-
-> Note: Since this is a long Demo/Codealong (if you choose to make it a Codealong).  Take five minutes to pause and ask some questions that will check for student understanding and slowly review or re-explain topics that students may have missed.
 
 ## Demo/Codeaong - Implement session using cookies
 
@@ -141,10 +141,15 @@ The first method `current_user` will return a user object if there is a user_id 
 
 
 > **Ruby Conditional assignment**
->
-> a ||= b
+
+```ruby
+ a ||= b
+```
+
 > The `||=` operator will check if `a` is anything different than `nil`
+>
 > - if it is: return value from `b`
+>
 > - otherwise: keep value of `a`
 
 The second method `logged_in?` will always return a boolean - this is  why we use a `?` in the method name - and will just convert the value returned by `current_user` to a boolean.
@@ -179,13 +184,13 @@ end
 
 We'll need to add a custom path to access this route without an id in the url (the classic path here will be /sessions/:id but we don't need an id) so add to `routes.rb.`:
 
-```
+```ruby
 delete "/logout", to: "sessions#destroy"
 ```
 
 And update the view to be:
 
-```
+```erb
 <%= link_to 'Logout', logout_path, method: :delete, data: {confirm: 'Are you sure?'} %>
 ```
 
