@@ -76,7 +76,7 @@ Launch the server:
 rails s
 ```
 
-...and then, before opening `localhost:3000` in the server, open the chrome dev tools and go to the tab `resources`. On the left side of the panel, select cookies and localhost.  Be aware that some cookies from other Rails application will appear, as cookies are shared for each domain.
+...and then, before opening `localhost:3000` in the server, open the chrome dev tools and go to the tab [resources](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/). On the left side of the panel, select `cookies` and `localhost`.  Be aware that some cookies from other Rails application will appear, as cookies are shared for each domain.
 
 If you go to `/cookies/example_1`, you will see that a cookie called `user_name` with a value `david`. Because we haven't set any expiration time for this cookie, by default it will last for the current session, until the browser is closed or the machine is turned off.
 
@@ -140,17 +140,14 @@ end
 The first method `current_user` will return a user object if there is a user_id in the session cookie or will return `nil`.
 
 
-> **Ruby Conditional assignment**
+**Ruby Conditional assignment**
 
 ```ruby
+ # Is `a` is anything different than `nil`?
+ # Assign the value of `b`
+ # otherwise: keep value of `a`
  a ||= b
 ```
-
-> The `||=` operator will check if `a` is anything different than `nil`
->
-> - if it is: return value from `b`
->
-> - otherwise: keep value of `a`
 
 The second method `logged_in?` will always return a boolean - this is  why we use a `?` in the method name - and will just convert the value returned by `current_user` to a boolean.
 
