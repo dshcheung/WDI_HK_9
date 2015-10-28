@@ -42,7 +42,7 @@ Now, we'll see how to implement hashing in a Ruby/Rails app.
 
 We will be using a gem called [bcrypt](https://github.com/codahale/bcrypt-ruby):
 
-```
+```bash
 $ gem install bcrypt
 $ ruby -e "require 'bcrypt'; pwd = gets; puts BCrypt::Password.create(pwd.chomp)"
 ```
@@ -114,7 +114,7 @@ subl .
 
 We will first need to install the `bcrypt` encryption gem. In our `Gemfile`, we add the line:
 
-```
+```ruby
 gem 'bcrypt', '~> 3.1.2'
 ```
 
@@ -142,7 +142,7 @@ end
 
 ...and generate a users controller:
 
-```
+```bash
 rails g controller users index new create
 ```
 
@@ -180,7 +180,7 @@ Let’s update our routes to include our users.
 
 In `config/routes.rb`:
 
-```
+```ruby
 resources :users, only: [:new, :index, :create]
 ```
 
@@ -198,7 +198,7 @@ In `views/users/index.html.erb`:
 
 In `views/users/new.html.erb`:
 
-```
+```erb
 <h1>Sign Up</h1>
 <%= form_for @user do |f| %>
   <% if @user.errors.any? %>
@@ -288,7 +288,7 @@ end
 
 **Note: Flash.now vs Flash**
 
-```
+```ruby
 flash.now[:message] = "Hello current action"
 ```
 
