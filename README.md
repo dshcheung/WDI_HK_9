@@ -226,7 +226,7 @@ Day 1                                               | Day 2                     
 [HW-Lab: Modeling relationships - Models][5-1B]     | [Controllers and routes in Rails][5-2B]    | [User models with passwords][5-3B]         | [Deploying to Heroku][5-4B]             | [Accessing third-party APIs][5-5B]
 [HW-Lab: Modeling relationships - Controllers][5-1C]| [Layouts, partials, and views][5-2C]       | [Sessions/logging in by hand][5-3C]        | [Lab: Full CRUD app depoyed][5-4C]      | [Lab: API hackathon][5-5C]
                                                     | [HW-Lab: First Rails app][5-2D]            | [Lab: Sessions/logging in by hand][5-3D]   | [Intro to testing][5-4D]                | [+Introduce project 2 + project time][5-5D]
-                                                    | [HW-Lab: Layouts, partials, views][5-2E]   | [+HW: Full CRUD app with views][5-3E]      | [+HW: Rails and RSpec][5-4E]            |
+                                                    | [HW-Lab: Layouts, partials, views][5-2E]   |                                            | [+HW: Rails and RSpec][5-4E]            |
 
 [5-1Z]: https://github.com/wdi-hk-9/rspec_word_count                                              "Assessment"
 [5-1A]: 04-server-applications/sinatra-activerecord-modeling-relationships-lesson                 "Modeling relationships - Lesson"
@@ -243,11 +243,10 @@ Day 1                                               | Day 2                     
 
 [5-3Z]: 14-assessments/w05d3.md                                                                   "Assessment"
 [5-3Y]: 14-assessments/w05d3-solution.rb                                                          "Solution"
-[5-3A]: 04-server-applications/rails-relationships-lab                                            "Building a Rails app with Relationships Lab"
+[5-3A]: https://github.com/wdi-hk-9/lab-rails-relationships                                       "Building a Rails app with Relationships Lab"
 [5-3B]: 04-server-applications/rails-user-passwords-lesson                                        "User Models with Passwords"
 [5-3C]: 04-server-applications/rails-sessions-custom-auth-lesson                                  "Sessions/Logging in by Hand"
-[5-3D]: 04-server-applications/rails-sessions-login-lab                                           "Sessions/Login Lab"
-[5-3E]: # " "
+[5-3D]: https://github.com/wdi-hk-9/lab-rails-sessions-login                                      "Sessions/Login Lab"
 
 [5-4Z]: # " "
 [5-4A]: 02-front-end-intro/css-bootstrap-lab                                                      "Hello Bootstrap Lab"
