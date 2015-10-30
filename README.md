@@ -219,14 +219,14 @@ Day 1                             | Day 2                                       
 <a name="week5"></a>
 ### Week 5 | Full-Stack Fundamentals, MVC
 
-Day 1                                               | Day 2                                      | Day 3                                     | Day 4                                    | Day 5
---------------------------------------------------- | ------------------------------------------ | ----------------------------------------- | ---------------------------------------- | -----------------------------------
-[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z] & [Solution][5-3Y]     | [Sessions/logging in by hand][5-4A]      | [Assessment][5-5Z]
-[Modeling relationships][5-1A]                      | [Intro to Rails][5-2A]                     | [Lab: Rails app with relationships][5-3A] | [Deploying to Heroku][5-4B]              | [Lab: Full CRUD app depoyed][5-5A]
-[HW-Lab: Modeling relationships - Models][5-1B]     | [Controllers and routes in Rails][5-2B]    | [User models with passwords][5-3B]        | [Intro to testing][5-4C]                 | [Accessing third-party APIs][5-5B]
-[HW-Lab: Modeling relationships - Controllers][5-1C]| [Layouts, partials, and views][5-2C]       |                                           |[HW-Lab: Authentication & Boostrap][5-4D]| [Lab: API hackathon][5-5C]
-                                                    | [HW-Lab: First Rails app][5-2D]            |                                           |                                          |
-                                                    | [HW-Lab: Layouts, partials, views][5-2E]   |                                           |                                          |
+Day 1                                               | Day 2                                      | Day 3                                     | Day 4                                     | Day 5
+--------------------------------------------------- | ------------------------------------------ | ----------------------------------------- | ----------------------------------------- | -----------------------------------
+[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z] & [Solution][5-3Y]     | [Sessions/logging in by hand][5-4A]       | [Lab: Full CRUD app depoyed][5-5A]
+[Modeling relationships][5-1A]                      | [Intro to Rails][5-2A]                     | [Lab: Rails app with relationships][5-3A] | [Deploying to Heroku][5-4B]               | Projects!
+[HW-Lab: Modeling relationships - Models][5-1B]     | [Controllers and routes in Rails][5-2B]    | [User models with passwords][5-3B]        | [Intro to testing][5-4C]                  |
+[HW-Lab: Modeling relationships - Controllers][5-1C]| [Layouts, partials, and views][5-2C]       |                                           | [HW-Lab: Authentication & Boostrap][5-4D] |
+                                                    | [HW-Lab: First Rails app][5-2D]            |                                           |                                           |
+                                                    | [HW-Lab: Layouts, partials, views][5-2E]   |                                           |                                           |
 
 
 
@@ -254,7 +254,4 @@ Day 1                                               | Day 2                     
 [5-4C]: 06-testing/ruby-testing-intro-lesson                                                      "Intro to testing"
 [5-4D]: https://github.com/wdi-hk-9/lab-rails-sessions-login-boostrap                             "Sessions/Login Lab"
 
-[5-5Z]: # " "
 [5-5A]: https://github.com/wdi-hk-9/lab-rails-full-crud-app                                       "Full CRUD app with Views Deployed Lab"
-[5-5B]: 00-programming/ruby-accessing-third-party-apis-lesson                                     "Accessing Third-Party APIs"
-[5-5C]: 06-server-applications/apis/apis-hackathon                                                "API Hackathon"
