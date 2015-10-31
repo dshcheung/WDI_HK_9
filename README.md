@@ -255,4 +255,4 @@ Day 1                                               | Day 2                     
 [5-4D]: https://github.com/wdi-hk-9/lab-rails-sessions-login-boostrap                             "Sessions/Login Lab"
 
 [5-5A]: https://github.com/wdi-hk-9/lab-rails-full-crud-app                                       "Full CRUD app with Views Deployed Lab"
-[5-5A]: projects/project-02.md                                                                    "Project Specs"
+[5-5B]: projects/project-02.md                                                                    "Project Specs"
