@@ -228,9 +228,6 @@ Day 1                                               | Day 2                     
                                                     | [HW-Lab: First Rails app][5-2D]            |                                           |                                           |
                                                     | [HW-Lab: Layouts, partials, views][5-2E]   |                                           |                                           |
 
-
-
-
 [5-1Z]: https://github.com/wdi-hk-9/rspec_word_count                                              "Assessment"
 [5-1A]: 04-server-applications/sinatra-activerecord-modeling-relationships-lesson                 "Modeling relationships - Lesson"
 [5-1B]: https://github.com/wdi-hk-9/lab-sinatra-activerecord-modeling-relationships               "Lab: Modeling relationships - Models"
@@ -256,3 +253,9 @@ Day 1                                               | Day 2                     
 
 [5-5A]: https://github.com/wdi-hk-9/lab-rails-full-crud-app                                       "Full CRUD app with Views Deployed Lab"
 [5-5B]: projects/project-02.md                                                                    "Project Specs"
+
+<a name="week6"></a>
+### Week 6 | Project Week
+
+#### Presentation Guidelines
+[Guideline](projects/presentation_guideline.md)
