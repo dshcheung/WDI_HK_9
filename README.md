@@ -269,34 +269,27 @@ Day 1                                    | Day 2                                
 [Git team workflow part 2][7-1B]         | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Mongoose modeling][7-4B]                      | [+Review session][7-5B]
 [Rails API][7-1C]                        | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] | [Deploying a Node application][7-4C]                | [+Lab: Single model, RESTful JSON API][7-5C]
 [Lab: Rails API ][7-1D]                  | [Debugging and logging in Node][7-2D] | [Lab: CRUD with Mongoose][7-3D]           | [Lab: Connecting Express routes to Mongo][7-4D]     |
-[+HW: Add an API to prevoius work][7-1E] | [+HW: Debugging and logging ][7-2E]   | [+HW: Mongo data modeling][7-3E]          | [+HW: Finishing and Deploying an Express app][7-4E] |
 
 [7-1A]: 01-workflow/git-team-workflow-lesson-part-1    "Git Team Workflow Part 1"
 [7-1B]: 01-workflow/git-team-workflow-lesson-part-2     "Git Team Workflow Part 2"
 [7-1C]: 04-server-applications/rails-api-lesson         "Rails API"
-[7-1D]: 04-server-applications/rails-api-lab            "Rails API lab"
-[7-1E]: # " "
+[7-1D]: https://github.com/wdi-hk-9/lab-rails-api            "Rails API lab"
 
 [7-2A]: 04-server-applications/node-intro-lesson             "Intro to Node.js"
 [7-2B]: 04-server-applications/node-express-intro-lesson     "Intro to Express / Express Routing"
 [7-2C]: 04-server-applications/node-express-routing-lab      "Building Express Routes Lab"
 [7-2D]: 04-server-applications/node-debugging-lesson         "Debugging and logging in Node"
-[7-2E]: # " "
 
 [7-3A]: # " "
 [7-3B]: 05-databases/mongo-nosql-intro-lesson                    "Intro to node with Mongo"
 [7-3C]: 04-server-applications/node-express-mongo-models-lesson  "Mongo-backed models with Mongoose"
 [7-3D]: 04-server-applications/node-express-mongo-crud-lab       "Mongoose CRUD Lab"
-[7-3E]: # " "
 
 [7-4A]: # " "
 [7-4B]: 04-server-applications/node-express-mongo-modeling-lab       "Mongoose Modeling Embedded and Reference Lab"
 [7-4C]: 07-deployment/heroku-node-deployment-lesson                  "Deploying a Node application"
 [7-4D]: 04-server-applications/node-express-mongo-routing-lab        "Connecting Express Routes to Mongo Lab"
-[7-4E]: # " "
 
 [7-5A]: 00-programming/js-constructors-and-prototypes                      "Constructors and Prototypes"
 [7-5B]: # " "
 [7-5C]: # " "
-[7-5D]: # " "
-[7-5E]: # " "
