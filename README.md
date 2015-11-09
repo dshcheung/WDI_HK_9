@@ -261,7 +261,7 @@ Day 1                                               | Day 2                     
 [Guideline](projects/presentation_guideline.md)
 
 <a name="week7"></a>
-### Week 7 | Javascript Framworks Intro
+### Week 7 | Javascript Frameworks Intro
 
 Day 1                                    | Day 2                                 | Day 3                                     | Day 4                                               | Day 5
 --------------------------------         | ------------------------------------- | ----------------------------------------- | --------------------------------------------------- | -----------------------------------
@@ -293,3 +293,5 @@ Day 1                                    | Day 2                                
 [7-5A]: 00-programming/js-constructors-and-prototypes                      "Constructors and Prototypes"
 [7-5B]: # " "
 [7-5C]: # " "
+[7-5D]: # " "
+[7-5E]: # " "
