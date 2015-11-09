@@ -36,23 +36,13 @@ To create a new snapshot, we use `git add` to select (or "stage") a file or file
 
 Remember, a Git repository can be imagined as a tree of interconnected nodes, each representing a commit/snapshot. Each of these nodes refers back to one (usually) previous node, which represents the state of the repository before that commit was made.
 
-![Git Repo with Two Commits](http://i.share.pho.to/cc721a8b_o.png)
-
 Each commit also has a unique name (which allows us to identify it) and a commit message (which tells us what changes the commit makes). `master`, above, is a __branch__ : a reference pointing to some commit in the 'tree' of our repository. New commits can only be made at the end of a branch.
-
-![Git Repo with Three Commits](http://i.share.pho.to/2c2384ce_o.png)
 
 #### Branching
 
-![Branching, Part 1](http://i.share.pho.to/4dd791c2_o.png)
-
 In the diagram above, alongside `master` there's another reference called `HEAD`. `HEAD` indicates the point on the repository that we're reading from. When we run `git branch`, new branches get added at wherever `HEAD` points. For instance, if we were to run `git branch structure` on the repo above, here's what would happen.
 
-![Branching, Part 2](http://i.share.pho.to/bd5f4d78_o.png)
-
 In addition to specifying where new branches go, if HEAD is pointing at the end of a branch, it also means that new commits will be added to that branch. If we want to start adding commits to our new `structure` branch instead of our `master` branch, we have to move `HEAD`; this is done using the command `git checkout`. In particular, we want to checkout the `structure` branch, so we would run `git checkout structure`.  Also, we could have created the `structure branch` and switched the head to that branch all in one command with `git checkout -b struture`.
-
-![Branching, Part 3](http://i.share.pho.to/4836520b_o.png)
 
 New commits would then be placed onto the `structure` branch:
 
@@ -61,8 +51,6 @@ git add .
 git commit -m 'Adds a folder for holding images
 (using a .gitkeep as a placeholder until I put files there).'
 ```
-
-![Branching, Part 4](http://i.share.pho.to/9ba85942_o.png)
 
 ### Fix IMDB...as a team! Independent Practice (15 mins)
 
@@ -100,11 +88,7 @@ Now, each student should `git push origin <branch name>`.
 
 Take a look at the GitHub repository - new branches are created for you when you push from your local branches!  Now, you'll need a way to bring your changes to one version of the project. One way that Git allows us to do this is by __merging__ branches.
 
-![Merging - Separate Branches](http://i.share.pho.to/a2131879_o.png)
-
 Merging creates a **new commit on your current branch** (on top of existing commits) that includes all of the changes made by another branch. The syntax for doing this is `git merge some_branch`; in context of this example, you'd have to `git checkout master` first because `some_branch` is the branch that you're pulling into your master branch.
-
-![Merging - Merged](http://i.share.pho.to/021dfd18_o.png)
 
 This doesn't destroy your original branch; all those commits are still there. However, they're not carried over to the current branch, only their data is.
 
@@ -142,8 +126,6 @@ But, think about it: locally, your master branch is missing the merged version o
 ## Merge Conflicts and Fetch - Demo (10 mins)
 
 Let's revisit our `master/structure` example.  What if someone got overzealous and made a change to `master` before we merged in `structure`? Well, if the change doesn't conflict with anything in `structure` - as in, we didn't edit the same files being worked on in `structure` probably nothing! Git tries very hard to merge automatically. However, sometimes there are conflicts that Git can't resolve on its own.
-
-![Merging - Conflict](http://i.share.pho.to/afe6e7cd_o.png)
 
 In those cases, instead of directly merging, Git asks the user to manually resolve the conflicts. In your project files, after trying to merge, those conflicts usually look something like this:
 
