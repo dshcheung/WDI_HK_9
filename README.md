@@ -282,7 +282,7 @@ Day 1                                    | Day 2                                
 [7-2Y]: 14-assessments/w07d2-solution.md                                            "Assessment - Solution"
 [7-2A]: 04-server-applications/node-intro-lesson                                    "Intro to Node.js"
 [7-2B]: 04-server-applications/node-express-intro-lesson                            "Intro to Express / Express Routing"
-[7-2C]: 04-server-applications/node-express-routing-lab                             "Building Express Routes Lab"
+[7-2C]: https://github.com/wdi-hk-9/express-routing-lab                             "Building Express Routes Lab"
 [7-2D]: 04-server-applications/node-debugging-lesson                                "Debugging and logging in Node"
 
 
