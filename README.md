@@ -253,7 +253,6 @@ Day 1                                               | Day 2                     
 
 [5-5A]: https://github.com/wdi-hk-9/lab-rails-full-crud-app                                       "Full CRUD app with Views Deployed Lab"
 [5-5B]: projects/project-02.md                                                                    "Project Specs"
-
 <a name="week6"></a>
 ### Week 6 | Project Week
 
