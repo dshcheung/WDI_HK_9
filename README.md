@@ -286,16 +286,23 @@ Day 1                                    | Day 2                                
 [7-2C]: 04-server-applications/node-express-routing-lab                             "Building Express Routes Lab"
 [7-2D]: 04-server-applications/node-debugging-lesson                                "Debugging and logging in Node"
 
+
+[7-3Z]: # " "
+[7-3Y]: # " "
 [7-3A]: # " "
 [7-3B]: 05-databases/mongo-nosql-intro-lesson                                       "Intro to node with Mongo"
 [7-3C]: 04-server-applications/node-express-mongo-models-lesson                     "Mongo-backed models with Mongoose"
 [7-3D]: 04-server-applications/node-express-mongo-crud-lab                          "Mongoose CRUD Lab"
 
+[7-4Z]: # " "
+[7-4Y]: # " "
 [7-4A]: # " "
 [7-4B]: 04-server-applications/node-express-mongo-modeling-lab                     "Mongoose Modeling Embedded and Reference Lab"
 [7-4C]: 07-deployment/heroku-node-deployment-lesson                                "Deploying a Node application"
 [7-4D]: 04-server-applications/node-express-mongo-routing-lab                      "Connecting Express Routes to Mongo Lab"
 
+[7-5Z]: # " "
+[7-5Y]: # " "
 [7-5A]: 00-programming/js-constructors-and-prototypes                              "Constructors and Prototypes"
 [7-5B]: # " "
 [7-5C]: # " "
