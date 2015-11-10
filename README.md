@@ -276,8 +276,8 @@ Day 1                                    | Day 2                                
 [7-1C]: 04-server-applications/rails-api-lesson                                     "Rails API"
 [7-1D]: https://github.com/wdi-hk-9/lab-rails-api                                   "Rails API lab"
 
-[7-2Z]: 14-assessments/w05d3.md                                                     "Assessments"
-[7-2Y]: 14-assessments/w05d3-solution.md                                            "Assessments - Solution"
+[7-2Z]: 14-assessments/w07d2.md                                                     "Assessments"
+[7-2Y]: 14-assessments/w07d2-solution.md                                            "Assessments - Solution"
 [7-2A]: 04-server-applications/node-intro-lesson                                    "Intro to Node.js"
 [7-2B]: 04-server-applications/node-express-intro-lesson                            "Intro to Express / Express Routing"
 [7-2C]: 04-server-applications/node-express-routing-lab                             "Building Express Routes Lab"
