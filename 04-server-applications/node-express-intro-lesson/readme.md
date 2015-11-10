@@ -376,7 +376,7 @@ Example, for a POST request to `/cars` the text sent back should be:
 POST request to /cars, this is the CREATE action
 ```
 
-Also, test your application with `cURL` requests to each of the RESTful endpoints.
+Also, test your application with `cURL` requests [curl cheat-sheet](http://www.cheatography.com/ankushagarwal11/cheat-sheets/curl-cheat-sheet/)to each of the RESTful endpoints.
 
 ## Conclusion (5 mins)
 A framework can be overwhelming at the start, after a couple of days you will see how it makes your life easier.  We will work more on how to make RESTful controllers, this is just an introduction.

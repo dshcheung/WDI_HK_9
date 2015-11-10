@@ -168,7 +168,7 @@ After the status code, some server headers are sent, including information about
 Since HTTP is a text-based protocol, it’s easy to make HTTP requests manually
 
 
-> Note: Demonstrate/codealong different cURL requests.  Be sure to explain cURL and remind students that the terminal can function as a client.
+> Note: Demonstrate/codealong different cURL requests ([cheat-sheet](http://www.cheatography.com/ankushagarwal11/cheat-sheets/curl-cheat-sheet/)).  Be sure to explain cURL and remind students that the terminal can function as a client.
 
 _Some text taken from [One Month](http://learn.onemonth.com/understanding-http-basics)_
 

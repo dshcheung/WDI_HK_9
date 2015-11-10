@@ -26,7 +26,7 @@ A kid has come to you with an idea for an API to keep track of his candies.  You
 
 An example app can be found in `solution-code`.
 
-Once you spin up your local server, look below at the cURL commands with the expected responses we want you to test on this app once you've finished building;  the HTTP status should always be 2XX.
+Once you spin up your local server, look below at the cURL commands [curl cheat-sheet](http://www.cheatography.com/ankushagarwal11/cheat-sheets/curl-cheat-sheet/) with the expected responses we want you to test on this app once you've finished building;  the HTTP status should always be 2XX.
 
 
 `Index` cURL Request
