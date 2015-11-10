@@ -272,6 +272,7 @@ Day 1                                    | Day 2                                
 [Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Mongoose modeling][7-4B]                      | [+Review session][7-5B]
 [Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] | [Deploying a Node application][7-4C]                | [+Lab: Single model, RESTful JSON API][7-5C]
                                          | [Debugging and logging in Node][7-2D] | [Lab: CRUD with Mongoose][7-3D]           | [Lab: Connecting Express routes to Mongo][7-4D]     |
+                                         | [HW: Express Routing Lab][7-2E]       |                                           |                                                     |
 
 [7-1A]: 01-workflow/git-team-workflow-lesson-part-1                                 "Git Team Workflow Part 1"
 [7-1B]: 01-workflow/git-team-workflow-lesson-part-2                                 "Git Team Workflow Part 2"
@@ -284,6 +285,7 @@ Day 1                                    | Day 2                                
 [7-2B]: 04-server-applications/node-express-intro-lesson                            "Intro to Express / Express Routing"
 [7-2C]: https://github.com/wdi-hk-9/express-routing-lab                             "Building Express Routes Lab"
 [7-2D]: 04-server-applications/node-debugging-lesson                                "Debugging and logging in Node"
+[7-2E]: https://github.com/wdi-hk-9/express-routing-lab                             "HW: Express Routing Lab"
 
 
 [7-3Z]: # " "
