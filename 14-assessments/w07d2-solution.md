@@ -31,6 +31,7 @@
     ...
   ```
 
-1. `render Post.all`
+1. `render json: Post.all`
+http://apidock.com/rails/ActionController/Base/render
 
 1. `head xxx` xxx is the status code
