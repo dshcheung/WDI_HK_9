@@ -260,6 +260,9 @@ Day 1                                               | Day 2                     
 #### Presentation Guidelines
 [Guideline](projects/presentation_guideline.md)
 
+<a name="unit3"></a>
+## Unit 3
+
 <a name="week7"></a>
 ### Week 7 | Javascript Frameworks Intro
 
