@@ -288,7 +288,7 @@ Day 1                                    | Day 2                                
 
 
 [7-3Z]: 14-assessments/w07d3.md                                                     "Assessment"
-[7-3Y]: #                                            "Assessment - Solution"
+[7-3Y]: 14-assessments/w07d3-solution.md                                            "Assessment - Solution"
 [7-3A]: # " "
 [7-3B]: 04-server-applications/node-debugging-lesson                                "Debugging and logging in Node"
 [7-3C]: 05-databases/mongo-nosql-intro-lesson                                       "Intro to node with Mongo"

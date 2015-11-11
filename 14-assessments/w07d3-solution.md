@@ -15,16 +15,11 @@ var tripleDouble = function(num1, num2){
 
   for (var i = 0; i < num1Str.length - 2; i++) {
     if (num1Str[i] == num1Str[i+1] && num1Str[i+1] == num1Str[i+2]) {
-      // if (num2Str.indexOf(String(num1Str[i]+ num1Str[i+1])) !== -1) {
-      //  return 1;
-      // }
-
       for (var j = 0; j < num2Str.length - 1; j++) {
         if (num2Str[j] === num1Str[i] && num2Str[j+1] === num1Str[i]) {
           return 1;
         }
       }
-
     }
   }
 
