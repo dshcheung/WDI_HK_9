@@ -269,10 +269,10 @@ Day 1                                    | Day 2                                
 --------------------------------         | ------------------------------------- | ----------------------------------------- | --------------------------------------------------- | -----------------------------------
 [Git team workflow part 1][7-1A]         | [Assessment][7-2Z] & [Solution][7-2Y] | [Assessment][7-3Z] & [Solution][7-3Y]     | [Assessment][7-4Z] & [Solution][7-4Y]               | [Assessment][7-5Z] & [Solution][7-5Y]
 [Git team workflow part 2][7-1B]         | [Intro to Node.js][7-2A]              | [#Resumes and Cover Letters][7-3A]        | [+Instructor choice][7-4A]                          | [Prototypes and constructors][7-5A]
-[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Debugging and logging in Node][7-2D]     | [Lab: Mongoose modeling][7-4B]                      | [+Review session][7-5B]
-[Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Intro to NoSQL w/ Mongo][7-3B]           | [Deploying a Node application][7-4C]                | [+Lab: Single model, RESTful JSON API][7-5C]
-                                         | [HW: Express Routing Lab][7-2E]       | [Mongo-backed models with Mongoose][7-3C] | [Lab: Connecting Express routes to Mongo][7-4D]     |
-                                         |                                       | [Lab: CRUD with Mongoose][7-3D]           |                                                     |
+[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Debugging and logging in Node][7-3B]     | [Lab: Mongoose modeling][7-4B]                      | [+Review session][7-5B]
+[Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Intro to NoSQL w/ Mongo][7-3C]           | [Deploying a Node application][7-4C]                | [+Lab: Single model, RESTful JSON API][7-5C]
+                                         | [HW: Express Routing Lab][7-2E]       | [Mongo-backed models with Mongoose][7-3D] | [Lab: Connecting Express routes to Mongo][7-4D]     |
+                                         |                                       | [Lab: CRUD with Mongoose][7-3E]           |                                                     |
 
 [7-1A]: 01-workflow/git-team-workflow-lesson-part-1                                 "Git Team Workflow Part 1"
 [7-1B]: 01-workflow/git-team-workflow-lesson-part-2                                 "Git Team Workflow Part 2"
@@ -288,7 +288,7 @@ Day 1                                    | Day 2                                
 
 
 [7-3Z]: 14-assessments/w07d3.md                                                     "Assessment"
-[7-3Y]: 14-assessments/w07d3-solution.md                                            "Assessment - Solution"
+[7-3Y]: #                                            "Assessment - Solution"
 [7-3A]: # " "
 [7-3B]: 04-server-applications/node-debugging-lesson                                "Debugging and logging in Node"
 [7-3C]: 05-databases/mongo-nosql-intro-lesson                                       "Intro to node with Mongo"
