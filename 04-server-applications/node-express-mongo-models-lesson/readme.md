@@ -37,7 +37,7 @@ Create a new Express app and install the relevant npm packages:
 3. `npm init`
 4. `npm install express --save`
 5. `npm install morgan --save`
-6. `npm instal bodyparser --save`
+6. `npm instal body-parser --save`
 7. `touch app.js` in family-tree directory
 
 To use Mongoose in your Node app:
