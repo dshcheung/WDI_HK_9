@@ -293,7 +293,7 @@ Day 1                                    | Day 2                                
 [7-3B]: 04-server-applications/node-debugging-lesson                                "Debugging and logging in Node"
 [7-3C]: 05-databases/mongo-nosql-intro-lesson                                       "Intro to node with Mongo"
 [7-3D]: 04-server-applications/node-express-mongo-models-lesson                     "Mongo-backed models with Mongoose"
-[7-3E]: 04-server-applications/node-express-mongo-crud-lab                          "Mongoose CRUD Lab"
+[7-3E]: https://github.com/wdi-hk-9/lab-node-express-mongo-crud                     "Mongoose CRUD Lab"
 
 [7-4Z]: # " "
 [7-4Y]: # " "
