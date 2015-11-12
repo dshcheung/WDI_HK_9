@@ -140,3 +140,4 @@ Choose any other Express code base you've built and push it live.  Use what you 
 
 - Identify the configuration changes we need to make to ensure our application will work on Heroku's production servers.
 - How does deployment in Rails compare to Heroku?
+- Further reading: [Getting Started with Node.js in Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
