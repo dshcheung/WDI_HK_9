@@ -291,13 +291,13 @@ Day 1                                    | Day 2                                
 [7-3C]: 04-server-applications/node-express-mongo-models-lesson                     "Mongo-backed models with Mongoose"
 [7-3D]: https://github.com/wdi-hk-9/lab-node-express-mongo-crud                     "Mongoose CRUD Lab"
 
-[7-4A]: 04-server-applications/node-express-mongo-modeling-lab                     "Mongoose Modeling Embedded and Reference Lab"
-[7-4B]: 07-deployment/heroku-node-deployment-lesson                                "Deploying a Node application"
-[7-4C]: 04-server-applications/node-express-mongo-routing-lab                      "Connecting Express Routes to Mongo Lab"
+[7-4A]: https://github.com/wdi-hk-9/lab-node-express-mongo-modeling                 "Mongoose Modeling Embedded and Reference Lab"
+[7-4B]: 07-deployment/heroku-node-deployment-lesson                                 "Deploying a Node application"
+[7-4C]: https://github.com/wdi-hk-9/lab-node-express-mongo-modeling                 "Connecting Express Routes to Mongo Lab"
 
 [7-5Z]: # " "
 [7-5Y]: # " "
-[7-5A]: 00-programming/js-constructors-and-prototypes                              "Constructors and Prototypes"
+[7-5A]: 00-programming/js-constructors-and-prototypes                               "Constructors and Prototypes"
 [7-5B]: # " "
 [7-5C]: # " "
 [7-5D]: # " "
