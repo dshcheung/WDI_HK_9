@@ -293,7 +293,7 @@ Day 1                                    | Day 2                                
 
 [7-4A]: https://github.com/wdi-hk-9/lab-node-express-mongo-modeling                 "Mongoose Modeling Embedded and Reference Lab"
 [7-4B]: 07-deployment/heroku-node-deployment-lesson                                 "Deploying a Node application"
-[7-4C]: https://github.com/wdi-hk-9/lab-node-express-mongo-modeling                 "Connecting Express Routes to Mongo Lab"
+[7-4C]: https://github.com/wdi-hk-9/lab-node-express-mongo-routing                  "Connecting Express Routes to Mongo Lab"
 
 [7-5Z]: # " "
 [7-5Y]: # " "
