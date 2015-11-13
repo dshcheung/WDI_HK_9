@@ -295,7 +295,7 @@ Day 1                                    | Day 2                                
 [7-4B]: 07-deployment/heroku-node-deployment-lesson                                 "Deploying a Node application"
 [7-4C]: https://github.com/wdi-hk-9/lab-node-express-mongo-routing                  "Connecting Express Routes to Mongo Lab"
 
-[7-5Z]: # " "
+[7-5Z]: 14-assessments/w07d5.md                                                     "Assessment"
 [7-5Y]: # " "
 [7-5A]: 00-programming/js-constructors-and-prototypes                               "Constructors and Prototypes"
 [7-5B]: # " "
