@@ -269,8 +269,8 @@ Day 1                                    | Day 2                                
 --------------------------------         | ------------------------------------- | ----------------------------------------- | --------------------------------------------------- | -----------------------------------
 [Git team workflow part 1][7-1A]         | [Assessment][7-2Z] & [Solution][7-2Y] | [Assessment][7-3Z] & [Solution][7-3Y]     | [Lab: Mongoose modeling][7-4A]                      | [Assessment][7-5Z] & [Solution][7-5Y]
 [Git team workflow part 2][7-1B]         | [Intro to Node.js][7-2A]              | [Debugging and logging in Node][7-3A]     | [Deploying a Node application][7-4B]                | [Prototypes and constructors][7-5A]
-[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Connecting Express routes to Mongo][7-4C]     | [+Review session][7-5B]
-[Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] |                                                     | [+Lab: Single model, RESTful JSON API][7-5C]
+[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Connecting Express routes to Mongo][7-4C]     | [+Lab: Single model, RESTful JSON API][7-5B]
+[Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] |                                                     |
                                          |                                       | [HW-Lab: CRUD with Mongoose][7-3D]        |                                                     |
 
 [7-1A]: 01-workflow/git-team-workflow-lesson-part-1                                 "Git Team Workflow Part 1"
@@ -296,9 +296,6 @@ Day 1                                    | Day 2                                
 [7-4C]: https://github.com/wdi-hk-9/lab-node-express-mongo-routing                  "Connecting Express Routes to Mongo Lab"
 
 [7-5Z]: 14-assessments/w07d5.md                                                     "Assessment"
-[7-5Y]: # " "
+[7-5Y]: 14-assessments/w07d5-solution.md                                            "Assessment - Solution"
 [7-5A]: 00-programming/js-constructors-and-prototypes                               "Constructors and Prototypes"
 [7-5B]: # " "
-[7-5C]: # " "
-[7-5D]: # " "
-[7-5E]: # " "
