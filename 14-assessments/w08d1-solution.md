@@ -20,7 +20,6 @@
   - pros:
     - Mostly open source.
     - Horizontal scalability. There’s no need for complex joins and data can be easily sharded and processed in parallel.
-    - Support for Map/Reduce. This is a simple paradigm that allows for scaling computation on cluster of computing nodes.
     - No need to develop fine-grained data model – it saves development time.
     - Easy to use.
     - Very fast for adding new data and for simple operations/queries.
@@ -32,7 +31,6 @@
     - No indexing support (Some solutions like MongoDB have indexing but it’s not as powerful as in SQL solutions).
     - No ACID (Some solutions have just atomicity support on single object level).
     - Bad reporting performance.
-    - Complex consistency models (like eventual consistency). CAP theorem states that it’s not possible to achieve consistency, availability and partitioning tolerance at the same time. NoSQL vendors are trying to make their solutions as fast as possible and consistency is most typical trade-off.
     - Absence of standardization. No standard APIs or query language. It means that migration to a solution from different vendor is more costly. Also there are no standard tools (e.g. for reporting)
 
 ##### Exercise
