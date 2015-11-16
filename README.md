@@ -315,6 +315,7 @@ Day 1                                 | Day 2                                   
 [+HW: AJAXify your weekend lab][8-1E] | [+HW: Add local auth to your weekend lab ][8-2E]    | [+HW: Adding social login to your weekend lab][8-3E]| [+HW: Getting better at testing][8-4E]    |
 
 [8-1Z]: 14-assessments/w08d1.md                            "Assessment"
+[8-1Y]: 14-assessments/w08d1-solution.md                   "Assessment-solution"
 [8-1A]: 04-server-applications/node-express-views-lesson   "Views with Express"
 [8-1B]: 04-server-applications/node-express-views-lab      "Views with Express Lab"
 [8-1C]: 02-front-end-intro/js-ajax-lesson                  "AJAX with JS and jQuery"
