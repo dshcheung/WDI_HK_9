@@ -307,7 +307,7 @@ Day 1                                    | Day 2                                
 
 Day 1                                 | Day 2                                               | Day 3                                               | Day 4                                     | Day 5
 --------------------------------      | -------------------------------------               | ------------------------------------                | ----------------------------------------  | -----------------------------------
-[Assessment][8-1Z]                    | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [+Underscore and Underscore Templates][8-5A]
+[Assessment][8-1Z] & [Solution][8-1Y] | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [+Underscore and Underscore Templates][8-5A]
 [Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [+Underscore and Underscore Templates][8-5A]
 [Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [+Lab: Underscore...][8-5B]
 [AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [+Introduce Project 3, project time][8-5C]

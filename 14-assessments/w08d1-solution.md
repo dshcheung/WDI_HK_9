@@ -13,6 +13,28 @@
 - What format does MongoDB use to store data?
   > BSON /ˈbiːsɒn/ is a computer data interchange format used mainly as a data storage and network transfer format in the MongoDB database. It is a binary form for representing simple data structures and associative arrays (called objects or documents in MongoDB).
 
+- What's the differences between relational Database and a document database?
+  > There are two major differences. First, Document DB is schema-less. The documents in the DB collection can have completely different types and number of fields from each other unlike Relational DB. Second, there are no join tables. In a Relational DB, join tables allows us to prevent duplication of data however because you spread information across a rigid structure, it makes it more difficult to change the structure during production, and it is also difficult to distribute the data across multiple servers.
+
+- Please explain pros and cons for NoSQL
+  - pros:
+    - Mostly open source.
+    - Horizontal scalability. There’s no need for complex joins and data can be easily sharded and processed in parallel.
+    - Support for Map/Reduce. This is a simple paradigm that allows for scaling computation on cluster of computing nodes.
+    - No need to develop fine-grained data model – it saves development time.
+    - Easy to use.
+    - Very fast for adding new data and for simple operations/queries.
+    - No need to make significant changes in code when data structure is modified.
+    - Ability to store complex data types (for document based solutions) in a single item of storage.
+  - cons:
+    - Immaturity. Still lots of rough edges.
+    - Possible database administration issues. NoSQL often sacrifices features that are present in SQL solutions “by default” for the sake of performance. For example, one needs to check different data durability modes and journaling in order not to be caught by surprise after a cold restart of the system. Memory consumption is one more important chapter to read up on in the database manual because memory is usually heavily used.
+    - No indexing support (Some solutions like MongoDB have indexing but it’s not as powerful as in SQL solutions).
+    - No ACID (Some solutions have just atomicity support on single object level).
+    - Bad reporting performance.
+    - Complex consistency models (like eventual consistency). CAP theorem states that it’s not possible to achieve consistency, availability and partitioning tolerance at the same time. NoSQL vendors are trying to make their solutions as fast as possible and consistency is most typical trade-off.
+    - Absence of standardization. No standard APIs or query language. It means that migration to a solution from different vendor is more costly. Also there are no standard tools (e.g. for reporting)
+
 ##### Exercise
 
 ** Submit the commands required to make this happen **
