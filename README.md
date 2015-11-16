@@ -1,4 +1,4 @@
-![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+  ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 # GA | Web Development Immersive
 
 | Unit                 | Topic                              | Topic                              | Project
@@ -299,3 +299,48 @@ Day 1                                    | Day 2                                
 [7-5Y]: 14-assessments/w07d5-solution.md                                            "Assessment - Solution"
 [7-5A]: 00-programming/js-constructors-and-prototypes                               "Constructors and Prototypes"
 [7-5B]: # " "
+
+
+<a name="week8"></a>
+### Week 8 | Javascript Frameworks - Advanced
+
+
+Day 1                                 | Day 2                                               | Day 3                                               | Day 4                                     | Day 5
+--------------------------------      | -------------------------------------               | ------------------------------------                | ----------------------------------------  | -----------------------------------
+[Assessment][8-1Z]                    | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [+Underscore and Underscore Templates][8-5A]
+[Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [+Underscore and Underscore Templates][8-5A]
+[Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [+Lab: Underscore...][8-5B]
+[AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [+Introduce Project 3, project time][8-5C]
+[Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        |
+[+HW: AJAXify your weekend lab][8-1E] | [+HW: Add local auth to your weekend lab ][8-2E]    | [+HW: Adding social login to your weekend lab][8-3E]| [+HW: Getting better at testing][8-4E]    |
+
+[8-1Z]: 14-assessments/w08d1.md                            "Assessment"
+[8-1A]: 04-server-applications/node-express-views-lesson   "Views with Express"
+[8-1B]: 04-server-applications/node-express-views-lab      "Views with Express Lab"
+[8-1C]: 02-front-end-intro/js-ajax-lesson                  "AJAX with JS and jQuery"
+[8-1D]: 02-front-end-intro/js-ajax-lab                     "Practicing AJAX Lab"
+[8-1E]: # " "
+
+[8-2A]: 04-server-applications/node-express-passwords-lesson "Encrypting Passwords with Express and Mongoose Lesson"
+[8-2B]: 04-server-applications/node-express-models-lab                 "Encrypted user Models Lab"
+[8-2C]: 04-server-applications/node-express-local-auth-lesson       "Local Authentication with Express"
+[8-2D]: 04-server-applications/node-express-auth-lab                          "Auth with Node Lab"
+[8-2E]: # " "
+
+[8-3A]: 04-server-applications/node-express-jwt-tokens-lesson "API Auth with Express tokens"
+[8-3B]: 04-server-applications/node-express-jwt-token-lab              "Securing APIs with Tokens Lab"
+[8-3C]: 04-server-applications/node-express-oauth-intro-lesson                         "Intro to OAuth"
+[8-3D]: 04-server-applications/node-express-passport-social-logins-lab               "Integrating Social Logins Lab"
+[8-3E]: # " "
+
+[8-4A]: 06-testing/node-mocha-testing-intro            "Testing Node with Mocha and Chai"
+[8-4B]: 06-testing/node-tdd-mocha-lab                  "Testing with Mocha Lab"
+[8-4C]: 04-server-applications/node-express-websockets-lesson   "Websockets with socket.io"
+[8-4D]: 04-server-applications/node-express-websockets-lab        "Build a Realtime app Lab"
+[8-4E]: # " "
+
+[8-5A]: # " "
+[8-5B]: # " "
+[8-5C]: # " "
+[8-5D]: # " "
+[8-5E]: # " "
