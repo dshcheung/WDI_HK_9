@@ -37,9 +37,9 @@
 
 ** Submit the commands required to make this happen **
 
-1. Create a new MongoDB Database in your computer named `w5d1`
+1. Create a new MongoDB Database in your computer named `w8d1`
   ```terminal
-  use w5d1
+  use w8d1
   ```
 
 1. Create a `animals` collection within it
@@ -70,7 +70,7 @@
 1. Add 3 `owners` with different attributes to the collection
   ```terminal
   db.owners.insert({
-      name: "Harry"
+      name: "Dennis"
   })
 
   db.owners.insert({
@@ -86,11 +86,11 @@
   - one by reference
   - one embedded
   ```terminal
-  harry_id = db.owners.findOne({name: "Harry"})._id
+  dennis_id = db.owners.findOne({name: "Dennis"})._id
 
   db.animals.update(
       { "_id": ObjectId("552b1b33d04b0d6420cc23b7") },
-      { name: "Hello Kitty", owner_id: harry_id }
+      { name: "Hello Kitty", owner_id: dennis_id }
   )
 
   db.animals.insert(
