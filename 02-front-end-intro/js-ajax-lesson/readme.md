@@ -48,7 +48,7 @@ While we're still learning the ins-and-outs of building APIs, lets use an alread
 
 That handy thing lives at https://api.doughnuts.ga/doughnuts – it's a simple dummy data service that'll let us do GETs & POSTs quickly. You can quickly check out https://www.doughnuts.ga/ to see what it's about.
 
-While you're at it, in the starter-code folder, we've got a super basic index and a CSS file to get started. Nothing fancy.
+While you're at it, in this [repo](https://github.com/wdi-hk-9/lesson-js-ajax), we've got a super basic index and a CSS file to get started. Nothing fancy.
 
 Open up your `index.html` in a browser, and you'll see:
 
