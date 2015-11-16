@@ -1,13 +1,3 @@
----
-title: Practicing AJAX
-type: Lab
-duration: "1:25"
-creator:
-    name: Micah Rich
-    city: LA
-competencies: Browser JS Basics
----
-
 # Practicing AJAX
 
 ## Introduction
@@ -36,7 +26,7 @@ You'll find the same starter code you had in the last lesson in the `starter-cod
 
 #### Deliverable
 
-Make a list of existing doughnuts underneath the form, make the form work, and then, build your app to add to the list of donuts - using the information from newly created donuts - without refreshing the page. 
+Make a list of existing doughnuts underneath the form, make the form work, and then, build your app to add to the list of donuts - using the information from newly created donuts - without refreshing the page.
 
 <img width="752" src="https://cloud.githubusercontent.com/assets/25366/9149279/bc93cd02-3d57-11e5-9f03-1e19d0097fd2.png">
 

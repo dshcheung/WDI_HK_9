@@ -1,13 +1,3 @@
----
-title: AJAX with JS & JQuery
-type: Lesson
-duration: "1:20"
-creator:
-    name: Micah Rich
-    city: LA
-competencies: Browser JS Basics
----
-
 # AJAX with JS & JQuery
 
 ### Objectives
@@ -39,7 +29,7 @@ In general the process looks like this – use JavaScript on the client side to 
 - __Backend Separated from Frontend__ - Applications that use AJAX-heavy frontends means developers don't have to work on both sides of the stack at the same time. Some developers can be dedicated to building an API that just serves data, and others can focus on consuming that data and building interfaces.
 
 
-###Disadvantages
+### Disadvantages
 
 - __The back and refresh button are rendered useless__ - Since things are loaded dynamically on a page, without that page reloading (or more importantly a URL being changed), clicking the back or refresh button don't work the way you're used to. That's actually a pretty big deal – UX designers are very familiar with the fact that users are _accustomed_ to being able to hit back when they need to. Some advanced front-end frameworks have tried to solve this issue with clever workarounds, but that's not always the case and not always accurate.
 
