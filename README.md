@@ -314,12 +314,12 @@ Day 1                                 | Day 2                                   
 [Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        |
 [+HW: AJAXify your weekend lab][8-1E] | [+HW: Add local auth to your weekend lab ][8-2E]    | [+HW: Adding social login to your weekend lab][8-3E]| [+HW: Getting better at testing][8-4E]    |
 
-[8-1Z]: 14-assessments/w08d1.md                            "Assessment"
-[8-1Y]: 14-assessments/w08d1-solution.md                   "Assessment-solution"
-[8-1A]: 04-server-applications/node-express-views-lesson   "Views with Express"
-[8-1B]: 04-server-applications/node-express-views-lab      "Views with Express Lab"
-[8-1C]: 02-front-end-intro/js-ajax-lesson                  "AJAX with JS and jQuery"
-[8-1D]: 02-front-end-intro/js-ajax-lab                     "Practicing AJAX Lab"
+[8-1Z]: 14-assessments/w08d1.md                                                        "Assessment"
+[8-1Y]: 14-assessments/w08d1-solution.md                                               "Assessment-solution"
+[8-1A]: 04-server-applications/node-express-views-lesson                               "Views with Express"
+[8-1B]: https://github.com/wdi-hk-9/lab-node-express-views                             "Views with Express Lab"
+[8-1C]: 02-front-end-intro/js-ajax-lesson                                              "AJAX with JS and jQuery"
+[8-1D]: https://github.com/wdi-hk-9/lab-js-ajax                                        "Practicing AJAX Lab"
 [8-1E]: # " "
 
 [8-2A]: 04-server-applications/node-express-passwords-lesson "Encrypting Passwords with Express and Mongoose Lesson"

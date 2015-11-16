@@ -21,6 +21,8 @@ Since, we have an app that's build out - for the most part - let’s focus on ho
 
 ## Setting up our app to use EJS - Codealong (10 mins)
 
+Fork this [repo](https://github.com/wdi-hk-9/lesson-node-express-views). You will need to use this repo for the rest of the lesson.
+
 First, let's require `ejs` in our applications `package.json`.  In dependencies, add:
 
 ```json
