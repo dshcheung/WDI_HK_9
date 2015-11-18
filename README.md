@@ -326,7 +326,7 @@ Day 1                                 | Day 2                                   
 [8-2D]: https://github.com/wdi-hk-9/lab-node-express-auth                              "Auth with Node Lab"
 
 [8-3A]: 04-server-applications/node-express-jwt-tokens-lesson                          "API Auth with Express tokens"
-[8-3B]: 04-server-applications/node-express-jwt-token-lab                              "Securing APIs with Tokens Lab"
+[8-3B]: https://github.com/wdi-hk-9/lab-node-express-jwt-token                         "Securing APIs with Tokens Lab"
 [8-3C]: 04-server-applications/node-express-oauth-intro-lesson                         "Intro to OAuth"
 [8-3D]: 04-server-applications/node-express-passport-social-logins-lab                 "Integrating Social Logins Lab"
 
