@@ -1,13 +1,3 @@
----
-title: Testing Node with Mocha/Chai
-type: lesson
-duration: "1:15"
-creator:
-    name: Gerry Mathe
-    city: London
-competencies: Testing
----
-
 # Testing Node with Mocha/Chai
 
 ### Objectives
