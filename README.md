@@ -331,7 +331,7 @@ Day 1                                 | Day 2                                   
 [8-3D]: 04-server-applications/node-express-passport-social-logins-lab                 "Integrating Social Logins Lab"
 
 [8-4A]: 06-testing/node-mocha-testing-intro                                            "Testing Node with Mocha and Chai"
-[8-4B]: 06-testing/node-tdd-mocha-lab                                                  "Testing with Mocha Lab"
+[8-4B]: https://github.com/wdi-hk-9/node-testing-mocha-chai-lab                        "Testing with Mocha Lab"
 [8-4C]: 04-server-applications/node-express-websockets-lesson                          "Websockets with socket.io"
 [8-4D]: 04-server-applications/node-express-websockets-lab                             "Build a Realtime app Lab"
 
