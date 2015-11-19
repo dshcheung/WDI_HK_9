@@ -1,13 +1,3 @@
----
-title: Websockets with socket.io
-type: lesson
-duration: "1:30"
-creator:
-    name: Gerry Mathe
-    city: LDN
-competencies: Server Applications
----
-
 # Websockets with socket.io
 
 ### Objectives
@@ -23,8 +13,6 @@ competencies: Server Applications
 - Create an Express app
 - Configure an application to use middleware, nodemon, ejs, and morgan
 - Write jQuery that updates the DOM
-
-
 
 ## Web basics recap - Intro (10 mins)
 
