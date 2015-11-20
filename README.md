@@ -268,8 +268,8 @@ Day 1                                               | Day 2                     
 Day 1                                    | Day 2                                 | Day 3                                     | Day 4                                               | Day 5
 --------------------------------         | ------------------------------------- | ----------------------------------------- | --------------------------------------------------- | -----------------------------------
 [Git team workflow part 1][7-1A]         | [Assessment][7-2Z] & [Solution][7-2Y] | [Assessment][7-3Z] & [Solution][7-3Y]     | [Lab: Mongoose modeling][7-4A]                      | [Assessment][7-5Z] & [Solution][7-5Y]
-[Git team workflow part 2][7-1B]         | [Intro to Node.js][7-2A]              | [Debugging and logging in Node][7-3A]     | [Deploying a Node application][7-4B]                | [Prototypes and constructors][7-5A]
-[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Connecting Express routes to Mongo][7-4C]     | [+Lab: Single model, RESTful JSON API][7-5B]
+[Git team workflow part 2][7-1B]         | [Intro to Node.js][7-2A]              | [Debugging and logging in Node][7-3A]     | [Deploying a Node application][7-4B]                | [Weekend Lab!!!][7-5B]
+[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Connecting Express routes to Mongo][7-4C]     |
 [Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] |                                                     |
                                          |                                       | [HW-Lab: CRUD with Mongoose][7-3D]        |                                                     |
 
@@ -297,7 +297,6 @@ Day 1                                    | Day 2                                
 
 [7-5Z]: 14-assessments/w07d5.md                                                     "Assessment"
 [7-5Y]: 14-assessments/w07d5-solution.md                                            "Assessment - Solution"
-[7-5A]: 00-programming/js-constructors-and-prototypes                               "Constructors and Prototypes"
 [7-5B]: # " "
 
 
@@ -308,9 +307,9 @@ Day 1                                    | Day 2                                
 Day 1                                 | Day 2                                               | Day 3                                               | Day 4                                     | Day 5
 --------------------------------      | -------------------------------------               | ------------------------------------                | ----------------------------------------  | -----------------------------------
 [Assessment][8-1Z] & [Solution][8-1Y] |                                                     |                                                     |                                           |
-[Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [+Underscore and Underscore Templates][8-5A]
-[Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [+Lab: Underscore...][8-5B]
-[AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [+Introduce Project 3, project time][8-5C]
+[Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [Constructors and Prototypes][8-5A]
+[Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [Lab: Node Scraping][8-5B]
+[AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [Project 3!!!][8-5C]
 [Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        |
 
 [8-1Z]: 14-assessments/w08d1.md                                                        "Assessment"
@@ -335,7 +334,6 @@ Day 1                                 | Day 2                                   
 [8-4C]: 04-server-applications/node-express-websockets-lesson                          "Websockets with socket.io"
 [8-4D]: https://github.com/wdi-hk-9/node-express-websockets-lab                        "Build a Realtime app Lab"
 
-[8-5A]: # " "
-[8-5B]: # " "
-[8-5C]: # " "
-[8-5D]: # " "
+[8-5A]: 00-programming/js-constructors-and-prototypes                                  "Constructors and Prototypes"
+[8-5B]: https://github.com/wdi-hk-9/lesson-node-web-scrape-and-charts                  "Lab: Node Scraping"
+[8-5C]: https://github.com/ga-students/WDI_HK_9/blob/master/projects/project-03.md     "Project 3"
