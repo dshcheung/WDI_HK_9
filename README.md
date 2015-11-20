@@ -310,7 +310,7 @@ Day 1                                 | Day 2                                   
 [Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [Constructors and Prototypes][8-5A]
 [Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [Lab: Node Scraping][8-5B]
 [AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [Project 3!!!][8-5C]
-[Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        |
+[Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        | [Lab: JS Prototypes][8-5D]
 
 [8-1Z]: 14-assessments/w08d1.md                                                        "Assessment"
 [8-1Y]: 14-assessments/w08d1-solution.md                                               "Assessment-solution"
@@ -337,3 +337,4 @@ Day 1                                 | Day 2                                   
 [8-5A]: 00-programming/js-constructors-and-prototypes                                  "Constructors and Prototypes"
 [8-5B]: https://github.com/wdi-hk-9/lesson-node-web-scrape-and-charts                  "Lab: Node Scraping"
 [8-5C]: https://github.com/ga-students/WDI_HK_9/blob/master/projects/project-03.md     "Project 3"
+[8-5D]: https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=? "Lab: JS Prototypes"
