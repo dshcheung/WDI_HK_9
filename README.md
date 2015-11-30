@@ -351,9 +351,9 @@ Day 1                                                           | Day 2         
 [HW: Apps with Angular][10-1E]                                  | [+HW: Angular CRUD with pre-existing API][10-2E] | [+HW: Factories practice][10-3E]              | [+HW: Authentication with Angular][10-4E]     |
 
 [10-1A]: 03-front-end-frameworks/angular-controllers-2-way-binding-lesson           "Intro to Angular Setup; Controller Two-Way Binding"
-[10-1B]: 03-front-end-frameworks/angular-controllers-101-lab                        "Binding Controller and View with Hardcoded data Lab"
+[10-1B]: https://github.com/wdi-hk-9/lab-angular-controllers-101                    "Binding Controller and View with Hardcoded data Lab"
 [10-1C]: 03-front-end-frameworks/angular-directives-lesson                          "Angular Directives"
-[10-1D]: 03-front-end-frameworks/angular-directives-lab                             "Angular Directives Lab"
+[10-1D]: https://github.com/wdi-hk-9/lab-angular-directives                         "Angular Directives Lab"
 [10-1E]: https://curran.github.io/screencasts/introToAngular/exampleViewer/#/       "HW: Apps with Angular"
 
 [10-2A]: # " "
