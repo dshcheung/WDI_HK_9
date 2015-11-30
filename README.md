@@ -338,3 +338,44 @@ Day 1                                 | Day 2                                   
 [8-5B]: https://github.com/wdi-hk-9/lesson-node-web-scrape-and-charts                  "Lab: Node Scraping"
 [8-5C]: https://github.com/ga-students/WDI_HK_9/blob/master/projects/project-03.md     "Project 3"
 [8-5D]: https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=? "Lab: JS Prototypes"
+
+<a name="week10"></a>
+#### Week 10 | Angular
+
+Day 1                                                           | Day 2                                            | Day 3                                         | Day 4                                         | Day 5
+--------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------- | --------------------------------------------- | -----------------------------------
+[Intro to Angular - setup, controllers, two-way binding][10-1A] | [#Track your job search][10-2A]                  | [Building factories with $http][10-3A]        | [Front-end routing with UI Router][10-4A]     | [+Student research of frameworks][10-5A]
+[Lab: Binding controller and view with hardcoded data][10-1B]   | [ng-class and CSS animation][10-2B]              | [+Lab: Building factories with $http][10-3B]  | [Lab: Front-end routing with UI Router][10-4B]| [+Student research presentations][10-5B]
+[Angular directives ][10-1C]                                    | [Angular $http][10-2C]                           | [+Lab:  Building factories with $http][10-3C] | [Authentication with Angular ][10-4C]         | [Writing custom directives][10-5C]
+[Lab: Angular directives][10-1D]                                | [Lab: Angular $http][10-2D]                      | [+Anguler review][10-3D]                      | [*Lab: Authentication with Angular][10-4D]    | [+Weekend lab][10-5D]
+[HW: Apps with Angular][10-1E]                                  | [+HW: Angular CRUD with pre-existing API][10-2E] | [+HW: Factories practice][10-3E]              | [+HW: Authentication with Angular][10-4E]     |
+
+[10-1A]: 03-front-end-frameworks/angular-controllers-2-way-binding-lesson           "Intro to Angular Setup; Controller Two-Way Binding"
+[10-1B]: 03-front-end-frameworks/angular-controllers-101-lab                        "Binding Controller and View with Hardcoded data Lab"
+[10-1C]: 03-front-end-frameworks/angular-directives-lesson                          "Angular Directives"
+[10-1D]: 03-front-end-frameworks/angular-directives-lab                             "Angular Directives Lab"
+[10-1E]: https://curran.github.io/screencasts/introToAngular/exampleViewer/#/       "HW: Apps with Angular"
+
+[10-2A]: # " "
+[10-2B]: 03-front-end-frameworks/angular-ng-class-css-animation-lesson              "ng-class and CSS Animation"
+[10-2C]: 03-front-end-frameworks/angular-http-lesson                                "Angular HTTP"
+[10-2D]: 03-front-end-frameworks/angular-http-lab                                   "Angular HTTP Lab"
+[10-2E]: # " "
+
+[10-3A]: 03-front-end-frameworks/angular-resource-factories-lesson                  "Building factories with $http"
+[10-3B]: # " "
+[10-3C]: # " "
+[10-3D]: # " "
+[10-3E]: # " "
+
+[10-4A]: 03-front-end-frameworks/angular-ui-router-lesson                           "Front-end Routing with UI Router"
+[10-4B]: 03-front-end-frameworks/angular-ui-router-lab                              "Front-end Routing with UI Router Lab"
+[10-4C]: 03-front-end-frameworks/angular-authentication-lesson                      "Authentication with Angular "
+[10-4D]: # " "
+[10-4E]: # " "
+
+[10-5A]: # " "
+[10-5B]: # " "
+[10-5C]: 03-front-end-frameworks/angular-custom-directives-lesson                   "Writing Custom Directives"
+[10-5D]: # " "
+[10-5E]: # " "
