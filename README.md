@@ -358,7 +358,7 @@ Day 1                                                           | Day 2         
 
 [10-2A]: 03-front-end-frameworks/angular-ng-class-css-animation-lesson              "ng-class and CSS Animation"
 [10-2B]: 03-front-end-frameworks/angular-http-lesson                                "Angular HTTP"
-[10-2C]: 03-front-end-frameworks/angular-http-lab                                   "Angular HTTP Lab"
+[10-2C]: https://github.com/wdi-hk-9/lab-angular-http                               "Angular HTTP Lab"
 [10-2D]: # " "
 
 [10-3A]: 03-front-end-frameworks/angular-resource-factories-lesson                  "Building factories with $http"
