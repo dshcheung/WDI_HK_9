@@ -344,11 +344,11 @@ Day 1                                 | Day 2                                   
 
 Day 1                                                           | Day 2                                            | Day 3                                          | Day 4                                         | Day 5
 --------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------  | --------------------------------------------- | -----------------------------------
-[Intro to Angular - setup, controllers, two-way binding][10-1A] | [ng-class and CSS animation][10-2A]              | [Front-end routing with UI Router][10-3A]      | [IONIC - Intro][10-4A]                        | [+Pivotal Tracker][10-5A]
-[Lab: Binding controller and view with hardcoded data][10-1B]   | [Angular $http][10-2B]                           | [Lab: Front-end routing with UI Router][10-3B] | [IONIC - Movie Finder][10-4B]                 | [+Design Sprints][10-5B]
-[Angular directives ][10-1C]                                    | [Lab: Angular $http][10-2C]                      | [Building factories with $http][10-3C]         | [IONIC - Realtime Chat][10-4C]                | [+Git Flow][10-5C]
-[Lab: Angular directives][10-1D]                                | +HW: Angular with your project 3 API             | [Writing custom directives][10-3D]             |                                               | [+Github Intergration][10-5D]
-[HW: Apps with Angular][10-1E]                                  |                                                  | HW: Resources with your project                |                                               | [+Student Pitch][10-5E]
+[Intro to Angular - setup, controllers, two-way binding][10-1A] | [ng-class and CSS animation][10-2A]              | [Front-end routing with UI Router][10-3A]      | [IONIC - Intro][10-4A]                        | [Pivotal Tracker][10-5A]
+[Lab: Binding controller and view with hardcoded data][10-1B]   | [Angular $http][10-2B]                           | [Lab: Front-end routing with UI Router][10-3B] | [IONIC - Movie Finder][10-4B]                 | [Design Sprints][10-5B]
+[Angular directives ][10-1C]                                    | [Lab: Angular $http][10-2C]                      | [Building factories with $http][10-3C]         | [IONIC - Realtime Chat][10-4C]                | [Git Flow][10-5C]
+[Lab: Angular directives][10-1D]                                | +HW: Angular with your project 3 API             | [Writing custom directives][10-3D]             |                                               | [Github Intergration][10-5D]
+[HW: Apps with Angular][10-1E]                                  |                                                  | HW: Resources with your project                |                                               | [Student Pitch][10-5E]
 
 [10-1A]: 03-front-end-frameworks/angular-controllers-2-way-binding-lesson           "Intro to Angular Setup; Controller Two-Way Binding"
 [10-1B]: https://github.com/wdi-hk-9/lab-angular-controllers-101                    "Binding Controller and View with Hardcoded data Lab"
@@ -365,12 +365,12 @@ Day 1                                                           | Day 2         
 [10-3C]: 03-front-end-frameworks/angular-resource-factories-lesson                  "Building factories with $http"
 [10-3D]: 03-front-end-frameworks/angular-custom-directives-lesson                   "Writing Custom Directives"
 
-[10-4A]: ""
-[10-4B]: ""
-[10-4C]: ""
+[10-4A]: # " "
+[10-4B]: # " "
+[10-4C]: # " "
 
-[10-5A]: ""
-[10-5B]: ""
-[10-5C]: ""
-[10-5D]: ""
-[10-5E]: ""
+[10-5A]: # " "
+[10-5B]: # " "
+[10-5C]: # " "
+[10-5D]: # " "
+[10-5E]: # " "
