@@ -361,7 +361,7 @@ Day 1                                                           | Day 2         
 [10-2C]: https://github.com/wdi-hk-9/lab-angular-http                               "Angular HTTP Lab"
 
 [10-3A]: 03-front-end-frameworks/angular-ui-router-lesson                           "Front-end Routing with UI Router"
-[10-3B]: 03-front-end-frameworks/angular-ui-router-lab                              "Front-end Routing with UI Router Lab"
+[10-3B]: https://github.com/wdi-hk-9/lab-angular-ui-router                          "Front-end Routing with UI Router Lab"
 [10-3C]: 03-front-end-frameworks/angular-resource-factories-lesson                  "Building factories with $http"
 [10-3D]: 03-front-end-frameworks/angular-custom-directives-lesson                   "Writing Custom Directives"
 
