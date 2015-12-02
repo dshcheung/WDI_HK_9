@@ -344,11 +344,13 @@ Day 1                                 | Day 2                                   
 
 Day 1                                                           | Day 2                                            | Day 3                                         | Day 4                                         | Day 5
 --------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------- | --------------------------------------------- | -----------------------------------
-[Intro to Angular - setup, controllers, two-way binding][10-1A] | [ng-class and CSS animation][10-2A]              | [Building factories with $http][10-2D]        | [Front-end routing with UI Router][10-4A]     | [+Student research of frameworks][10-5A]
-[Lab: Binding controller and view with hardcoded data][10-1B]   | [Angular $http][10-2B]                           | [+Lab: Building factories with $http][10-3B]  | [Lab: Front-end routing with UI Router][10-4B]| [+Student research presentations][10-5B]
-[Angular directives ][10-1C]                                    | [Lab: Angular $http][10-2C]                      | [+Lab:  Building factories with $http][10-3C] | [Authentication with Angular ][10-4C]         | [Writing custom directives][10-5C]
-[Lab: Angular directives][10-1D]                                | [+HW: Angular with your project 3 API][10-2D]    | [+Anguler review][10-3D]                      | [*Lab: Authentication with Angular][10-4D]    | [+Weekend lab][10-5D]
-[HW: Apps with Angular][10-1E]                                  |                                                  | [+HW: Factories practice][10-3E]              | [+HW: Authentication with Angular][10-4E]     |
+[Intro to Angular - setup, controllers, two-way binding][10-1A] | [ng-class and CSS animation][10-2A]              | [Front-end routing with UI Router][10-3A]     | [Writing custom directives][10-4A]            | [+Student Pitch][10-5A]
+[Lab: Binding controller and view with hardcoded data][10-1B]   | [Angular $http][10-2B]                           | [Lab: Front-end routing with UI Router][10-3B]|                                               | [+Design Sprints][10-5B]
+[Angular directives ][10-1C]                                    | [HW-Lab: Angular $http][10-2C]                   | [Building factories with $http][10-3C]        | [Authentication with Angular ][10-4C]         | [+Git Flow][10-5C]
+[Lab: Angular directives][10-1D]                                |                                                  | [+Lab: Building factories with $http][10-3D]  | [*Lab: Authentication with Angular][10-4D]    | [+Privital Tracker][10-5D]
+[HW: Apps with Angular][10-1E]                                  |                                                  | [+HW: Angular with your project 3 API][10-3E] | [+HW: Authentication with Angular][10-4E]     | [+Github Intergration][10-5E]
+
+
 
 [10-1A]: 03-front-end-frameworks/angular-controllers-2-way-binding-lesson           "Intro to Angular Setup; Controller Two-Way Binding"
 [10-1B]: https://github.com/wdi-hk-9/lab-angular-controllers-101                    "Binding Controller and View with Hardcoded data Lab"
@@ -361,14 +363,12 @@ Day 1                                                           | Day 2         
 [10-2C]: https://github.com/wdi-hk-9/lab-angular-http                               "Angular HTTP Lab"
 [10-2D]: # " "
 
-[10-3A]: 03-front-end-frameworks/angular-resource-factories-lesson                  "Building factories with $http"
-[10-3B]: # " "
-[10-3C]: # " "
+[10-3A]: 03-front-end-frameworks/angular-ui-router-lesson                           "Front-end Routing with UI Router"
+[10-3B]: 03-front-end-frameworks/angular-ui-router-lab                              "Front-end Routing with UI Router Lab"
+[10-3C]: 03-front-end-frameworks/angular-resource-factories-lesson                  "Building factories with $http"
 [10-3D]: # " "
 [10-3E]: # " "
 
-[10-4A]: 03-front-end-frameworks/angular-ui-router-lesson                           "Front-end Routing with UI Router"
-[10-4B]: 03-front-end-frameworks/angular-ui-router-lab                              "Front-end Routing with UI Router Lab"
 [10-4C]: 03-front-end-frameworks/angular-authentication-lesson                      "Authentication with Angular "
 [10-4D]: # " "
 [10-4E]: # " "
