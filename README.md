@@ -375,3 +375,9 @@ Day 1                                                           | Day 2         
 [10-5C]: # " "
 [10-5D]: # " "
 [10-5E]: # " "
+
+<a name="week11"></a>
+#### Week 11 | Project
+
+- [Rails Devise Auth - Server](17-others/devise-token-auth.md)
+- [Raisl Devise Auth - Client](17-others/ng-token-auth.md)
