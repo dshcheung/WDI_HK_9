@@ -336,7 +336,7 @@ By default, this unit starts with Sinatra and later, focuses on Rails. By starti
 
 [8-5A]: 00-programming/js-constructors-and-prototypes                                  "Constructors and Prototypes"
 [8-5B]: https://github.com/wdi-hk-9/lesson-node-web-scrape-and-charts                  "Lab: Node Scraping"
-[8-5C]: https://github.com/ga-students/WDI_HK_9/blob/master/projects/project-03.md     "Project 3"
+[8-5C]: projects/project-03.md                                                         "Project 3"
 [8-5D]: https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=? "Lab: JS Prototypes"
 
 <a name="week10"></a>
