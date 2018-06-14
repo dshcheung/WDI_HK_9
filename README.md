@@ -14,15 +14,15 @@
 <a name="week1"></a>
 ### Week 1 | Front-end Fundamentals
 
-[Day 1](#w1d1)                           | [Day 2](#w1d2)                          | [Day 3](#w1d3)                          | [Day 4](#w1d4)                          | [Day 5](#w1d5)                          |
----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A] & [Solution][1-3B]   | [Assessment][1-4A]                      | [Assessment][1-5A] & [Solution][1-5B]   |
-[How the internet works][1-1B]           | [Review-Lab: Command line][1-1E]        | [R-Lab: Build a Website][1-2E]          | [R-Lab: CSS Website Replication][1-3E]  | [R-Lab: Functions][1-4E]                |
-[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Box Model And Positioning][1-3C]       | [R-CSS Selector Game][1-2D]             | [JS Debugging][1-5C]                    |
-[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Data Types, Variables, Arrays][1-3D]   | [Mastering The Flow][1-4B]              | [Dom Manipulation][1-5D]                |
-[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [HW-Lab: CSS Website Replication][1-3E] | [JS Objects][1-4C]                      | [Lab: Dom Manipulation][1-5E]           |
--                                        | [HW-Lab: Build a website][1-2E]         | -                                       | [Functions And Scope][1-4D]             | [HW-Lab: Tic-Tac-Toe][1-5F]             |
--                                        | -                                       | -                                       | [HW-Lab: Functions][1-4E]               | -                                       |
+|[Day 1](#w1d1)                           | [Day 2](#w1d2)                          | [Day 3](#w1d3)                          | [Day 4](#w1d4)                          | [Day 5](#w1d5)                          |
+|---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
+|[Install-fest][1-1A]                     | [Assessment][1-2A]                      | [Assessment][1-3A] & [Solution][1-3B]   | [Assessment][1-4A]                      | [Assessment][1-5A] & [Solution][1-5B]   |
+|[How the internet works][1-1B]           | [Review-Lab: Command line][1-1E]        | [R-Lab: Build a Website][1-2E]          | [R-Lab: CSS Website Replication][1-3E]  | [R-Lab: Functions][1-4E]                |
+|[Navigating the file system][1-1C]       | [Chrome dev tools][1-2B]                | [Box Model And Positioning][1-3C]       | [R-CSS Selector Game][1-2D]             | [JS Debugging][1-5C]                    |
+|[HW: Reading][1-1D]                      | [CSS selector basics ][1-2C]            | [Data Types, Variables, Arrays][1-3D]   | [Mastering The Flow][1-4B]              | [Dom Manipulation][1-5D]                |
+|[HW-Lab: Command line][1-1E]             | [CSS Selector Game][1-2D]               | [HW-Lab: CSS Website Replication][1-3E] | [JS Objects][1-4C]                      | [Lab: Dom Manipulation][1-5E]           |
+|-                                        | [HW-Lab: Build a website][1-2E]         | -                                       | [Functions And Scope][1-4D]             | [HW-Lab: Tic-Tac-Toe][1-5F]             |
+|-                                        | -                                       | -                                       | [HW-Lab: Functions][1-4E]               | -                                       |
 
 [1-1A]: 00-programming/install-fest/README.md                     "Install-Fest!"
 [1-1B]: 00-programming/internet-fundamentals-lesson               "Internet fundamentals"
@@ -96,14 +96,14 @@
 <a name="week2"></a>
 ### Week 2 | Front-end Fundamentals
 
-[Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-[Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | [Assessment][2-3A] & [Solution][2-3B]   | [Assessment][2-4A] & [Solution][2-4B]   | [R-Lab: 10 Seconds Math][2-4F]          |
-[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart Solution][2-1F]   | [R-JS Arrays Problems Solution][2-2F]   | [Bootstrap CSS Lesson][2-4C]            | [Github Lesson][2-5A]                   |
-[R-Lab: Tic-Tac-Toe][1-5F]               | [JS Arrays Lesson][2-2C]                | [JS Closures, Scope, Context][2-3C]     | [Bootstrap CSS Slides][2-4D]            | [Lab: Github][2-5B]                     |
-[jQuery Lesson][2-1C]                    | -                                       | -                                       | [Project Spec][2-4E]                    | [Agile Framework][2-5C]                 |
-[jQuery Game][2-1D]                      | -                                       | -                                       | -                                       | Present & Pitch & Code Marathon Starts  |
-[HW-Lab: Shopping Cart][2-1E]            | [HW-JS Arrays Problems][2-2D]           | [HW-JS Koans][2-3D]                     | [HW-Lab: 10 Seconds Math][2-4F]         | -                                       |
+|[Day 1](#w2d1)                           | [Day 2](#w2d2)                          | [Day 3](#w2d3)                          | [Day 4](#w2d4)                          | [Day 5](#w2d5)                          |
+|---------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
+|[Assessment][2-1A] & [Solution][2-1B]    | [Assessment][2-2A] & [Solution][2-2B]   | [Assessment][2-3A] & [Solution][2-3B]   | [Assessment][2-4A] & [Solution][2-4B]   | [R-Lab: 10 Seconds Math][2-4F]          |
+|[R-Lab: Dom Manipulation][1-5E]          | [R-Lab: Shopping Cart Solution][2-1F]   | [R-JS Arrays Problems Solution][2-2F]   | [Bootstrap CSS Lesson][2-4C]            | [Github Lesson][2-5A]                   |
+|[R-Lab: Tic-Tac-Toe][1-5F]               | [JS Arrays Lesson][2-2C]                | [JS Closures, Scope, Context][2-3C]     | [Bootstrap CSS Slides][2-4D]            | [Lab: Github][2-5B]                     |
+|[jQuery Lesson][2-1C]                    | -                                       | -                                       | [Project Spec][2-4E]                    | [Agile Framework][2-5C]                 |
+|[jQuery Game][2-1D]                      | -                                       | -                                       | -                                       | Present & Pitch & Code Marathon Starts  |
+|[HW-Lab: Shopping Cart][2-1E]            | [HW-JS Arrays Problems][2-2D]           | [HW-JS Koans][2-3D]                     | [HW-Lab: 10 Seconds Math][2-4F]         | -                                       |
 
 [2-1A]: 14-assessments/w02d1.md                                         "Assessment"
 [2-1B]: 14-assessments/w02d1-solution.md                                "Assessment - Solution"
@@ -177,14 +177,14 @@ By default, this unit starts with Sinatra and later, focuses on Rails. By starti
 
 #### Week 4
 
-Day 1                             | Day 2                                          | Day 3                                         | Day 4                                         | Day 5
---------------------------------  | ------------------------------------           | -------------------------------------------   | --------------------------------------------- | -----------------------------------
-[Intro to Ruby data types][4-1A]  | [Assessments][4-2A] & [Solution][4-2B]         | [Assessments][4-3A] & [Solution][4-3B]        | [SQL - Setup, insert, update, delete][4-4A]   | [ActiveRecord methods and finders][4-5A]
-[Control flow in Ruby ][4-1B]     | [Classes, objects, methods][4-2C]              | [R-HW: Rails Objects][4-2E]                   | [Building models with ActiveRecord][4-4B]     | [Building and submitting forms][4-5B]
-[Arrays, hashes, and blocks][4-1C]| [Lab: Classes, objects, methods][4-2D]         | [Sinatra setup / layouts and templating][4-3C]| [HW-Lab: SQL select][4-4C]                    | [HW-Lab: ActiveRecord finders and methods][4-5C]
-[Lab: Arrays and hashes][4-1D]    | [HW: Ruby-Koans][4-1E]                         | [Sinatra controllers & RESTful routing][4-3D] | [HW-Lab: Models and migrations][4-4D]         | [HW-Lab: Weekend Sinatra app][4-5D]
-[HW: Ruby-Koans][4-1E]            | [HW: Rails Objects][4-2E]                      | [Intro to relational data modeling][4-3E]     |                                               |
-                                  |                                                | [HW-Lab: Practice database design][4-3F]      |                                               |
+|Day 1                             | Day 2                                          | Day 3                                         | Day 4                                         | Day 5
+|--------------------------------  | ------------------------------------           | -------------------------------------------   | --------------------------------------------- | -----------------------------------
+|[Intro to Ruby data types][4-1A]  | [Assessments][4-2A] & [Solution][4-2B]         | [Assessments][4-3A] & [Solution][4-3B]        | [SQL - Setup, insert, update, delete][4-4A]   | [ActiveRecord methods and finders][4-5A]
+|[Control flow in Ruby ][4-1B]     | [Classes, objects, methods][4-2C]              | [R-HW: Rails Objects][4-2E]                   | [Building models with ActiveRecord][4-4B]     | [Building and submitting forms][4-5B]
+|[Arrays, hashes, and blocks][4-1C]| [Lab: Classes, objects, methods][4-2D]         | [Sinatra setup / layouts and templating][4-3C]| [HW-Lab: SQL select][4-4C]                    | [HW-Lab: ActiveRecord finders and methods][4-5C]
+|[Lab: Arrays and hashes][4-1D]    | [HW: Ruby-Koans][4-1E]                         | [Sinatra controllers & RESTful routing][4-3D] | [HW-Lab: Models and migrations][4-4D]         | [HW-Lab: Weekend Sinatra app][4-5D]
+|[HW: Ruby-Koans][4-1E]            | [HW: Rails Objects][4-2E]                      | [Intro to relational data modeling][4-3E]     |                                               |
+|                                  |                                                | [HW-Lab: Practice database design][4-3F]      |                                               |
 
 
 [4-1A]: 00-programming/ruby-data-types-variables-lesson                              "Intro to Ruby - Data Types & Variables"
@@ -219,14 +219,14 @@ Day 1                             | Day 2                                       
 <a name="week5"></a>
 ### Week 5 | Full-Stack Fundamentals, MVC
 
-Day 1                                               | Day 2                                      | Day 3                                     | Day 4                                     | Day 5
---------------------------------------------------- | ------------------------------------------ | ----------------------------------------- | ----------------------------------------- | -----------------------------------
-[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z] & [Solution][5-3Y]     | [Sessions/logging in by hand][5-4A]       | [Lab: Full CRUD app depoyed][5-5A]
-[Modeling relationships][5-1A]                      | [Intro to Rails][5-2A]                     | [Lab: Rails app with relationships][5-3A] | [Deploying to Heroku][5-4B]               | [Projects Specs][5-5B]
-[HW-Lab: Modeling relationships - Models][5-1B]     | [Controllers and routes in Rails][5-2B]    | [User models with passwords][5-3B]        | [Intro to testing][5-4C]                  |
-[HW-Lab: Modeling relationships - Controllers][5-1C]| [Layouts, partials, and views][5-2C]       |                                           | [HW-Lab: Authentication & Boostrap][5-4D] |
-                                                    | [HW-Lab: First Rails app][5-2D]            |                                           |                                           |
-                                                    | [HW-Lab: Layouts, partials, views][5-2E]   |                                           |                                           |
+|Day 1                                               | Day 2                                      | Day 3                                     | Day 4                                     | Day 5
+|--------------------------------------------------- | ------------------------------------------ | ----------------------------------------- | ----------------------------------------- | -----------------------------------
+|[Assessment][5-1Z]                                  | [Assessment][5-2Z] & [Solution][5-2Y]      | [Assessment][5-3Z] & [Solution][5-3Y]     | [Sessions/logging in by hand][5-4A]       | [Lab: Full CRUD app depoyed][5-5A]
+|[Modeling relationships][5-1A]                      | [Intro to Rails][5-2A]                     | [Lab: Rails app with relationships][5-3A] | [Deploying to Heroku][5-4B]               | [Projects Specs][5-5B]
+|[HW-Lab: Modeling relationships - Models][5-1B]     | [Controllers and routes in Rails][5-2B]    | [User models with passwords][5-3B]        | [Intro to testing][5-4C]                  |
+|[HW-Lab: Modeling relationships - Controllers][5-1C]| [Layouts, partials, and views][5-2C]       |                                           | [HW-Lab: Authentication & Boostrap][5-4D] |
+|                                                    | [HW-Lab: First Rails app][5-2D]            |                                           |                                           |
+|                                                    | [HW-Lab: Layouts, partials, views][5-2E]   |                                           |                                           |
 
 [5-1Z]: https://github.com/wdi-hk-9/rspec_word_count                                              "Assessment"
 [5-1A]: 04-server-applications/sinatra-activerecord-modeling-relationships-lesson                 "Modeling relationships - Lesson"
@@ -265,13 +265,13 @@ Day 1                                               | Day 2                     
 <a name="week7"></a>
 ### Week 7 | Javascript Frameworks Intro
 
-Day 1                                    | Day 2                                 | Day 3                                     | Day 4                                               | Day 5
---------------------------------         | ------------------------------------- | ----------------------------------------- | --------------------------------------------------- | -----------------------------------
-[Git team workflow part 1][7-1A]         | [Assessment][7-2Z] & [Solution][7-2Y] | [Assessment][7-3Z] & [Solution][7-3Y]     | [Lab: Mongoose modeling][7-4A]                      | [Assessment][7-5Z] & [Solution][7-5Y]
-[Git team workflow part 2][7-1B]         | [Intro to Node.js][7-2A]              | [Debugging and logging in Node][7-3A]     | [Deploying a Node application][7-4B]                | [Weekend Lab!!!][7-5B]
-[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Connecting Express routes to Mongo][7-4C]     |
-[Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] |                                                     |
-                                         |                                       | [HW-Lab: CRUD with Mongoose][7-3D]        |                                                     |
+|Day 1                                    | Day 2                                 | Day 3                                     | Day 4                                               | Day 5
+|--------------------------------         | ------------------------------------- | ----------------------------------------- | --------------------------------------------------- | -----------------------------------
+|[Git team workflow part 1][7-1A]         | [Assessment][7-2Z] & [Solution][7-2Y] | [Assessment][7-3Z] & [Solution][7-3Y]     | [Lab: Mongoose modeling][7-4A]                      | [Assessment][7-5Z] & [Solution][7-5Y]
+|[Git team workflow part 2][7-1B]         | [Intro to Node.js][7-2A]              | [Debugging and logging in Node][7-3A]     | [Deploying a Node application][7-4B]                | [Weekend Lab!!!][7-5B]
+|[Rails API][7-1C]                        | [Intro to Express][7-2B]              | [Intro to NoSQL w/ Mongo][7-3B]           | [Lab: Connecting Express routes to Mongo][7-4C]     |
+|[Lab: Rails API ][7-1D]                  | [Lab: Building Express routes][7-2C]  | [Mongo-backed models with Mongoose][7-3C] |                                                     |
+|                                         |                                       | [HW-Lab: CRUD with Mongoose][7-3D]        |                                                     |
 
 [7-1A]: 01-workflow/git-team-workflow-lesson-part-1                                 "Git Team Workflow Part 1"
 [7-1B]: 01-workflow/git-team-workflow-lesson-part-2                                 "Git Team Workflow Part 2"
@@ -304,13 +304,13 @@ Day 1                                    | Day 2                                
 ### Week 8 | Javascript Frameworks - Advanced
 
 
-Day 1                                 | Day 2                                               | Day 3                                               | Day 4                                     | Day 5
---------------------------------      | -------------------------------------               | ------------------------------------                | ----------------------------------------  | -----------------------------------
-[Assessment][8-1Z] & [Solution][8-1Y] |                                                     |                                                     |                                           |
-[Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [Constructors and Prototypes][8-5A]
-[Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [Lab: Node Scraping][8-5B]
-[AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [Project 3!!!][8-5C]
-[Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        | [Lab: JS Prototypes][8-5D]
+|Day 1                                 | Day 2                                               | Day 3                                               | Day 4                                     | Day 5
+|--------------------------------      | -------------------------------------               | ------------------------------------                | ----------------------------------------  | -----------------------------------
+|[Assessment][8-1Z] & [Solution][8-1Y] |                                                     |                                                     |                                           |
+|[Views in Express][8-1A]              | [Encrypting passwords with Express/Mongoose][8-2A]  | [API Authentication with Express Tokens][8-3A]      | [Testing Node with Mocah/Chai][8-4A]      | [Constructors and Prototypes][8-5A]
+|[Lab: Views in Express][8-1B]         | [Lab: Encrypted user models][8-2B]                  | [Lab: Securing APIs with token][8-3B]               | [Lab: Testing with Mocha/Chai][8-4B]      | [Lab: Node Scraping][8-5B]
+|[AJAX with JS and jQuery][8-1C]       | [Local auth with Express][8-2C]                     | [Intro to OAuth and 3rd party APIs][8-3C]           | [Websockets with Socket.io][8-4C]         | [Project 3!!!][8-5C]
+|[Lab: Practicing AJAX][8-1D]          | [Lab: Local auth with Express][8-2D]                | [Lab: Integrating social logins][8-3D]              | [Lab: Build a real-time app][8-4D]        | [Lab: JS Prototypes][8-5D]
 
 [8-1Z]: 14-assessments/w08d1.md                                                        "Assessment"
 [8-1Y]: 14-assessments/w08d1-solution.md                                               "Assessment-solution"
@@ -342,13 +342,13 @@ Day 1                                 | Day 2                                   
 <a name="week10"></a>
 #### Week 10 | Angular
 
-Day 1                                                           | Day 2                                            | Day 3                                          | Day 4                                         | Day 5
---------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------  | --------------------------------------------- | -----------------------------------
-[Intro to Angular - setup, controllers, two-way binding][10-1A] | [ng-class and CSS animation][10-2A]              | [Front-end routing with UI Router][10-3A]      | [IONIC - Intro][10-4A]                        | [Pivotal Tracker][10-5A]
-[Lab: Binding controller and view with hardcoded data][10-1B]   | [Angular $http][10-2B]                           | [Lab: Front-end routing with UI Router][10-3B] | [IONIC - Movie Finder APP][10-4B]             | [Design Sprints][10-5B]
-[Angular directives ][10-1C]                                    | [Lab: Angular $http][10-2C]                      | [Building factories with $http][10-3C]         | [IONIC - Movie Finder API][10-4C]             | [Git Flow][10-5C]
-[Lab: Angular directives][10-1D]                                | +HW: Angular with your project 3 API             | [Writing custom directives][10-3D]             | [IONIC - Realtime Chat][10-4D]                | [Github Intergration][10-5D]
-[HW: Apps with Angular][10-1E]                                  |                                                  | HW: Resources with your project                |                                               | [Student Pitch][10-5E]
+|Day 1                                                           | Day 2                                            | Day 3                                          | Day 4                                         | Day 5
+|--------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------  | --------------------------------------------- | -----------------------------------
+|[Intro to Angular - setup, controllers, two-way binding][10-1A] | [ng-class and CSS animation][10-2A]              | [Front-end routing with UI Router][10-3A]      | [IONIC - Intro][10-4A]                        | [Pivotal Tracker][10-5A]
+|[Lab: Binding controller and view with hardcoded data][10-1B]   | [Angular $http][10-2B]                           | [Lab: Front-end routing with UI Router][10-3B] | [IONIC - Movie Finder APP][10-4B]             | [Design Sprints][10-5B]
+|[Angular directives ][10-1C]                                    | [Lab: Angular $http][10-2C]                      | [Building factories with $http][10-3C]         | [IONIC - Movie Finder API][10-4C]             | [Git Flow][10-5C]
+|[Lab: Angular directives][10-1D]                                | +HW: Angular with your project 3 API             | [Writing custom directives][10-3D]             | [IONIC - Realtime Chat][10-4D]                | [Github Intergration][10-5D]
+|[HW: Apps with Angular][10-1E]                                  |                                                  | HW: Resources with your project                |                                               | [Student Pitch][10-5E]
 
 [10-1A]: 03-front-end-frameworks/angular-controllers-2-way-binding-lesson           "Intro to Angular Setup; Controller Two-Way Binding"
 [10-1B]: https://github.com/wdi-hk-9/lab-angular-controllers-101                    "Binding Controller and View with Hardcoded data Lab"
